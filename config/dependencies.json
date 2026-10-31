@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "note": "d_ab values for convergence index calculation. Higher = more interdependent.",
+  "links": {
+    "electricity_cables": {"d": 0.8, "note": "Cable landing stations require electricity; grid SCADA uses internet"},
+    "electricity_cyber": {"d": 0.7, "note": "ICS/SCADA attacks can cause power outages"},
+    "electricity_logistics": {"d": 0.5, "note": "Logistics depends on power; power plants depend on fuel supply"},
+    "electricity_finance": {"d": 0.6, "note": "Financial systems require power; payment terminals offline"},
+    "cables_cyber": {"d": 0.7, "note": "Internet infrastructure is primary cyber attack vector"},
+    "cables_finance": {"d": 0.6, "note": "Financial markets depend on undersea cables"},
+    "cables_logistics": {"d": 0.4, "note": "Port logistics increasingly internet-dependent"},
+    "cyber_finance": {"d": 0.7, "note": "Banking systems primary cyber target"},
+    "cyber_logistics": {"d": 0.4, "note": "Port/logistics management systems vulnerable"},
+    "finance_logistics": {"d": 0.5, "note": "Trade finance links financial and logistics systems"},
+    "geopolitics_logistics": {"d": 0.6, "note": "Sanctions, blockades, strait control"},
+    "geopolitics_cables": {"d": 0.5, "note": "State-directed shutdowns, cable sabotage"},
+    "geopolitics_cyber": {"d": 0.6, "note": "State-sponsored cyber operations"},
+    "geopolitics_finance": {"d": 0.5, "note": "Sanctions, financial warfare"},
+    "geopolitics_electricity": {"d": 0.4, "note": "Infrastructure attacks in conflict"}
+  }
+}

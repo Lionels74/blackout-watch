@@ -1,0 +1,23 @@
+[
+  {
+    "nbClients": 5000,
+    "regionId": "QC-MON",
+    "debutPanne": "2024-02-15T08:00:00Z",
+    "codeCause": "EQ",
+    "etatPanne": "EN_COURS"
+  },
+  {
+    "nbClients": 500,
+    "regionId": "QC-QUE",
+    "debutPanne": "2024-02-15T09:00:00Z",
+    "codeCause": "VE",
+    "etatPanne": "EN_COURS"
+  },
+  {
+    "nbClients": 15000,
+    "regionId": "QC-LAU",
+    "debutPanne": "2024-02-15T07:00:00Z",
+    "codeCause": "EQ",
+    "etatPanne": "EN_COURS"
+  }
+]

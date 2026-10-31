@@ -1,0 +1,63 @@
+{
+  "type": "outages.alerts",
+  "metadata": {
+    "requestTime": "2026-10-31T06:00:00+00:00",
+    "note": "Fixture capturée le 2026-10-31. Données réelles /v2/outages/alerts?entityType=asn. Entry critical: AS39521 TNGNET (level=critical, condition=< 0.99). Entry normal: AS25122 Gulfsat (level=normal). Entity type de la 1re entrée remplacé par country/FR pour tester le chemin géographique."
+  },
+  "requestParameters": {
+    "from": "1761696000",
+    "until": "1761782400",
+    "datasource": null,
+    "limit": 500,
+    "page": null,
+    "relatedTo": null,
+    "entityType": "asn",
+    "entityCode": null,
+    "ignoreMethods": null,
+    "extendWindow": 0
+  },
+  "data": [
+    {
+      "datasource": "bgp",
+      "entity": {
+        "code": "FR",
+        "name": "AS39521 (TNGNET)",
+        "subnames": [],
+        "type": "country",
+        "attrs": {
+          "fqid": "asn.39521",
+          "ip_count": "18432",
+          "name": "TNGNET",
+          "org": "TNGNET B.V."
+        }
+      },
+      "time": 1761696000,
+      "level": "critical",
+      "condition": "< 0.99",
+      "value": 68,
+      "historyValue": 69,
+      "method": "median"
+    },
+    {
+      "datasource": "bgp",
+      "entity": {
+        "code": "25122",
+        "name": "AS25122 (Gulfsat_Communications-AS)",
+        "subnames": [],
+        "type": "asn",
+        "attrs": {
+          "fqid": "asn.25122",
+          "ip_count": "6656",
+          "name": "Gulfsat_Communications-AS",
+          "org": "GULFSATCOMMUNICATIONS COMPANY K.S.C."
+        }
+      },
+      "time": 1761696000,
+      "level": "normal",
+      "condition": "normal",
+      "value": 25,
+      "historyValue": 25,
+      "method": "median"
+    }
+  ]
+}

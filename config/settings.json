@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "ai": {
+    "enabled": false,
+    "mode": "assist",
+    "model": "claude-haiku-4-5-20251001",
+    "max_calls_per_run": 10,
+    "max_tokens": 500
+  },
+  "alerts": {
+    "enabled": false,
+    "shadow": true,
+    "shadow_min_days": 14,
+    "zone_threshold": 40,
+    "zone_hysteresis": 5,
+    "cooldown_hours": 12,
+    "max_messages_per_run": 5,
+    "priority_zones": ["france", "canada", "quebec", "mauritius"]
+  },
+  "collection": {
+    "timeout_seconds": 20,
+    "max_retries": 2,
+    "max_response_bytes": 5242880,
+    "circuit_breaker_failures": 5,
+    "circuit_breaker_skip_runs": 6,
+    "user_agent": "BlackoutWatch/1.0 (+https://github.com/signalead/blackout-watch)"
+  },
+  "scoring": {
+    "version": "1.0",
+    "category_weights": {
+      "electricity": 25,
+      "cables": 20,
+      "finance": 15,
+      "cyber": 15,
+      "logistics": 15,
+      "geopolitics": 10
+    },
+    "max_ongoing_days": {
+      "cables": 60,
+      "electricity": 7,
+      "cyber": 14,
+      "finance": 14,
+      "logistics": 14,
+      "geopolitics": 14
+    },
+    "half_life_hours": {
+      "electricity": 12,
+      "finance": 24,
+      "cyber": 72,
+      "geopolitics": 120,
+      "cables": 168,
+      "logistics": 168
+    }
+  },
+  "storage": {
+    "incident_window_days": 90,
+    "history_hourly_days": 7,
+    "history_daily_days": 365,
+    "max_runs_kept": 200
+  },
+  "stale": {
+    "warning_hours": 3,
+    "stale_hours": 12
+  },
+  "demo_enabled_param": "demo",
+  "gdelt": {
+    "rate_limit_seconds": 6,
+    "max_requests_per_run": 8
+  },
+  "dedup": {
+    "window_hours": 72,
+    "jaccard_threshold": 0.6,
+    "syndication_threshold": 0.85
+  },
+  "hydroquebec": {
+    "min_clients_threshold": 1000
+  }
+}

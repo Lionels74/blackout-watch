@@ -1,0 +1,32 @@
+{
+  "zone_states": {
+    "global": {
+      "above_threshold": false,
+      "last_index": 27.3
+    },
+    "france": {
+      "above_threshold": false,
+      "last_index": 15.37
+    },
+    "canada": {
+      "above_threshold": false,
+      "last_index": 27.3
+    },
+    "quebec": {
+      "above_threshold": false,
+      "last_index": 27.3
+    },
+    "mauritius": {
+      "above_threshold": false,
+      "last_index": 11.15
+    }
+  },
+  "last_alerts": {
+    "zone_threshold_global": "2026-10-31T07:12:57.193766+00:00",
+    "zone_threshold_france": "2026-10-31T07:12:57.193895+00:00",
+    "zone_threshold_canada": "2026-10-31T07:12:57.193988+00:00",
+    "zone_threshold_quebec": "2026-10-31T07:12:57.194092+00:00",
+    "zone_threshold_mauritius": "2026-10-31T07:12:57.194167+00:00"
+  },
+  "first_shadow_at": "2026-10-31T06:42:06.542592+00:00"
+}

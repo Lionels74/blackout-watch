@@ -1,0 +1,91 @@
+{
+  "generated_at": "2024-02-15T12:00:00Z",
+  "scoring_version": "1.0",
+  "stale": false,
+  "stale_warning": false,
+  "demo": true,
+  "zones": {
+    "global": {
+      "index": 42,
+      "index_raw": 38,
+      "level": "PRÉALERTE",
+      "convergence_index": 35,
+      "confidence": {"index": 68, "Q": 0.85, "F": 0.75, "C": 0.67},
+      "categories": {
+        "electricity": {"score": 28, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_electricity_quebec_001"]},
+        "cables": {"score": 55, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_cable_mediterranean_001"]},
+        "finance": {"score": 22, "caps_applied": ["unverified_cap_39"], "floors_applied": [], "contributing_incidents": ["demo_finance_global_001"]},
+        "cyber": {"score": 62, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_cyber_france_001"]},
+        "logistics": {"score": 12, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "geopolitics": {"score": 5, "caps_applied": [], "floors_applied": [], "contributing_incidents": []}
+      },
+      "convergence_links": [
+        {"incident_a": "demo_cyber_france_001", "incident_b": "demo_cable_mediterranean_001", "category_a": "cyber", "category_b": "cables", "country": "FR"}
+      ]
+    },
+    "france": {
+      "index": 61,
+      "index_raw": 55,
+      "level": "ALERTE ÉLEVÉE",
+      "convergence_index": 42,
+      "confidence": {"index": 72, "Q": 0.90, "F": 0.80, "C": 0.67},
+      "categories": {
+        "electricity": {"score": 18, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "cables": {"score": 55, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_cable_mediterranean_001"]},
+        "finance": {"score": 22, "caps_applied": ["unverified_cap_39"], "floors_applied": [], "contributing_incidents": ["demo_finance_global_001"]},
+        "cyber": {"score": 62, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_cyber_france_001"]},
+        "logistics": {"score": 8, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "geopolitics": {"score": 3, "caps_applied": [], "floors_applied": [], "contributing_incidents": []}
+      },
+      "convergence_links": []
+    },
+    "canada": {
+      "index": 28,
+      "index_raw": 25,
+      "level": "VIGILANCE",
+      "convergence_index": 12,
+      "confidence": {"index": 55, "Q": 0.80, "F": 0.65, "C": 0.50},
+      "categories": {
+        "electricity": {"score": 28, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_electricity_quebec_001"]},
+        "cables": {"score": 8, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "finance": {"score": 5, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "cyber": {"score": 12, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "logistics": {"score": 18, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_electricity_quebec_001"]},
+        "geopolitics": {"score": 2, "caps_applied": [], "floors_applied": [], "contributing_incidents": []}
+      },
+      "convergence_links": []
+    },
+    "quebec": {
+      "index": 38,
+      "index_raw": 35,
+      "level": "VIGILANCE",
+      "convergence_index": 15,
+      "confidence": {"index": 60, "Q": 0.85, "F": 0.70, "C": 0.50},
+      "categories": {
+        "electricity": {"score": 38, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_electricity_quebec_001"]},
+        "cables": {"score": 5, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "finance": {"score": 5, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "cyber": {"score": 8, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "logistics": {"score": 22, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_electricity_quebec_001"]},
+        "geopolitics": {"score": 2, "caps_applied": [], "floors_applied": [], "contributing_incidents": []}
+      },
+      "convergence_links": []
+    },
+    "mauritius": {
+      "index": 8,
+      "index_raw": 7,
+      "level": "NORMAL",
+      "convergence_index": 0,
+      "confidence": {"index": 42, "Q": 0.80, "F": 0.55, "C": 0.33},
+      "categories": {
+        "electricity": {"score": 8, "caps_applied": [], "floors_applied": [], "contributing_incidents": ["demo_mauritius_ceb_001"]},
+        "cables": {"score": 3, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "finance": {"score": 2, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "cyber": {"score": 2, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "logistics": {"score": 5, "caps_applied": [], "floors_applied": [], "contributing_incidents": []},
+        "geopolitics": {"score": 1, "caps_applied": [], "floors_applied": [], "contributing_incidents": []}
+      },
+      "convergence_links": []
+    }
+  }
+}

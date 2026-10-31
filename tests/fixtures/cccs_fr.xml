@@ -1,0 +1,3129 @@
+<?xml version="1.0" encoding="UTF-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr"><id>https://cyber.gc.ca/api/cccs/atom/v1/get?feed=alerts_advisories&amp;lang=fr</id><link rel="self" href="https://cyber.gc.ca/api/cccs/atom/v1/get?feed=alerts_advisories&amp;lang=fr"/><title>Alertes et avis</title><updated>2026-10-30T21:37:01Z</updated><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-linux-av26-1108</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-linux-av26-1108"/><title><![CDATA[Bulletin de sécurité Linux (AV26-1108)]]></title><updated>2026-10-30T21:37:01Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8453" about="/fr/alertes-avis/bulletin-securite-linux-av26-1108" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1108<br /><strong>Date : </strong>30 octobre 2026</p>
+
+<p>En date du 15 octobre 2026, Linux est touché par une vulnérabilité dans le produit suivant :</p>
+
+<ul><li>Linux
+	<ul><li>Versions antérieures à la version 5.10.272</li>
+		<li>Versions antérieures à la version 5.15.223</li>
+		<li>Versions antérieures à la version 6.1.190</li>
+		<li>Versions antérieures à la version 6.6.159</li>
+		<li>Versions antérieures à la version 6.12.113</li>
+		<li>Versions antérieures à la version 6.18.56</li>
+		<li>Versions antérieures à la version 7.2.10</li>
+		<li>Versions antérieures à la version 7.3</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.cve.org/CVERecord?id=CVE-2026-98432">CVE Record: CVE-2026-98432 (en anglais seulement)</a></li>
+	<li><a href="https://www.openwall.com/lists/oss-security/2026/10/30/1">oss-security - Fwd: <span lang="en" xml:lang="en" xml:lang="en">Protecting against</span> CVE-2026-98432 <span lang="en" xml:lang="en" xml:lang="en">when using Go programs</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-ivanti-av26-1035</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-ivanti-av26-1035"/><title><![CDATA[Bulletin de sécurité Ivanti (AV26-1035) – Mise à jour 2]]></title><updated>2026-10-30T18:14:37Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8367" about="/fr/alertes-avis/bulletin-securite-ivanti-av26-1035" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1035<br /><strong>Date : </strong>13 octobre 2026<br /><strong>Mise à jour : </strong>30 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 13 octobre 2026, <span lang="en" xml:lang="en" xml:lang="en">Ivanti</span> est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li><span lang="en" xml:lang="en" xml:lang="en">Ivanti Connect Secure</span>
+
+	<ul><li>Versions antérieures à 25.1.1.3</li>
+		<li>Versions antérieures à 25.1.3.1</li>
+		<li>Versions antérieures à 22.8R2.6</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Ivanti Neurons Patch for Intune</span>
+	<ul><li>Versions antérieures au 16 septembre 2026</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Ivanti Xtraction</span>
+	<ul><li>Versions antérieures à 2026.4</li>
+	</ul></li>
+</ul><p><span lang="en" xml:lang="en" xml:lang="en">Le Cybersecurity and <span lang="en" xml:lang="en" xml:lang="en">Infrastructure Security Agency</span> (CISA) a ajouté les vulnérabilités CVE-2026-104935 à son catalogue de vulnérabilités exploitées connues (KEV) le 13 octobre 2026.</span></p>
+
+<h2 class="h3">Mise à jour 1</h2>
+
+<p>Des rapports de sources ouvertes indiquent que la vulnérabilité CVE-2026-111357 est exploitée dans la nature.</p>
+
+<h2 class="h3">Mise à jour 2</h2>
+
+<p>Le Cybersecurity and Infrastructure Security Agency (CISA) a ajouté les vulnérabilités CVE-2026-111357 et CVE-2026-118527 à son catalogue de vulnérabilités exploitées connues (KEV) le 30 octobre 2026.</p>
+
+<p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US"><span lang="en" xml:lang="en" xml:lang="en">Security Advisory Ivanti Connect Secure</span> (CVE-2026-104935) (en anglais seulement)</a></li>
+	<li><a href="https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Xtraction-Multiple-CVEs?language=en_US"><span lang="en" xml:lang="en" xml:lang="en">Security Advisory Ivanti Xtraction (Multiple</span> CVEs) (en anglais seulement)</a></li>
+	<li><a href="https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-Patch-for-Intune-October-2026?language=en_US"><span lang="en" xml:lang="en" xml:lang="en">Security Advisory Ivanti Neurons Patch for Intune October</span> 2026 (CVE-2026-109412) (en anglais seulement)</a></li>
+	<li><a href="https://forums.ivanti.com/s/searchallcontent?language=en_US#tab=All&amp;sortCriteria=date%20descending&amp;f-sfkbknowledgearticletypec=Security%20Advisory"><span lang="en" xml:lang="en" xml:lang="en">Ivanti Security Advisories</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-104935 ">CISA KEV: CVE-2026-104935 (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-111357">CISA KEV: CVE-2026-111357 (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527">CISA KEV: CVE-2026-118527 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-mongodb-av26-1107</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-mongodb-av26-1107"/><title><![CDATA[Bulletin de sécurité MongoDB (AV26-1107)]]></title><updated>2026-10-30T15:53:58Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8451" about="/fr/alertes-avis/bulletin-securite-mongodb-av26-1107" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série :</strong> AV26-1107<br /><strong>Date :</strong> 30 octobre 2026</p>
+
+<p>En date du 28 octobre 2026, MongoDB est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>Laravel MongoDB
+	<ul><li>Versions antérieures à la version 5.12.0</li>
+	</ul></li>
+</ul><p>Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul list-unstyled=""><li><a href="https://jira.mongodb.org/browse/PHPLARA-148">Test Laravel <span lang="en" xml:lang="en" xml:lang="en">&gt;HasOneThrough/HasManyThrough relations</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.mongodb.com/resources/products/alerts">MongoDB <span lang="en" xml:lang="en" xml:lang="en">&gt;Alerts</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-hashicorp-av26-1106</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-hashicorp-av26-1106"/><title><![CDATA[Bulletin de sécurité HashiCorp (AV26-1106)]]></title><updated>2026-10-30T15:50:11Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8449" about="/fr/alertes-avis/bulletin-securite-hashicorp-av26-1106" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série :</strong> AV26-1106<br /><strong>Date :</strong> 30 octobre 2026</p>
+
+<p>En date du 29 octobre 2026, HashiCorp est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Nomad
+	<ul><li>Versions antérieures à la version 2.1.0</li>
+	</ul></li>
+	<li>Nomad Enterprise
+	<ul><li>Versions antérieures à la version 2.1.0</li>
+		<li>Versions antérieures à la version 1.11.12</li>
+		<li>Versions antérieures à la version 1.10.18</li>
+	</ul></li>
+	<li>Boundary
+	<ul><li>Versions antérieures à la version 1.0.2</li>
+	</ul></li>
+	<li>Boundary Enterprise
+	<ul><li>Versions antérieures à la version 1.0.2 et 0.21.6</li>
+	</ul></li>
+</ul><p>Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://discuss.hashicorp.com/t/hcsec-2026-52-nomad-dispatch-payload-writes-can-escape-the-allocation-directory-through-symlinks/77930">HCSEC-2026-52 - Nomad <span lang="en" xml:lang="en" xml:lang="en">dispatch payload writes can escape the allocation directory through symlinks</span> (en anglais seulement)</a></li>
+	<li><a href="https://discuss.hashicorp.com/t/hcsec-2026-54-boundary-vulnerable-to-server-side-request-forgery-in-vault-credential-store/77932">HCSEC-2026-54 - Boundary <span lang="en" xml:lang="en" xml:lang="en">vulnerable to server-side request forgery in Vault credential store</span> (en anglais seulement)</a></li>
+	<li><a href="https://discuss.hashicorp.com/c/security/52"><span lang="en" xml:lang="en" xml:lang="en">Security</span> - HashiCorp <span lang="en" xml:lang="en" xml:lang="en">Discuss</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-drupal-av26-1105</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-drupal-av26-1105"/><title><![CDATA[Bulletin de sécurité Drupal (AV26-1105)]]></title><updated>2026-10-30T15:47:21Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8450" about="/fr/alertes-avis/bulletin-securite-drupal-av26-1105" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série :</strong> AV26-1105<br /><strong>Date :</strong> 30 octobre 2026</p>
+
+<p>En date du 28 octobre 2026, Drupal est touché par une vulnérabilité dans le produit suivant :</p>
+
+<ul><li>Commerce Core
+	<ul><li>Versions antérieures à 2.4.1 et 3.0.0 versions antérieures à 3.3.13</li>
+	</ul></li>
+</ul><p>Des rapports de sources ouvertes indiquent que la vulnérabilité CVE-2026-118539 est exploitée dans la nature.</p>
+
+<p>Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.drupal.org/sa-contrib-2026-254">Commerce Core - <span lang="en" xml:lang="en" xml:lang="en">Highly critical - Access bypass</span> - SA-CONTRIB-2026-254 (en anglais seulement)</a></li>
+	<li><a href="https://www.drupal.org/security">Drupal <span lang="en" xml:lang="en" xml:lang="en">Security Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-cisco-av26-1102</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-cisco-av26-1102"/><title><![CDATA[Bulletin de sécurité Cisco (AV26-1102) – Mise à jour 1]]></title><updated>2026-10-29T20:22:32Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8446" about="/fr/alertes-avis/bulletin-securite-cisco-av26-1102" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1102<br /><strong>Date : </strong>29 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 28 octobre 2026, Cisco est touché par une vulnérabilité dans les produits suivants :</p>
+
+<ul><li>Cisco Secure Firewall Adaptive Security Appliance (ASA)
+	<ul><li>Versions antérieures aux versions 9.16.4.104, 9.18.4.96, 9.20.4.50, 9.22.3.200, 9.23.1.48, 9.24.1.27 et 9.24.10.1</li>
+	</ul></li>
+	<li>Cisco Secure Firewall Threat Defense (FTD)
+	<ul><li>Versions antérieures aux versions 7.0.11, 7.2.13, 7.4.9, 7.6.7, 7.7.14, 10.0.3 et 10.1.1</li>
+	</ul></li>
+	<li>Cisco Network Management <span lang="en" xml:lang="en" xml:lang="en">and</span> Provisioning License (<span lang="en" xml:lang="en" xml:lang="en">Smart Software Manager</span>) On-Prem
+	<ul><li>Versions antérieures aux versions 10-202610</li>
+	</ul></li>
+</ul><p>Cisco indique que la vulnérabilité CVE-2026-76418 est exploitée dans la nature.</p>
+
+<p><strong>Mise à jour 1</strong><br />
+Le <span lang="en" xml:lang="en" xml:lang="en">Cybersecurity and Infrastructure Security Agency</span> (CISA) a ajouté la vulnérabilité CVE-2026-76418 à son catalogue de vulnérabilités exploitées connues (KEV) le 29 octobre 2026.</p>
+
+<p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75">Cisco Secure Firewall Adaptive Security Appliance <span lang="en" xml:lang="en" xml:lang="en">and</span> Secure Firewall Threat Defense <span lang="en" xml:lang="en" xml:lang="en">Software Remote Access</span> SSL VPN <span lang="en" xml:lang="en" xml:lang="en">Tunnel Denial of Service Vulnerability</span> (en anglais seulement)</a></li>
+	<li><a href="https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u"><span lang="en" xml:lang="en" xml:lang="en">Vulnerabilities in</span> Node.js <span lang="en" xml:lang="en" xml:lang="en">Affecting</span> Cisco <span lang="en" xml:lang="en" xml:lang="en">Products</span>: <span lang="en" xml:lang="en" xml:lang="en">October</span> 2026 (en anglais seulement)</a></li>
+	<li><a href="https://sec.cloudapps.cisco.com/security/center/publicationListing.x">Cisco <span lang="en" xml:lang="en" xml:lang="en">Security Advisories</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve= CVE-2026-76418">CISA KEV: CVE-2026-76418 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-gitlab-av26-1028</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-gitlab-av26-1028"/><title><![CDATA[Bulletin de sécurité GitLab (AV26-1028) – Mise à jour 1]]></title><updated>2026-10-29T20:16:47Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8359" about="/fr/alertes-avis/bulletin-securite-gitlab-av26-1028" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1028<br /><strong>Date : </strong>13 octobre 2026<br /><strong>Mise à jour : </strong>29 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 12 octobre 2026, GitLab est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>GitLab
+	<ul><li>Versions antérieures à la version 19.2.8</li>
+		<li>Versions antérieures à la version 19.3.5</li>
+		<li>Versions antérieures à la version 19.4.2</li>
+	</ul></li>
+</ul><p><strong>Mise à jour 1</strong><br />
+Le <span lang="en" xml:lang="en" xml:lang="en">Cybersecurity and Infrastructure Security Agency</span> (CISA) a ajouté la vulnérabilité CVE-2026-97229 à son catalogue de vulnérabilités exploitées connues (KEV) le 29 octobre 2026.</p>
+
+<p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/">GitLab <span lang="en" xml:lang="en" xml:lang="en">Critical Patch Release</span>: 19.4.2, 19.3.5, 19.2.8 (en anglais seulement)</a></li>
+	<li><a href="https://docs.gitlab.com/releases/">GitLab <span lang="en" xml:lang="en" xml:lang="en">release notes</span> | GitLab <span lang="en" xml:lang="en" xml:lang="en">Docs</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-97229">CISA KEV: CVE-2026-97229 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-mattermost-av26-1104</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-mattermost-av26-1104"/><title><![CDATA[Bulletin de sécurité Mattermost (AV26-1104)]]></title><updated>2026-10-29T14:01:11Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8448" about="/fr/alertes-avis/bulletin-securite-mattermost-av26-1104" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1104<br /><strong>Date : </strong>29 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 28 octobre 2026, Mattermost est touché par une vulnérabilité dans le produit suivant :</p>
+
+<ul><li>Mattermost
+	<ul><li>Versions antérieures jusqu'à la version 11.10.0</li>
+		<li>Versions antérieures jusqu'à la version 11.9.2</li>
+		<li>Versions antérieures jusqu'à la version 11.8.6</li>
+		<li>Versions antérieures jusqu'à la version 11.7.11</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://docs.mattermost.com/security-guide/security-updates">Mattermost <span lang="en" xml:lang="en" xml:lang="en">Security Updates</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-n8n-av26-1103</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-n8n-av26-1103"/><title><![CDATA[Bulletin de sécurité n8n (AV26-1103)]]></title><updated>2026-10-29T13:52:08Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8447" about="/fr/alertes-avis/bulletin-securite-n8n-av26-1103" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1103<br /><strong>Date : </strong>29 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 28 octobre 2026, n8n est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>n8n
+	<ul><li>Versions antérieures à la version 2.44.1</li>
+		<li>Versions antérieures à la version 2.43.5</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://github.com/n8n-io/n8n/security/advisories/GHSA-wvjj-qg37-pv73"><span lang="en" xml:lang="en" xml:lang="en">Crafted Workflow</span> ID <span lang="en" xml:lang="en" xml:lang="en">Gives Access to Data Tables in Other Projects</span> (en anglais seulement)</a></li>
+	<li><a href="https://github.com/n8n-io/n8n/security"><span lang="en" xml:lang="en" xml:lang="en">Overview</span> - n8n-io/n8n (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-vmware-av26-763</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-vmware-av26-763"/><title><![CDATA[Bulletin de sécurité VMware (AV26-763) – Mise à jour 2]]></title><updated>2026-10-28T19:55:38Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8056" about="/fr/alertes-avis/bulletin-securite-vmware-av26-763" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-763<br /><strong>Date : </strong>30 juillet 2026<br /><strong>Mise à jour :</strong> 28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 30 juillet 2026, VMware est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li><span lang="en" xml:lang="en" xml:lang="en">Cloud Foundation</span>
+
+	<ul><li>5.x</li>
+		<li>9.0.x.x</li>
+		<li>9.1.x.x</li>
+		<li>Versions antérieures à la version 5.2.3</li>
+	</ul></li>
+	<li>ESX
+	<ul><li>Versions antérieures à la version ESXi-9.0.2.0100-25595025</li>
+		<li>Versions antérieures à la version ESXi-9.1.0.0-25370933</li>
+		<li>Versions antérieures à la version ESXi-9.1.0.0200-25557999</li>
+		<li>Versions antérieures à la version ESXi80U3i-25205845</li>
+		<li>Versions antérieures à la version ESXi80U3k-25595708</li>
+	</ul></li>
+	<li>Fusion
+	<ul><li>Versions antérieures à la version 26H1</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Telco Cloud Infrastructure</span>
+	<ul><li>3.0</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Telco Cloud Platform</span>
+	<ul><li>3.0</li>
+		<li>4.x</li>
+		<li>5.0.x</li>
+		<li>5.1.x</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Workstation</span>
+	<ul><li>Versions antérieures à la version 26H1</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">vCenter</span>
+	<ul><li>Versions antérieures à la version 8.0 U3k</li>
+		<li>Versions antérieures à la version 9.0.2.0100</li>
+		<li>Versions antérieures à la version 9.1.0.0300</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">vSphere Foundation</span>
+	<ul><li>9.0.x.x</li>
+		<li>9.1.x.x</li>
+	</ul></li>
+</ul><h2 class="h3">Mise à jour 2</h2>
+
+<p>Le Cybersecurity <span lang="en" xml:lang="en" xml:lang="en">and Infrastructure Security Agency</span> (CISA) a ajouté les vulnérabilités CVE-2026-41709 à son catalogue de vulnérabilités exploitées connues (KEV) le 28 octobre 2026.</p>
+
+<h2 class="h3">Mise à jour 1</h2>
+
+<p>Le Cybersecurity and Infrastructure Security Agency (CISA) a ajouté la vulnérabilité CVE-2026-59310 à son catalogue de vulnérabilités exploitées connues (KEV) le 18 août 2026.</p>
+
+<p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017">VMSA-2026-0006: <span lang="en" xml:lang="en" xml:lang="en">VMware</span> ESX, vCenter, <span lang="en" xml:lang="en" xml:lang="en">Workstation</span>, <span lang="en" xml:lang="en" xml:lang="en">and Fusion updates address multiple vulnerabilities</span> (CVE-2026-59309, CVE-2026-59310, CVE-2026-47876, CVE-2026-41703, CVE-2026-41709) (en anglais seulement)</a></li>
+	<li><a href="https://support.broadcom.com/web/ecx/security-advisory">Security Advisories - <span lang="en" xml:lang="en" xml:lang="en">VMware Cloud Foundation</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-59310">CISA KEV: CVE-2026-59310 (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-41709">CISA KEV: CVE-2026-41709 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-juniper-networks-av26-1101</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-juniper-networks-av26-1101"/><title><![CDATA[Bulletin de sécurité Juniper Networks (AV26-1101)]]></title><updated>2026-10-28T19:30:33Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8445" about="/fr/alertes-avis/bulletin-securite-juniper-networks-av26-1101" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1101<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 28 octobre 2026, Juniper <span lang="en" xml:lang="en" xml:lang="en">Networks</span> est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li><span lang="en" xml:lang="en" xml:lang="en">Session Smart Conductor</span>
+
+	<ul><li>Versions antérieures à la version 7.0.5</li>
+		<li>Versions antérieures à la version 7.1.7</li>
+		<li>Versions antérieures à la version 7.2.3</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Session Smart Router</span>
+	<ul><li>Versions antérieures à la version 7.0.5</li>
+		<li>Versions antérieures à la version 7.1.7</li>
+		<li>Versions antérieures à la version 7.2.3</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://supportportal.juniper.net/s/article/2026-10-On-Demand-Security-Bulletin-Session-Smart-Router-and-Session-Smart-Conductor-Multiple-internally-discovered-vulnerabilities-resolved">2026-10 <span lang="en" xml:lang="en" xml:lang="en">On-Demand Security Bulletin: Session Smart Router and Session Smart Conductor: Multiple internally discovered vulnerabilities resolved</span> (en anglais seulement)</a></li>
+	<li><a href="https://supportportal.juniper.net/s/global-search/%40uri">CEC Juniper <span lang="en" xml:lang="en" xml:lang="en">Community</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-mozilla-av26-1100</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-mozilla-av26-1100"/><title><![CDATA[Bulletin de sécurité Mozilla (AV26-1100)]]></title><updated>2026-10-28T19:16:12Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8444" about="/fr/alertes-avis/bulletin-securite-mozilla-av26-1100" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1100<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 27 octobre 2026, Mozilla est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Firefox
+	<ul><li>Versions antérieures à 159</li>
+	</ul></li>
+	<li>Firefox ESR
+	<ul><li>Versions antérieures à 115.44</li>
+		<li>Versions antérieures à 153.6</li>
+	</ul></li>
+	<li>Thunderbird
+	<ul><li>Versions antérieures à 159</li>
+		<li>Versions antérieures à 153.6</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-118/">Mozilla <span lang="en" xml:lang="en" xml:lang="en">Foundation Security Advisory</span> 2026-118 (en anglais seulement)</a></li>
+	<li><a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-119/">Mozilla <span lang="en" xml:lang="en" xml:lang="en">Foundation Security Advisory</span> 2026-119 (en anglais seulement)</a></li>
+	<li><a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/">Mozilla <span lang="en" xml:lang="en" xml:lang="en">Foundation Security Advisory</span> 2026-120 (en anglais seulement)</a></li>
+	<li><a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-121/">Mozilla <span lang="en" xml:lang="en" xml:lang="en">Foundation Security Advisory</span> 2026-121 (en anglais seulement)</a></li>
+	<li><a href="https://www.mozilla.org/en-US/security/advisories/mfsa2026-122/">Mozilla <span lang="en" xml:lang="en" xml:lang="en">Foundation Security Advisory</span> 2026-122 (en anglais seulement)</a></li>
+	<li><a href="https://www.mozilla.org/en-US/security/advisories/">Mozilla <span lang="en" xml:lang="en" xml:lang="en">Foundation Security Advisories</span> — Mozilla (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-apple-av26-1099</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-apple-av26-1099"/><title><![CDATA[Bulletin de sécurité Apple (AV26-1099)]]></title><updated>2026-10-28T19:06:18Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8443" about="/fr/alertes-avis/bulletin-securite-apple-av26-1099" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1099<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 26 octobre 2026, Apple est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>iOS <span lang="en" xml:lang="en" xml:lang="en">and</span> iPadOS
+
+	<ul><li>Versions antérieures à la version 18.7.11</li>
+		<li>Versions antérieures à la version 26.7.2</li>
+		<li>Versions antérieures à la version 27.2</li>
+	</ul></li>
+	<li>MacOS <span lang="en" xml:lang="en" xml:lang="en">(Golden Gate/Tahoe/Sequoia)</span>
+	<ul><li>Versions antérieures à la version 27.2</li>
+		<li>Versions antérieures à la version 26.7.2</li>
+		<li>Versions antérieures à la version 15.8.2</li>
+	</ul></li>
+	<li>visionOS
+	<ul><li>Versions antérieures à la version 27.2</li>
+	</ul></li>
+	<li>tvOS
+	<ul><li>Versions antérieures à la version 27.2</li>
+	</ul></li>
+	<li>watchOS
+	<ul><li>Versions antérieures à la version 27.2</li>
+	</ul></li>
+	<li>Safari
+	<ul><li>Versions antérieures à la version 27.2</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://support.apple.com/en-us/100100">Apple <span lang="en" xml:lang="en" xml:lang="en">security releases - Apple Support</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/al26-028-campagne-continue-dhameconnage-vocal-lie-soutien-technique-ciblant-organisations-canadiennes</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/al26-028-campagne-continue-dhameconnage-vocal-lie-soutien-technique-ciblant-organisations-canadiennes"/><title><![CDATA[AL26-028 – Campagne continue d’hameçonnage vocal lié au soutien technique ciblant des organisations canadiennes]]></title><updated>2026-10-28T18:26:07Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8442" about="/fr/alertes-avis/al26-028-campagne-continue-dhameconnage-vocal-lie-soutien-technique-ciblant-organisations-canadiennes" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro :</strong> AL26-028<br /><strong>Date :</strong> 28 octobre 2026</p>
+
+<h2>Auditoire</h2>
+
+<p>La présente alerte s’adresse aux professionnelles et professionnels des <abbr title="technologies de l'information">TI</abbr> et aux gestionnaires.</p>
+
+<h2>Objet</h2>
+
+<p>Une alerte vise à sensibiliser les destinataires à une cybermenace récemment relevée pouvant toucher les biens d’information électroniques et à fournir des conseils supplémentaires en matière de détection et d’atténuation. Le Centre canadien pour la cybersécurité (ou Centre pour la cybersécurité) peut offrir une assistance supplémentaire aux destinataires qui en font la demande.</p>
+
+<h2>Détails</h2>
+
+<p>Le Centre canadien pour la cybersécurité (Centre pour la cybersécurité) est au courant d’une campagne continue d’hameçonnage vocal ciblant des organisations canadiennes, notamment dans le secteur juridique et judiciaire et dans le secteur des finances. Plusieurs entreprises canadiennes ont été ciblées par des personnes qui se font passer pour du personnel de soutien technique interne et qui dirigent les employées ou employés vers des pages d’ouverture de session frauduleuses. L’infrastructure et le savoir-faire utilisés correspondent à des activités menées par un auteur de menace motivé par l’appât du gain ayant fait l’objet de rapports publics<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup><sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Note de bas de page </span>2</a></sup>.</p>
+
+<p>Tout au long de 2026, ces activités sont passées d’un secteur à l’autre et ciblent de plus en plus des organisations du secteur juridique et judiciaire et du secteur des finances depuis juillet<sup id="fn1a-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup>. Le Centre pour la cybersécurité a identifié des infrastructures connexes où figurait le nom d’organisations canadiennes remontant au mois de janvier. Les activités recensées en octobre ciblaient principalement le secteur juridique et judiciaire. La campagne réussit à contourner l’authentification multifacteur (AMF) grâce à un relais en temps réel et change fréquemment les domaines utilisés comme leurres, ce qui réduit l’efficacité des listes de rejet.</p>
+
+<h3>Accès initial</h3>
+
+<ul><li>Hameçonnage vocal lié au soutien technique : La personne au téléphone s’identifie comme membre de l’équipe de soutien technique interne et prétend qu’il faut effectuer de façon urgente la migration d’une clé d’accès, l’inscription à l’AMF ou la modification d’un mot de passe. Les appels peuvent cibler des téléphones cellulaires personnels, des téléphones de bureau ou <span lang="en" xml:lang="en" xml:lang="en">Microsoft Teams</span> et peuvent sembler provenir de numéros légitimes des services de soutien. Les personnes au bout du fil peuvent faire référence à du personnel des TI à l’interne ou au fait que des dates limites aient été dépassées pour renforcer la crédibilité de l’appel, et elles risquent de raccrocher si l’employée ou employé ciblé tente de faire une vérification indépendante<sup id="fn1b-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup>.</li>
+	<li>Pages de connexion usurpant l’image de marque de l’organisation dans le cadre d’attaques de l’adversaire au milieu : La personne au téléphone dirige l’employée ou employé vers un sous-domaine qui ressemble à l’image de marque de l’organisation, sous un domaine racine générique conçu pour imiter un portail d’inscription.
+	<ul><li>Le nom de l’organisation ciblée peut apparaître comme sous-domaine d’un domaine générique (p.ex., <code>&lt;nom-organisation&gt;.onetimesso[.]com</code>, <code>&lt;nom-organisation&gt;.registermymfa[.]com</code>) ou être intégré directement à un domaine nouvellement enregistré (p.ex., <code>&lt;nom-organisation&gt;sso[.]com</code>, <code>&lt;nom-organisation&gt;internal[.]com</code>).</li>
+		<li>Les domaines combinent souvent des termes d’action comme « <span lang="en" xml:lang="en" xml:lang="en">activate</span> », « <span lang="en" xml:lang="en" xml:lang="en">enroll</span> », « <span lang="en" xml:lang="en" xml:lang="en">register</span> », « <span lang="en" xml:lang="en" xml:lang="en">create</span> », « <span lang="en" xml:lang="en" xml:lang="en">add</span> », « <span lang="en" xml:lang="en" xml:lang="en">enable</span> », « <span lang="en" xml:lang="en" xml:lang="en">deploy</span> » ou « <span lang="en" xml:lang="en" xml:lang="en">set</span> » avec des termes liés à l’authentification comme « <span lang="en" xml:lang="en" xml:lang="en">passkey</span> », « sso », « <span lang="en" xml:lang="en" xml:lang="en">mfa</span> » ou « <span lang="en" xml:lang="en" xml:lang="en">2fa</span> ». D’autres termes couramment utilisés comprennent « <span lang="en" xml:lang="en" xml:lang="en">okta</span> », « <span lang="en" xml:lang="en" xml:lang="en">internal</span> », « <span lang="en" xml:lang="en" xml:lang="en">signin</span> », « <span lang="en" xml:lang="en" xml:lang="en">account</span> », « <span lang="en" xml:lang="en" xml:lang="en">security</span> », « <span lang="en" xml:lang="en" xml:lang="en">portal</span> », « <span lang="en" xml:lang="en" xml:lang="en">setup</span> », « <span lang="en" xml:lang="en" xml:lang="en">connect</span> » et « <span lang="en" xml:lang="en" xml:lang="en">sync</span> ».</li>
+		<li>La page relaie les identifiants et les réponses d’AMF au fournisseur d’identité légitime, ce qui permet à l’acteur d’obtenir une session authentifiée <sup id="fn1c-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup><sup id="fn2a-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Note de bas de page </span>2</a></sup>.</li>
+	</ul></li>
+</ul><h3>Activité post-compromission</h3>
+
+<p>Selon les rapports, après avoir obtenu une session authentifiée, l’auteur de menace procède comme suit <sup id="fn1d-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup><sup id="fn2b-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Footnote </span>2</a></sup>:</p>
+
+<ul><li>Il enregistre des méthodes d’AMF ou des appareils contrôlés par l’attaquant afin de maintenir son accès.</li>
+	<li>Il supprime les notifications de réinitialisation de mot de passe, de modification d’AMF et de sécurité, puis réinitialise les mots de passe des applications non fondées sur l’authentification unique (SSO pour <span lang="en" xml:lang="en" xml:lang="en">Single Sign-On</span>).</li>
+	<li>Il utilise des scripts automatisés et Microsoft Graph pour accéder aux données de Microsoft 365 et d’applications de logiciels-services (SaaS pour <span lang="en" xml:lang="en" xml:lang="en">Software as a Service</span>) connectées, notamment SharePoint et OneDrive, et les exfiltrer.</li>
+	<li>Il envoie des demandes d’extorsion à la suite du vol de données.</li>
+</ul><h2>Mesures recommandées</h2>
+
+<p>Le Centre pour la cybersécurité recommande aux organismes de prendre les mesures suivantes :</p>
+
+<ul><li>Déployer des mécanismes d’AMF résistants à l’hameçonnage, comme des clés de sécurité FIDO2, des clés d’accès liées à l’appareil ou des authentifiants de plateforme, en particulier pour les utilisatrices et utilisateurs de comptes privilégiés ou qui présentent un risque élevé <sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Footnote </span>3</a></sup>.</li>
+	<li>Appliquer des stratégies d’accès conditionnel qui exigent l’utilisation d’appareils gérés et restreindre les connexions provenant de réseaux privés virtuels (RPV) commerciaux, de fournisseurs d’hébergement et de mandataires résidentiels</li>
+	<li>Renforcer la vérification lors de la réinitialisation de l’AMF, de la récupération de comptes et de l’inscription de nouveaux appareils, et réduire la durée des<span class="nowrap"> sessions <sup id="fn1e-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup>.</span></li>
+	<li>Surveiller les inscriptions suspectes à l’AMF, les accès automatisés ou à volume élevé aux fichiers de Microsoft 365, la suppression de courriels liés à la sécurité et les domaines nouvellement enregistrés qui usurpent l’identité de l’organisation <sup id="fn2c-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Note de bas de page </span>2</a></sup>.</li>
+	<li>Demander aux membres du personnel de vérifier par un moyen indépendant la légitimité de tout appel inattendu du soutien informatique demandant de modifier l’AMF, une clé d’accès ou un mot de passe, peu importe l’identité affichée de la personne qui appelle ou le caractère urgent de la demande <sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Note de bas de page </span>4</a></sup>.</li>
+	<li>Fournir un moyen clair de signaler les appels suspects et les sites Web qui y sont associés.</li>
+	<li>Si une compromission est soupçonnée, révoquer les sessions et les jetons actifs, réinitialiser les justificatifs d’identité, supprimer les méthodes d’AMF ou les appareils non autorisés, et examiner les activités liées aux boîtes aux lettres et aux fichiers.</li>
+	<li>Conserver les journaux d’audit pertinents du fournisseur d’identité et de Microsoft 365 aux fins d’enquête<sup id="fn5-rf"><a class="fn-lnk" href="#fn5"><span class="wb-inv">Note de bas de page</span>5</a></sup>.</li>
+	<li>Restreindre les communications externes dans les plateformes de collaboration (p. ex., Microsoft Teams, Webex, Slack, entre autres), notamment les messages directs, les appels et les invitations à des réunions, aux utilisateurs externes de confiance ou dont l’accès est nécessaire aux opérations, et examiner régulièrement les accès invités et les autorisations.</li>
+</ul><p>Les organisations devraient également consulter les 10 mesures de sécurité des TI du Centre pour la cybersécurité <sup id="fn6-rf"><a class="fn-lnk" href="#fn6"><span class="wb-inv">Note de bas de page</span>6</a></sup>.</p>
+
+<p>Si les destinataires relèvent des activités semblables aux informations fournies dans la présente alerte, ils sont invités à le signaler par l'entremise de <a href="/fr/cyberincidents">Mon cyberportail</a> ou par courriel à <a href="mailto:contact@cyber.gc.ca">contact@cyber.gc.ca</a>.</p>
+
+<h2>References</h2>
+
+<aside class="wb-fnote" role="note"><dl><dt>Note de bas de page 1</dt>
+	<dd id="fn1">
+	<p><a href="https://cloud.google.com/blog/topics/threat-intelligence/unc6671-targets-financial-services-and-enterprise-cloud-environments">UNC6671 <span lang="en" xml:lang="en" xml:lang="en">Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>1<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 2</dt>
+	<dd id="fn2">
+	<p><a href="https://cloud.google.com/blog/topics/threat-intelligence/blackfile-vishing-extortion-operation"><span lang="en" xml:lang="en" xml:lang="en">Welcome to BlackFile: Inside a Vishing Extortion Operation</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>2<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 3</dt>
+	<dd id="fn3">
+	<p><a href="/fr/orientation/securisez-vos-comptes-et-vos-appareils-avec-une-authentification-multifacteur">Sécurisez vos comptes et vos appareils avec une authentification multifacteur (ITSAP.30.030)</a></p>
+
+	<p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>3<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 4</dt>
+	<dd id="fn4">
+	<p><a href="/fr/quest-ce-que-lhameconnage-vocal-itsap00102">Qu’est-ce que l’hameçonnage vocal? (ITSAP.00.102)</a></p>
+
+	<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>4<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 5</dt>
+	<dd id="fn5">
+	<p><a href="/fr/orientation/elaborer-un-plan-dintervention-en-cas-dincident-itsap40003">Élaborer un plan d’intervention en cas d’incident (ITSAP.40.003)</a></p>
+
+	<p class="fn-rtn"><a href="#fn5-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>5<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 6</dt>
+	<dd id="fn6">
+	<p><a href="/fr/orientation/les-10-mesures-de-securite-des-ti-visant-proteger-les-reseaux-internet-et-0">Les 10 mesures de sécurité des TI visant à protéger les réseaux Internet et l’information (ITSM.10.089)</a></p>
+
+	<p class="fn-rtn"><a href="#fn6-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>6<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+</dl></aside></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-progress-av26-1098</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-progress-av26-1098"/><title><![CDATA[Bulletin de sécurité Progress (AV26-1098)]]></title><updated>2026-10-28T17:30:02Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8441" about="/fr/alertes-avis/bulletin-securite-progress-av26-1098" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1098<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 28 octobre 2026, Progress est touché par une vulnérabilité dans le produit suivant :</p>
+
+<ul><li>Telerik <span lang="en" xml:lang="en" xml:lang="en">Document Processing Libraries</span>
+
+	<ul><li>Versions antérieures à la version 2026.3.1027</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.telerik.com/document-processing-libraries/documentation/knowledge-base/kb-security-uncontrolled-resource-consumption-wordsprocessing-cve-2026-118035"><span lang="en" xml:lang="en" xml:lang="en">Document Processing Libraries Uncontrolled Resource Consumption in</span> Telerik <span lang="en" xml:lang="en" xml:lang="en">Document Processing Libraries RadWordsProcessing</span> (CVE-2026-118035) (en anglais seulement)</a></li>
+	<li><a href="https://www.progress.com/trust-center"><span lang="en" xml:lang="en" xml:lang="en">Progress Trust Center</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-oracle-corporation-av26-1071</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-oracle-corporation-av26-1071"/><title><![CDATA[Bulletin de sécurité Oracle Corporation (AV26-1071) – Mise à jour 1]]></title><updated>2026-10-28T17:19:21Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8408" about="/fr/alertes-avis/bulletin-securite-oracle-corporation-av26-1071" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><!--CUT & PASTE the French version info -->
+<p><strong>Numéro de série :</strong> AV26-1071<br /><strong>Date :</strong> 20 octobre 2026<br /><strong>Mise à jour : </strong>28 octobre 2026</p>
+
+<p>En date du 20 octobre 2026, Oracle Corporation est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Helidon</li>
+	<li>JD Edwards <span lang="en" xml:lang="en" xml:lang="en">EnterpriseOne Configurator</span></li>
+	<li>JD Edwards <span lang="en" xml:lang="en" xml:lang="en">EnterpriseOne General Ledger</span></li>
+	<li>JD Edwards <span lang="en" xml:lang="en" xml:lang="en">EnterpriseOne Homebuilder</span></li>
+	<li>JD Edwards <span lang="en" xml:lang="en" xml:lang="en">EnterpriseOne Human Resources Management</span></li>
+	<li>JD Edwards <span lang="en" xml:lang="en" xml:lang="en">EnterpriseOne Localizations</span></li>
+	<li>JD Edwards <span lang="en" xml:lang="en" xml:lang="en">EnterpriseOne Operational Sourcing</span></li>
+	<li>JD Edwards <span lang="en" xml:lang="en" xml:lang="en">EnterpriseOne Orchestrator</span></li>
+	<li>JD Edwards <span lang="en" xml:lang="en" xml:lang="en">EnterpriseOne Sales Order Entry</span></li>
+	<li>JD Edwards EnterpriseOne Tools</li>
+	<li>MySQL <span lang="en" xml:lang="en" xml:lang="en">Client</span></li>
+	<li>MySQL <span lang="en" xml:lang="en" xml:lang="en">Cluster</span></li>
+	<li>MySQL <span lang="en" xml:lang="en" xml:lang="en">Connectors</span></li>
+	<li>MySQL <span lang="en" xml:lang="en" xml:lang="en">Enterprise Backup</span></li>
+	<li>MySQL <span lang="en" xml:lang="en" xml:lang="en">Router</span></li>
+	<li>MySQL <span lang="en" xml:lang="en" xml:lang="en">Server</span></li>
+	<li>MySQL <span lang="en" xml:lang="en" xml:lang="en">Server</span>, MySQL <span lang="en" xml:lang="en" xml:lang="en">Cluster</span></li>
+	<li>Oracle APEX</li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Access Manager</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Agile Engineering Data Management</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Agile</span> PLM</li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Agile</span> PLM MCAD Connector</li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Agile Product Lifecycle Management for Process</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Application Testing Suite</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Autonomous Health Framework</span></li>
+	<li>Oracle BI <span lang="en" xml:lang="en" xml:lang="en">Publisher</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Business Intelligence Enterprise Edition</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Business Process Management Suite</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en"></span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Commerce Platform</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications</span> BRM - <span lang="en" xml:lang="en" xml:lang="en">Elastic Charging Engine</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Billing and Revenue Management</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Cloud Native Core Binding Support Function</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Cloud Native Core Certificate Management</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Cloud Native Core Console</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Cloud Native Core Network Repository Function</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Cloud Native Core Network Slice Selection Function</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Cloud Native Core Policy</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Cloud Native Core Security Edge Protection Proxy</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Cloud Native Core Service Communication Proxy</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Cloud Native Core Unified Data Repository</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications</span> EAGLE <span lang="en" xml:lang="en" xml:lang="en">Element Management System</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications</span> EAGLE LNP <span lang="en" xml:lang="en" xml:lang="en">Application Processor</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications</span> LSMS</li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Network Analytics Data Director</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Operations Monitor</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Policy Management</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Service Catalog and Design</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Unified Assurance</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Communications Unified Inventory Management</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Data Integrator</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Database Server</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Demand Planning</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">E-Business Suite</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Enterprise Manager Base Platform</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Enterprise Manager for Oracle Database</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Enterprise Manager for Siebel</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Enterprise Manager for Virtualization</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Essbase</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Financial Services Analytical Applications Infrastructure</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Financial Services Behavior Detection Platform</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Financial Services Trade-Based Anti Money Laundering Enterprise Edition</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Fusion Middleware</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Fusion Middleware Control</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Global Lifecycle Management NextGen</span> OUI <span lang="en" xml:lang="en" xml:lang="en">Framework</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Global Lifecycle Management OPatch</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Global Lifecycle Management OPatchAuto</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">GoldenGate</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">GoldenGate Big Data and Application Adapters</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">GoldenGate Stream Analytics</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">GraalVM Enterprise Edition</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">GraalVM for</span> JDK</li>
+	<li>Oracle HTTP <span lang="en" xml:lang="en" xml:lang="en">Server</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Health Sciences Information Manager</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Healthcare Data Repository</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Healthcare Master Person Index</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Hospitality Cruise Shipboard Property Management</span> (SPMS)</li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Hospitality OPERA 5 Property Services</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Identity Manager</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Identity Manager Connector</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">JDeveloper</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Java</span> SE</li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Java</span>FX</li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Managed File Transfer</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Management Pack for Oracle GoldenGate</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Middleware Common Libraries and Tools</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">No</span>SQL <span lang="en" xml:lang="en" xml:lang="en">Database</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Outside In Technology</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Product Lifecycle Analytics</span></li>
+	<li>Oracle REST <span lang="en" xml:lang="en" xml:lang="en">Data Services</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Retail Merchandise Financial Planning</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Retail Merchandising System</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Retail Predictive Application Server</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Retail Xstore Point of Service</span></li>
+	<li>Oracle SOA <span lang="en" xml:lang="en" xml:lang="en">Suite</span></li>
+	<li>Oracle SQL <span lang="en" xml:lang="en" xml:lang="en">Developer</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Secure Backup</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Service Bus</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Solaris</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">TimesTen In-Memory Database</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Trusted Answer Search</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Utilities Network Management System</span></li>
+	<li>Oracle VM <span lang="en" xml:lang="en" xml:lang="en">VirtualBox</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Web Services Manager</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">WebCenter Content</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">WebCenter Portal</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">WebCenter Sites</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">WebLogic Server</span></li>
+	<li>Oracle <span lang="en" xml:lang="en" xml:lang="en">Weblogic Server Proxy Plug-in</span></li>
+	<li>Oracle ZFS <span lang="en" xml:lang="en" xml:lang="en">Storage Appliance Kit</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> CC <span lang="en" xml:lang="en" xml:lang="en">Common Application Objects</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> FIN <span lang="en" xml:lang="en" xml:lang="en">Cash Management</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> FIN <span lang="en" xml:lang="en" xml:lang="en">Common Objects Argentina</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> FIN <span lang="en" xml:lang="en" xml:lang="en">Common Objects Brazil</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> FIN <span lang="en" xml:lang="en" xml:lang="en">General Ledger Brazil</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> FIN <span lang="en" xml:lang="en" xml:lang="en">Inventory Brazil</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> FIN <span lang="en" xml:lang="en" xml:lang="en">Manufacturing Brazil</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> FIN <span lang="en" xml:lang="en" xml:lang="en">Product Configurator Brazil</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> HCM <span lang="en" xml:lang="en" xml:lang="en">Global Payroll Switzerland</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> HCM <span lang="en" xml:lang="en" xml:lang="en">Human Resources</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">EnterprisePeopleTools</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> SCM <span lang="en" xml:lang="en" xml:lang="en">Manufacturing</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> SCM <span lang="en" xml:lang="en" xml:lang="en">Purchasing</span></li>
+	<li>PeopleSoft <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span> SCM <span lang="en" xml:lang="en" xml:lang="en">Strategic Sourcing</span></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Primavera Gateway</span></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Primavera Unifier</span></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Siebel Applications</span></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">WebCenter Content: Imaging</span></li>
+</ul><p><strong>Mise à jour 1</strong><br />
+Des rapports de sources ouvertes indiquent que la vulnérabilité CVE-2026-101767 est exploitée dans la nature.</p>
+
+<p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.oracle.com/security-alerts/cpuoct2026.html"><span lang="en" xml:lang="en" xml:lang="en">Oracle Critical Patch Update Advisory - October</span> 2026 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-tanium-av26-1097</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-tanium-av26-1097"/><title><![CDATA[Bulletin de sécurité Tanium (AV26-1097)]]></title><updated>2026-10-28T15:34:14Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8440" about="/fr/alertes-avis/bulletin-securite-tanium-av26-1097" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1097<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 27 octobre 2026, Tanium est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li><span lang="en" xml:lang="en" xml:lang="en">Certificate Manager</span>
+
+	<ul><li>Versions antérieures à la version 1.17.417</li>
+		<li>Versions antérieures à la version 1.18.368</li>
+		<li>Versions antérieures à la version 1.22.119</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Endpoint Configuration Toolset Solution</span>
+	<ul><li>Versions antérieures à la version 1.51.60</li>
+		<li>Versions antérieures à la version 1.59.50</li>
+		<li>Versions antérieures à la version 1.71.25</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Enforce</span>
+	<ul><li>Versions antérieures à la version 2.10.778</li>
+		<li>Versions antérieures à la version 2.9.736</li>
+		<li>Versions antérieures à la version 3.0.373</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Provision</span>
+	<ul><li>Versions antérieures à la version 1.17.150</li>
+		<li>Versions antérieures à la version 1.23.161</li>
+		<li>Versions antérieures à la version 1.24.199</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Threat Response</span>
+	<ul><li>Versions antérieures à la version 4.12.349</li>
+		<li>Versions antérieures à la version 4.17.327</li>
+		<li>Versions antérieures à la version 4.9.476</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">end-user-cx</span>
+	<ul><li>Multiples versions</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">index-cx</span>
+	<ul><li>Multiples versions</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://security.tanium.com/"><span lang="en" xml:lang="en" xml:lang="en">All Advisories - Tanium Security Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-veeam-av26-1096</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-veeam-av26-1096"/><title><![CDATA[Bulletin de sécurité Veeam (AV26-1096)]]></title><updated>2026-10-28T15:21:34Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8439" about="/fr/alertes-avis/bulletin-securite-veeam-av26-1096" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1096<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 27 octobre 2026, Veeam est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Veeam <span lang="en" xml:lang="en" xml:lang="en">Agent for</span> Linux
+
+	<ul><li>Versions antérieures à la version 13.1.2</li>
+	</ul></li>
+	<li>Veeam <span lang="en" xml:lang="en" xml:lang="en">Backup and Replication</span>
+	<ul><li>Versions antérieures à la version 13.0.3</li>
+		<li>Versions antérieures à la version 13.1.2</li>
+	</ul></li>
+	<li>Veeam <span lang="en" xml:lang="en" xml:lang="en">Backup for</span> Microsoft 365
+	<ul><li>Versions antérieures jusqu'à la version 8.5.0.1014</li>
+		<li>Versions antérieures jusqu'à la version 8.6.0.1102</li>
+	</ul></li>
+	<li>Veeam ONE
+	<ul><li>Versions antérieures jusqu'à la version 13.1.0.7233</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.veeam.com/kb4957"><span lang="en" xml:lang="en" xml:lang="en">Vulnerabilities Resolved in</span> Veeam <span lang="en" xml:lang="en" xml:lang="en">Backup for</span> Microsoft 365 8.6 (en anglais seulement)</a></li>
+	<li><a href="https://www.veeam.com/kb4948"><span lang="en" xml:lang="en" xml:lang="en">Vulnerabilities Resolved in</span> Veeam <span lang="en" xml:lang="en" xml:lang="en">Backup &amp; Replication</span> 13.1.2 (en anglais seulement)</a></li>
+	<li><a href="https://www.veeam.com/kb4951"><span lang="en" xml:lang="en" xml:lang="en">Vulnerabilities Resolved in</span> Veeam ONE 13.1 <span lang="en" xml:lang="en" xml:lang="en">Patch</span> 1 (en anglais seulement)</a></li>
+	<li><a href="https://www.veeam.com/knowledge-base.html?type=security">Veeam <span lang="en" xml:lang="en" xml:lang="en">Support Knowledge Base</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-google-chrome-av26-1095</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-google-chrome-av26-1095"/><title><![CDATA[Bulletin de sécurité Google Chrome (AV26-1095)]]></title><updated>2026-10-28T14:47:31Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8438" about="/fr/alertes-avis/bulletin-securite-google-chrome-av26-1095" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1095<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 28 octobre 2026, Google est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li><span lang="en" xml:lang="en" xml:lang="en">Stable Channel</span> Chrome <span lang="en" xml:lang="en" xml:lang="en">for Desktop</span>
+
+	<ul><li>Versions antérieures à 156.0.8078.73/.74 (Windows/Mac), et 156.0.8078.73 (Linux)</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_0562499947.html">Google Chrome <span lang="en" xml:lang="en" xml:lang="en">Security Advisory</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-watchguard-av26-1094</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-watchguard-av26-1094"/><title><![CDATA[Bulletin de sécurité WatchGuard (AV26-1094)]]></title><updated>2026-10-28T14:40:57Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8436" about="/fr/alertes-avis/bulletin-securite-watchguard-av26-1094" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1094<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 27 octobre 2026, WatchGuard est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Fireware OS
+	<ul><li>Multiples versions</li>
+	</ul></li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Mobile</span> VPN <span lang="en" xml:lang="en" xml:lang="en">with</span> SSL <span lang="en" xml:lang="en" xml:lang="en">Client</span>
+	<ul><li>Versions antérieures à la version 2026.4</li>
+		<li>Versions antérieures à la version 12.0</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://psirt.watchguard.com/">WatchGuard <span lang="en" xml:lang="en" xml:lang="en">Security Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-teamviewer-av26-1093</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-teamviewer-av26-1093"/><title><![CDATA[Bulletin de sécurité TeamViewer (AV26-1093)]]></title><updated>2026-10-28T14:38:59Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8437" about="/fr/alertes-avis/bulletin-securite-teamviewer-av26-1093" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1093<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 27 octobre 2026, TeamViewer est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>TeamViewer Full Client &amp; Host (Windows)
+	<ul><li>Versions antérieures à la version 15.83</li>
+	</ul></li>
+	<li>TeamViewer Full Client &amp; Host (Linux)
+	<ul><li>Versions antérieures à la version 15.83</li>
+	</ul></li>
+	<li>TeamViewer Full Client &amp; Host (macOS)
+	<ul><li>Versions antérieures à la version 15.83</li>
+	</ul></li>
+	<li>TeamViewer Host (Windows, Linux, macOS)
+	<ul><li>Versions antérieures à la version 15.83</li>
+	</ul></li>
+	<li>TeamViewer Portable (Windows)
+	<ul><li>Versions antérieures à la version 15.83</li>
+	</ul></li>
+	<li>TeamViewer Remote Control App (Android)
+	<ul><li>Versions antérieures à la version 15.8.3</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.teamviewer.com/en/resources/trust-center/security-bulletins/tv-2026-1011/"><span lang="en" xml:lang="en" xml:lang="en">Security Update for Vulnerabilities in</span> TeamViewer <span lang="en" xml:lang="en" xml:lang="en">Clients</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.teamviewer.com/en-ca/resources/trust-center/security-bulletins/tv-2026-1012/"><span lang="en" xml:lang="en" xml:lang="en">Security Update for</span> TeamViewer <span lang="en" xml:lang="en" xml:lang="en">Remote Management Add-ons</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.teamviewer.com/en-ca/resources/trust-center/security-bulletins/"><span lang="en" xml:lang="en" xml:lang="en">Security bulletins</span> | TeamViewer (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-adobe-av26-1092</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-adobe-av26-1092"/><title><![CDATA[Bulletin de sécurité Adobe (AV26-1092)]]></title><updated>2026-10-28T14:27:16Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8435" about="/fr/alertes-avis/bulletin-securite-adobe-av26-1092" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1092<br /><strong>Date : </strong>28 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 27 octobre 2026, Adobe est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Adobe Substance 3D Painter
+	<ul><li>Versions antérieures jusqu'à la version 12.1.5</li>
+	</ul></li>
+	<li>Creative Cloud Desktop Application
+	<ul><li>Versions antérieures jusqu'à la version 6.10</li>
+	</ul></li>
+	<li>Adobe Campaign Classic
+	<ul><li>Versions antérieures jusqu'à la version 7.4.4 build 9402</li>
+	</ul></li>
+	<li>Adobe Connect Android Mobile App
+	<ul><li>Versions antérieures jusqu'à la version 4.4</li>
+	</ul></li>
+	<li>Adobe Connect Desktop App
+	<ul><li>Versions antérieures jusqu'à la version 2026.8.51 (Win), 2026.08.45 (Mac Silicon), 2026.01.39 (Mac Intel)</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.adobe.com/trust/security/products/substance3d-painter/apsb26-178.html"><span lang="en" xml:lang="en" xml:lang="en">Security updates available for</span> Substance 3D Painter | APSB26-178 (en anglais seulement)</a></li>
+	<li><a href="https://www.adobe.com/trust/security/products/creative-cloud/apsb26-135.html"><span lang="en" xml:lang="en" xml:lang="en">Security update available for</span> Adobe Creative Cloud Desktop Application | APSB26-135 (en anglais seulement)</a></li>
+	<li><a href="https://www.adobe.com/trust/security/products/campaign/apsb26-162.html"><span lang="en" xml:lang="en" xml:lang="en">Security update available for</span> Adobe Campaign Classic | APSB26-162 (en anglais seulement)</a></li>
+	<li><a href="https://www.adobe.com/trust/security/products/connect/apsb26-182.html"><span lang="en" xml:lang="en" xml:lang="en">Security update available for</span> Adobe Connect | APSB26-182 (en anglais seulement)</a></li>
+	<li><a href="https://www.adobe.com/trust/security/bulletins-and-advisories.html">Adobe <span lang="en" xml:lang="en" xml:lang="en">Security Bulletins and Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/al26-027-vulnerabilites-critiques-touchant-google-brotli-cve-2026-111497</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/al26-027-vulnerabilites-critiques-touchant-google-brotli-cve-2026-111497"/><title><![CDATA[AL26-027 - Vulnérabilité critique touchant Google Brotli – CVE-2026-111497]]></title><updated>2026-10-28T12:24:07Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8434" about="/fr/alertes-avis/al26-027-vulnerabilites-critiques-touchant-google-brotli-cve-2026-111497" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro :</strong> AL26-027<br /><strong>Date :</strong> 28 octobre 2026</p>
+
+<h2>Auditoire</h2>
+
+<p>La présente alerte s’adresse aux professionnelles et professionnels des <abbr title="technologies de l'information">TI</abbr> et aux gestionnaires.</p>
+
+<h2>Objet</h2>
+
+<p>Une alerte vise à sensibiliser les destinataires à une cybermenace récemment relevée pouvant toucher les biens d’information électroniques et à fournir des conseils supplémentaires en matière de détection et d’atténuation. Le Centre canadien pour la cybersécurité (ou Centre pour la cybersécurité) peut offrir une assistance supplémentaire aux destinataires qui en font la demande.</p>
+
+<h2>Détails</h2>
+
+<p>Le Centre canadien pour la cybersécurité (Centre pour la cybersécurité) est au courant d’une vulnérabilité critique touchant la bibliothèque de compression Google Brotli<sup id="fn1-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup>. En réponse à l’avis du fournisseur, le Centre pour la cybersécurité a publié un avis le 26 octobre 2026 <sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Note de bas de page </span>2</a></sup>.</p>
+
+<p>Google Brotli est un algorithme de compression à code source ouvert développé par Google qui réduit la taille du contenu Web, notamment les fichiers HTML, CSS et JavaScript, afin d’améliorer la vitesse de chargement des sites Web et de réduire l’utilisation de la bande passante.</p>
+
+<p>Publiée sous le numéro CVE-2026-111497<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Note de bas de page </span>3</a></sup>, cette vulnérabilité d’écriture hors limites (CWE-787)<sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Note de bas de page </span>4</a></sup> touche le décodeur Google Brotli. Connue sous le nom de « Broccoli2Shell »<sup id="fn5-rf"><a class="fn-lnk" href="#fn5"><span class="wb-inv">Note de bas de page </span>5</a></sup>, la vulnérabilité pourrait être exploitée à distance et sans authentification par l’envoi de données compressées spécialement conçues. Une exploitation réussie pourrait entraîner une corruption de la mémoire, la divulgation de renseignements sensibles, l’arrêt de processus ou l’exécution de code arbitraire dans les applications ou les services touchés.</p>
+
+<p>Comme Brotli est largement intégré à d’autres logiciels, les organisations devraient évaluer les applications et les produits qui intègrent des composants Brotli vulnérables ou qui en dépendent. Les technologies touchées comprennent notamment Node.js, Microsoft .NET, PowerShell, Bun, Envoy Proxy, Istio ainsi que les paquets Python Brotli et brotlicffi.</p>
+
+<p>Le Cybersecurity and Infrastructure Security Agency (CISA) a ajouté la vulnérabilité CVE-2026-111497 à son catalogue de vulnérabilités exploitées connues (KEV) le 27 octobre 2026<sup id="fn6-rf"><a class="fn-lnk" href="#fn6"><span class="wb-inv">Note de bas de page </span>6</a></sup>.</p>
+
+<h2>Mesures recommandées</h2>
+
+<p>Le Centre pour la cybersécurité recommande fortement aux organisations qui utilisent des versions touchées de Brotli de passer à la version corrigée suivante :</p>
+
+<div class="table-responsive">
+<table class="table"><thead><tr><th scope="col">Produit touché</th>
+			<th scope="col">Versions touchées</th>
+			<th scope="col">Versions corrigées</th>
+		</tr></thead><tbody><tr><td>Brotli</td>
+			<td>Versions 1.0.3 antérieures à la version 1.0.10</td>
+			<td>Version 1.0.10</td>
+		</tr><tr><td>Brotli</td>
+			<td>Versions 1.1.0 antérieures à la version 1.1.1</td>
+			<td>Version 1.1.1</td>
+		</tr><tr><td>Brotli</td>
+			<td>Versions 1.2.0 antérieures à la version 1.2.1</td>
+			<td>Version 1.2.1</td>
+		</tr></tbody><thead></thead></table></div>
+
+<p>Le Centre pour la cybersécurité recommande aux organisations de prendre les mesures suivantes :</p>
+
+<ul><li>Repérer les systèmes, les applications et les services exposés à Internet qui utilisent des versions de Brotli vulnérables et prioriser leur mise à jour, y compris pour les logiciels et les dépendances tierces<sup id="fn7-rf"><a class="fn-lnk" href="#fn7"><span class="wb-inv">Note de bas de page </span>7</a></sup>.</li>
+	<li>Appliquer les mises à jour de sécurité pertinentes dès que possible.</li>
+	<li>Lorsqu’il n’est pas possible d’appliquer immédiatement les mesures correctives, empêcher les applications touchées de traiter du contenu compressé avec Brotli provenant de sources non fiables jusqu’à ce qu’une mise à jour puisse être appliquée.</li>
+	<li>Surveiller les systèmes touchés afin de détecter les arrêts inattendus d’applications, les comportements anormaux de processus ou toute autre activité suspecte.</li>
+</ul><p>Les organisations devraient également consulter les 10 mesures de sécurité des TI du Centre pour la cybersécurité<sup id="fn8-rf"><a class="fn-lnk" href="#fn8"><span class="wb-inv">Note de bas de page </span>8</a></sup>.</p>
+
+<p>Si les destinataires relèvent des activités semblables aux informations fournies dans la présente alerte, ils sont invités à le signaler par l'entremise de <a href="/fr/cyberincidents">Mon cyberportail</a> ou par courriel à <a href="mailto:contact@cyber.gc.ca">contact@cyber.gc.ca</a>.</p>
+
+<h2>References</h2>
+
+<aside class="wb-fnote" role="note"><dl><dt>Note de bas de page 1</dt>
+	<dd id="fn1">
+	<p><a href="https://github.com/google/brotli/releases"><span lang="en" xml:lang="en" xml:lang="en">Releases</span> google/brotli (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Retour à la référence de la note de bas de page </span>1</a></p>
+	</dd>
+	<dt>Note de bas de page 2</dt>
+	<dd id="fn2">
+	<p><a href="/fr/alertes-avis/bulletin-securite-google-av26-1085">Bulletin de sécurité Google (AV26-1085)</a></p>
+
+	<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>2<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 3</dt>
+	<dd id="fn3">
+	<p><a href="https://www.cve.org/CVERecord?id=CVE-2026-111497">CVE-2026-111497 (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>3<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 4</dt>
+	<dd id="fn4">
+	<p><a href="https://cwe.mitre.org/data/definitions/787.html">CWE-787: <span lang="en" xml:lang="en" xml:lang="en">Out-of-bounds Write</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>4<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 5</dt>
+	<dd id="fn5">
+	<p><a href="https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js">Broccoli2shell: <span lang="en" xml:lang="en" xml:lang="en">Everything You Need To Know About The Critical Brotli Decoder Vulnerability</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn5-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>5<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 6</dt>
+	<dd id="fn6">
+	<p><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-111497">CISA KEV: CVE-2026-111497 (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn6-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>6<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 7</dt>
+	<dd id="fn7">
+	<p><a href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497">Node2Shell Brotli vuln (CVE-2026-111497) <span lang="en" xml:lang="en" xml:lang="en">evolves to HTTP2Shell, as libraries and apps using HTTP are affected</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn7-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>7<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 8</dt>
+	<dd id="fn8">
+	<p><a href="/fr/orientation/les-10-mesures-de-securite-des-ti-visant-proteger-les-reseaux-internet-et-0">Les 10 mesures de sécurité des TI visant à protéger les réseaux Internet et l’information (ITSM.10.089)</a></p>
+
+	<p class="fn-rtn"><a href="#fn8-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>8<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+</dl></aside></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-adobe-av26-697</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-adobe-av26-697"/><title><![CDATA[Bulletin de sécurité Adobe (AV26-697) – Mise à jour 1]]></title><updated>2026-10-27T20:44:44Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="7982" about="/fr/alertes-avis/bulletin-securite-adobe-av26-697" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><!--CUT & PASTE the French version info -->
+<p><strong>Numéro de série : </strong>AV26-697<br /><strong>Date : </strong>14 juillet 2026<br /><strong>Mise à jour :</strong> 27 octobre 2026<br /><br />
+Le 14 juillet 2026, Adobe a publié des bulletins de sécurité visant à corriger des vulnérabilités critiques liées aux produits suivants :</p>
+
+<ul><li><span lang="en" xml:lang="en" xml:lang="en">Adobe After Effects</span> - version 25.6.5 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe After Effects</span> - version 26.2.1 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Animate</span> 2023 - version 23.0.15 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Animate</span> 2024 - version 24.0.13 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Audition</span> - version 25.6.4 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Audition</span> - version 26.0 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Bridge</span> - version 15.1.5 (LTS) et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Bridge</span> - version 16.0.3 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Commerce</span> B2B - multiples versions;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Commerce</span> - multiples versions;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Commerce Events</span> - de la version 1.6.0 à 1.20.0;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Experience Manager</span> (AEM) - <span lang="en" xml:lang="en" xml:lang="en">version</span> AEM <span lang="en" xml:lang="en" xml:lang="en">Cloud Service (CS) Release</span> 2026.5.0 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Experience Manager</span> (AEM) - version 6.5 LTS Service Pack 1 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Experience Manager</span> (AEM) - version 6.5 Service Pack 24 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Media Encoder</span> - version 25.6.5 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Media Encoder</span> - version 26.2.2 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Premiere</span> - version 26.2.2 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Adobe Premiere Pro</span> - version 25.6.5 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">ColdFusion</span> 2023 <span lang="en" xml:lang="en" xml:lang="en">Update</span> 21 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">ColdFusion</span> 2025 <span lang="en" xml:lang="en" xml:lang="en">Update</span> 10 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Content Credentials Command-Line Tool</span> - version c2patool-v0.17.0 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Content Credentials</span> JS SDK - version @contentauth/c2pa-web@0.7.0 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Content Credentials Rust</span> SDK - version c2pa-v0.84.0 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Creative Cloud Desktop Application</span> - version 6.9.1.1 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Illustrator</span> 2025 - version 29.8.7 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Illustrator</span> 2026 - version 30.5 et versions antérieures;</li>
+	<li><span lang="en" xml:lang="en" xml:lang="en">Magento Open Source</span> - multiples versions.</li>
+</ul><p><strong>Mise à jour 1</strong><br />
+Le Cybersecurity <span lang="en" xml:lang="en" xml:lang="en">and Infrastructure Security Agency</span> (CISA) a ajouté la vulnérabilité CVE-2026-48356 à son catalogue de vulnérabilités exploitées connues (KEV) le 27 octobre 2026.</p>
+
+<p>Le Centre pour la cybersécurité recommande aux utilisatrices, aux utilisateurs, aux administratrices et aux administrateurs de consulter la page Web ci‑dessous et d'appliquer les mises à jour nécessaires.</p>
+
+<ul class="list-unstyled"><li><a href="https://helpx.adobe.com/security.html "><span lang="en" xml:lang="en" xml:lang="en">Adobe Security Advisories</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-48356">CISA KEV: CVE-2026-48356 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-google-av26-1085</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-google-av26-1085"/><title><![CDATA[Bulletin de sécurité Google (AV26-1085) – Mise à jour 1]]></title><updated>2026-10-27T20:38:09Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8424" about="/fr/alertes-avis/bulletin-securite-google-av26-1085" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1085<br /><strong>Date : </strong>26 octobre 2026<br /><strong>Mise à jour : </strong>27 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 22 octobre 2026, Google est touché par une vulnérabilité dans le produit suivant :</p>
+
+<ul><li>Brotli
+	<ul><li>Versions 1.0.3 à toutes les versions antérieures à v1.0.10</li>
+		<li>Versions 1.1.0 à toutes les versions antérieures à v1.1.1</li>
+		<li>Versions 1.2.0 à toutes les versions antérieures à v1.2.1</li>
+	</ul></li>
+</ul><p><strong>Mise à jour 1</strong><br />
+Le Cybersecurity <span lang="en" xml:lang="en" xml:lang="en">and Infrastructure Security Agency</span> (CISA) a ajouté la vulnérabilité CVE-2026-111497 à son catalogue de vulnérabilités exploitées connues (KEV) le 27 octobre 2026.</p>
+
+<p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://github.com/google/brotli/releases">Brotli <span lang="en" xml:lang="en" xml:lang="en">Releases</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-111497">CISA KEV: CVE-2026-111497 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/al26-026-vulnerabilites-critiques-touchant-php-cve-2026-109618-cve-2026-109619</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/al26-026-vulnerabilites-critiques-touchant-php-cve-2026-109618-cve-2026-109619"/><title><![CDATA[AL26-026 - Vulnérabilités critiques touchant PHP – CVE-2026-109618 et CVE-2026-109619 - Mise à jour 2]]></title><updated>2026-10-27T17:18:30Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8406" about="/fr/alertes-avis/al26-026-vulnerabilites-critiques-touchant-php-cve-2026-109618-cve-2026-109619" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro :</strong> AL26-026<br /><strong>Date :</strong> 21 octobre 2026<br /><strong>Mise à jour :</strong> 27 octobre 2026</p>
+
+<h2>Audience</h2>
+
+<p>La présente alerte s’adresse aux professionnelles et professionnels des <abbr title="technologies de l'information">TI</abbr> et aux gestionnaires.</p>
+
+<h2>Objet</h2>
+
+<p>Une alerte vise à sensibiliser les destinataires à une cybermenace récemment relevée pouvant toucher les biens d’information électroniques et à fournir des conseils supplémentaires en matière de détection et d’atténuation. Le Centre canadien pour la cybersécurité (ou Centre pour la cybersécurité) peut offrir une assistance supplémentaire aux destinataires qui en font la demande.</p>
+
+<h2>Détails</h2>
+
+<p>Le Centre canadien pour la cybersécurité (Centre pour la cybersécurité) est au courant de vulnérabilités critiques touchant PHP<sup id="fn1a-rf"><a class="fn-lnk" href="#fn1"><span class="wb-inv">Note de bas de page </span>1</a></sup>. En réponse à l’avis publié par le fournisseur, le Centre pour la cybersécurité a publié un avis le 21 octobre 2026<sup id="fn2-rf"><a class="fn-lnk" href="#fn2"><span class="wb-inv">Note de bas de page </span>2</a></sup>.</p>
+
+<p>Publiée sous les numéros CVE-2026-109618<sup id="fn3-rf"><a class="fn-lnk" href="#fn3"><span class="wb-inv">Note de bas de page </span>3</a></sup> et CVE-2026-109619<sup id="fn4-rf"><a class="fn-lnk" href="#fn4"><span class="wb-inv">Note de bas de page </span>4</a></sup>, ces vulnérabilités de type utilisation après libération de la mémoire (CWE‑416) <sup id="fn5-rf"><a class="fn-lnk" href="#fn5"><span class="wb-inv">Note de bas de page </span>5</a></sup> touchent plusieurs versions de PHP. Connues sous le nom de « php2shell »<sup id="fn6-rf"><a class="fn-lnk" href="#fn6"><span class="wb-inv">Note de bas de page </span>6</a></sup>, leur exploitation réussie pourrait permettre à un attaquant non authentifié d’exécuter du code arbitraire sur un système vulnérable. Les serveurs et applications PHP accessibles à partir d’Internet sont particulièrement exposés.</p>
+
+<p>L’équipe de sécurité de PHP a publié des mises à jour de sécurité pour corriger ces vulnérabilités. Les organisations devraient repérer les systèmes touchés et appliquer les mises à jour appropriées sans délai.</p>
+
+<p>PHP demeure une technologie largement déployée et continue de prendre en charge une part importante des applications Web à l’échelle mondiale.</p>
+
+<p>Toutes les installations PHP servant des requêtes Web sont exposées, y compris PHP-FPM, Apache avec mod_php, php-cgi, FrankenPHP et LiteSpeed. Selon PHP, le risque est particulièrement élevé pour mod_php, puisqu’une exploitation démontrée permet à une requête non authentifiée de déclencher la vulnérabilité avant même l’exécution du code de l’application.</p>
+
+<p>Le Centre pour la cybersécurité a observé des rapports de sources ouvertes indiquant que des preuves de concept (PoC) sont publiquement accessible. Aucune exploitation active n’a été observée pour le moment; toutefois, la situation pourrait évoluer rapidement.</p>
+
+<section class="panel panel-default"><header class="panel-heading"><h2 class="panel-title">Mise à jour 1</h2>
+</header><div class="panel-body">
+<p>Le 23 octobre 2026, l’équipe de sécurité de PHP a publié des renseignements additionnels concernant une autre vulnérabilité d’exécution de code à distance<sup id="fn9-rf"><a class="fn-lnk" href="#fn9"><span class="wb-inv">Note de bas de page </span>9</a></sup>, publiée sous le numéro CVE-2026-115560<sup id="fn10-rf"><a class="fn-lnk" href="#fn10"><span class="wb-inv">Note de bas de page </span>10</a></sup>. Cette vulnérabilité n’est pas corrigée par les mises à jour de sécurité publiées le 21 octobre 2026.</p>
+
+<p>L’exploitation réussie de la vulnérabilité CVE-2026-115560 nécessite une combinaison peu courante de paramètres de configuration de PHP et d’un comportement particulier de l’application. Les applications qui ne modifient pas le gestionnaire de sérialisation à l’exécution ne sont pas exposées à ce vecteur d’attaque.</p>
+
+<p>En attendant la publication d’une mise à jour de sécurité, l’équipe de sécurité de PHP recommande de désactiver la fonctionnalité de suivi de la progression du téléversement des fichiers de session :<br /><code><strong>session.upload_progress.enabled=0</strong></code></p>
+
+<p>Cette mesure d’atténuation avait déjà été recommandée pour la vulnérabilité CVE-2026-109619. Les organisations qui ont déjà appliqué cette mesure et l’ont maintenue en place n’ont pas à prendre de mesures supplémentaires pour atténuer spécifiquement le risque associé à la vulnérabilité CVE-2026-115560.</p>
+</div>
+</section><section class="panel panel-default"><header class="panel-heading"><h2 class="panel-title">Mise à jour 2</h2>
+</header><div class="panel-body">
+<p>Des rapports de sources ouvertes indiquent que les vulnérabilités CVE-2026-109618 et CVE-2026-109619 sont exploitées dans la nature.</p>
+
+<p>Le Cybersecurity and Infrastructure Security Agency (CISA) a ajouté les vulnérabilités CVE-2026-109618<sup id="fn11-rf"><a class="fn-lnk" href="#fn11"><span class="wb-inv">Note de bas de page </span>11</a></sup> et CVE-2026-109619<sup id="fn12-rf"><a class="fn-lnk" href="#fn12"><span class="wb-inv">Note de bas de page </span>12</a></sup> à son catalogue de vulnérabilités exploitées connues (KEV) le 26 octobre 2026.</p>
+</div>
+</section><h2>Mesures recommandées</h2>
+
+<p>Le Centre pour la cybersécurité recommande fortement aux organisations utilisant des versions touchées de PHP d’effectuer une mise à niveau vers une version corrigée prise en charge :</p>
+
+<table class="table"><caption class="wb-inv">Versions touchées de PHP</caption>
+	<thead><tr><td><strong>Produit touché</strong></td>
+			<td><strong>Versions touchées</strong></td>
+			<td><strong>Versions corrigées</strong></td>
+		</tr></thead><tbody><tr><td>PHP</td>
+			<td>8.5.x antérieures à 8.5.12</td>
+			<td>8.5.12</td>
+		</tr><tr><td>PHP</td>
+			<td>8.4.x antérieures à 8.4.27</td>
+			<td>8.4.27</td>
+		</tr><tr><td>PHP</td>
+			<td>8.3.x antérieures à 8.3.36</td>
+			<td>8.3.36</td>
+		</tr><tr><td>PHP</td>
+			<td>8.2.x antérieures à 8.2.35</td>
+			<td>8.2.35</td>
+		</tr></tbody></table><p><strong>Remarque :</strong> Les versions 8.1 et antérieures ne reçoivent plus de mises à jour de sécurité du projet PHP. Certaines distributions Linux et certains fournisseurs offrant un soutien à long terme (LTS) peuvent fournir des correctifs rétroportés. Les organisations devraient communiquer avec leur fournisseur pour obtenir des précisions ou effectuer une mise à niveau vers une version prise en charge.</p>
+
+<p>Le Centre pour la cybersécurité recommande aux organisations de :</p>
+
+<ul><li>Mettre à jour immédiatement les installations PHP touchées vers une version corrigée et prise en charge.</li>
+	<li>Accorder la priorité aux systèmes et applications accessibles à partir d’Internet qui traitent des données ou des entrées non fiables.</li>
+	<li>Repérer les produits, appareils et conteneurs qui intègrent des composants PHP vulnérables<sup id="fn7-rf"><a class="fn-lnk" href="#fn7"><span class="wb-inv">Note de bas de page </span>7</a></sup>.</li>
+	<li>Lorsqu’il n’est pas possible d’appliquer immédiatement les mesures correctives, les organisations devraient envisager d’isoler les applications accessibles à partir d’Internet des réseaux publics jusqu’à ce qu’un correctif puisse être appliqué.</li>
+	<li>Surveiller les signes de compromission potentielle en examinant les journaux des serveurs Web, des applications, des mécanismes d’authentification et des points d’extrémité afin d’y déceler toute activité suspecte.</li>
+	<li>Enquêter sur tout processus, commande, fichier, compte ou connexion sortante inattendu associé à PHP ou aux services de serveur Web.</li>
+	<li>Assurer une surveillance continue des avis de sécurité publiés par les fournisseurs tiers, y compris ceux concernant les appareils, applications et les services intégrant PHP, et appliquer sans délai les correctifs pertinents.</li>
+</ul><p>Les organisations devraient également consulter les 10 mesures de sécurité des TI du Centre pour la cybersécurité<sup id="fn8-rf"><a class="fn-lnk" href="#fn8"><span class="wb-inv">Note de bas de page </span>8</a></sup>.</p>
+
+<p>Si les destinataires relèvent des activités semblables aux informations fournies dans la présente alerte, ils sont invités à le signaler par l'entremise de <a href="/fr/cyberincidents">Mon cyberportail</a> ou par courriel à <a href="mailto:contact@cyber.gc.ca">contact@cyber.gc.ca</a>.</p>
+
+<h2>Références</h2>
+
+<aside class="wb-fnote" role="note"><dl><dt>Note de bas de page 1</dt>
+	<dd id="fn1">
+	<p><a href="https://www.php.net/index.php#2026-10-21-5"><span lang="en" xml:lang="en" xml:lang="en">Security advisory: Critical remote code execution vulnerabilities, update now</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn1-rf"><span class="wb-inv">Retour à la référence de la note de bas de page </span>1</a></p>
+	</dd>
+	<dt>Note de bas de page 2</dt>
+	<dd id="fn2">
+	<p><a href="/fr/alertes-avis/bulletin-securite-php-av26-1070">Bulletin de sécurité PHP (AV26-1070)</a></p>
+
+	<p class="fn-rtn"><a href="#fn2-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>2<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 3</dt>
+	<dd id="fn3">
+	<p><a href="https://www.cve.org/CVERecord?id=CVE-2026-109618">CVE-2026-109618 <span lang="en" xml:lang="en" xml:lang="en">Detail</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn3-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>3<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 4</dt>
+	<dd id="fn4">
+	<p><a href="https://www.cve.org/CVERecord?id=CVE-2026-109619">CVE-2026-109619 <span lang="en" xml:lang="en" xml:lang="en">Detail</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn4-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>4<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 5</dt>
+	<dd id="fn5">
+	<p><a href="https://cwe.mitre.org/data/definitions/416.html">CWE-416: <span lang="en" xml:lang="en" xml:lang="en">Use After Free</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn5-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>5<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 6</dt>
+	<dd id="fn6">
+	<p><a href="https://www.wiz.io/blog/php2shell-php-rce"><span lang="en" xml:lang="en" xml:lang="en">PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn7-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>6<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 7</dt>
+	<dd id="fn7">
+	<p><a href="https://github.com/NCSC-NL/php2shell/blob/main/software/README.md"><span lang="en" xml:lang="en" xml:lang="en">php2shell/software/software_list.md at main - NCSC-NL/php2shell - GitHub</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn7-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>7<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 8</dt>
+	<dd id="fn8">
+	<p><a href="/fr/orientation/les-10-mesures-de-securite-des-ti-visant-proteger-les-reseaux-internet-et-0">Les 10 mesures de sécurité des TI visant à protéger les réseaux Internet et l’information (ITSM.10.089)</a></p>
+
+	<p class="fn-rtn"><a href="#fn8-rf"><span class="wb-inv">Retour à la référence de la note de bas de page</span>8<span class="wb-inv"> referrer</span></a></p>
+	</dd>
+	<dt>Note de bas de page 9</dt>
+	<dd id="fn9">
+	<p><a href="https://www.php.net/archive/2026.php#2026-10-23-1">PHP: <span lang="en" xml:lang="en" xml:lang="en">News Archive</span> – 2026 (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn9-rf"><span class="wb-inv">Retour à la référence de la note de bas de page </span>9</a></p>
+	</dd>
+	<dt>Note de bas de page 10</dt>
+	<dd id="fn10">
+	<p><a href="https://www.cve.org/CVERecord?id=CVE-2026-115560">CVE-2026-115560 <span lang="en" xml:lang="en" xml:lang="en">Detail</span> (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn10-rf"><span class="wb-inv">Retour à la référence de la note de bas de page </span>10</a></p>
+	</dd>
+	<dt>Note de bas de page 11</dt>
+	<dd id="fn11">
+	<p><span class="label label-default">Nouveau</span> <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-109618">CISA KEV: CVE-2026-109618 (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn11-rf"><span class="wb-inv">Retour à la référence de la note de bas de page </span>11</a></p>
+	</dd>
+	<dt>Note de bas de page 12</dt>
+	<dd id="fn12">
+	<p><span class="label label-default">Nouveau</span> <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-109619">CISA KEV: CVE-2026-109619 (en anglais seulement)</a></p>
+
+	<p class="fn-rtn"><a href="#fn12-rf"><span class="wb-inv">Retour à la référence de la note de bas de page </span>12</a></p>
+	</dd>
+</dl></aside></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/systemes-controle-bulletin-securite-hitachi-av26-1091</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/systemes-controle-bulletin-securite-hitachi-av26-1091"/><title><![CDATA[[Systèmes de contrôle] Bulletin de sécurité Hitachi (AV26-1091)]]></title><updated>2026-10-27T16:21:59Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8432" about="/fr/alertes-avis/systemes-controle-bulletin-securite-hitachi-av26-1091" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><!--CUT & PASTE the French version info&nbsp;-->
+<p><strong>Numéro de série :</strong> AV26-1091<br /><strong>Date :</strong> 27 octobre 2026</p>
+
+<p>En date du 27 octobre 2026, Hitachi est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>HiRDB <span lang="en" xml:lang="en" xml:lang="en">Server Version</span> 10
+
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>HiRDB <span lang="en" xml:lang="en" xml:lang="en">Server Version</span> 9
+	<ul><li> Multiple versions</li>
+	</ul></li>
+	<li>HiRDB <span lang="en" xml:lang="en" xml:lang="en">Server Version</span> 9(32)
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>HiRDB <span lang="en" xml:lang="en" xml:lang="en">Server with Additional Function Version</span> 9
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>HiRDB <span lang="en" xml:lang="en" xml:lang="en">Server with Additional Function Version</span> 9(32)
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>JP1/<span lang="en" xml:lang="en" xml:lang="en">Automatic Job Management System</span> 3 - <span lang="en" xml:lang="en" xml:lang="en">Agent</span>
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>JP1/<span lang="en" xml:lang="en" xml:lang="en">Automatic Job Management System</span> 3 - <span lang="en" xml:lang="en" xml:lang="en">Agent Minimal Edition</span>
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>JP1/<span lang="en" xml:lang="en" xml:lang="en">Automatic Job Management System</span> 3 - <span lang="en" xml:lang="en" xml:lang="en">Manager</span>
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>JP1/<span lang="en" xml:lang="en" xml:lang="en">Automatic Job Management</span> 2 – <span lang="en" xml:lang="en" xml:lang="en">Manager</span>
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>JP1/<span lang="en" xml:lang="en" xml:lang="en">Automatic Job Management</span> 2 – <span lang="en" xml:lang="en" xml:lang="en">Smart Device Manager</span>
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>JP1/<span lang="en" xml:lang="en" xml:lang="en">Base</span>
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>JP1/<span lang="en" xml:lang="en" xml:lang="en">Integrated Management</span> 3 - Manager
+	<ul><li>Multiple versions</li>
+	</ul></li>
+	<li>TRO600 <span lang="en" xml:lang="en" xml:lang="en">Series Firmware</span>
+	<ul><li>Versions antérieures à la version 9.2.2.1</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.hitachi.com/products/it/software/security/index.html">Hitachi <span lang="en" xml:lang="en" xml:lang="en">Vulnerability Information</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/systemes-controle-bulletin-securite-johnson-controls-av26-1090</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/systemes-controle-bulletin-securite-johnson-controls-av26-1090"/><title><![CDATA[[Systèmes de contrôle] Bulletin de sécurité Johnson Controls (AV26-1090)]]></title><updated>2026-10-27T14:02:39Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8431" about="/fr/alertes-avis/systemes-controle-bulletin-securite-johnson-controls-av26-1090" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1090<br /><strong>Date : </strong>27 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 26 octobre 2026, Johnson Controls est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>Kantech Entrapass
+	<ul><li>Versions antérieures à la version 9.20</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://tyco.widen.net/s/m2wrtpljps/jci-psa-2026-21">Johnson Controls <span lang="en" xml:lang="en" xml:lang="en">has confirmed two vulnerabilities impacting</span> Kantech Entrapass (PDF) (en anglais seulement)</a></li>
+	<li><a href="https://www.johnsoncontrols.com/trust-center/cybersecurity/security-advisories">Johnson Controls <span lang="en" xml:lang="en" xml:lang="en">Product Security Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/systemes-controle-bulletin-securite-moxa-av26-1089</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/systemes-controle-bulletin-securite-moxa-av26-1089"/><title><![CDATA[[Systèmes de contrôle] Bulletin de sécurité Moxa (AV26-1089)]]></title><updated>2026-10-27T13:24:49Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8430" about="/fr/alertes-avis/systemes-controle-bulletin-securite-moxa-av26-1089" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1089<br /><strong>Date : </strong>27 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 27 octobre 2026, Moxa est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Moxa Remote Connect Suite (MRC Client)
+	<ul><li>Versions antérieures jusqu'à la v4.2.0</li>
+	</ul></li>
+	<li>OnCell G3150A-LTE Series
+	<ul><li>toutes les versions micrologiciel</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.moxa.com/en/support/product-support/security-advisory/mpsa-269510-cve-2026-111459-cve-2026-111460-cve-2026-111461-vulnerabilities-in-moxa-remote-connect-suite-mrc-client">CVE-2026-111459, CVE-2026-111460, CVE-2026-111461: <span lang="en" xml:lang="en" xml:lang="en">Vulnerabilities in</span> Moxa Remote Connect Suite (MRC Client) <span lang="en" xml:lang="en" xml:lang="en">and</span> OnCell G3150A-LTE Series (en anglais seulement)</a></li>
+	<li><a href="https://www.moxa.com/en/rss/moxa-security-advisory">Moxa <span lang="en" xml:lang="en" xml:lang="en">Security Advisory</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-php-av26-1070</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-php-av26-1070"/><title><![CDATA[Bulletin de sécurité PHP (AV26-1070) – Mise à jour 1]]></title><updated>2026-10-27T13:16:27Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8405" about="/fr/alertes-avis/bulletin-securite-php-av26-1070" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série :</strong> AV26-1070<br /><strong>Date :</strong> 21 octobre 2026<br /><strong>Mise à jour : </strong>27 octobre 2026</p>
+
+<p>En date du 21 octobre 2026, PHP est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>PHP
+	<ul><li>8.5.x versions antérieures à 8.5.12</li>
+		<li>8.4.x versions antérieures à 8.4.27</li>
+		<li>8.3.x versions antérieures à 8.3.36</li>
+		<li>8.2.x versions antérieures à 8.2.35</li>
+	</ul></li>
+</ul><h3>Mise à jour 1</h3>
+
+<p>Le Cybersecurity and Infrastructure Security Agency (CISA) a ajouté les vulnérabilités CVE-2026-109618 et CVE-2026-109619 à son catalogue de vulnérabilités exploitées connues (KEV) le 26 octobre 2026.</p>
+
+<p>Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.php.net/index.php#2026-10-21-5">PHP <span lang="en" xml:lang="en" xml:lang="en">Security advisory: Critical remote code execution vulnerabilities, update now</span></a></li>
+	<li><a href="https://www.php.net/archive/2026.php#2026-10-20-1"><span lang="en" xml:lang="en" xml:lang="en">Upcoming Critical</span> PHP <span lang="en" xml:lang="en" xml:lang="en">Security Release</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.php.net/">PHP <span lang="en" xml:lang="en" xml:lang="en">Security Releases</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-109618">CISA KEV: CVE-2026-109618 (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-109619">CISA KEV: CVE-2026-109619 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-esri-av26-1088</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-esri-av26-1088"/><title><![CDATA[Bulletin de sécurité Esri (AV26-1088)]]></title><updated>2026-10-27T13:10:54Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8429" about="/fr/alertes-avis/bulletin-securite-esri-av26-1088" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1088<br /><strong>Date : </strong>27 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 26 octobre 2026, Esri est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>ArcGIS Server
+	<ul><li>Versions antérieures à la version 12.1</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.esri.com/arcgis-blog/products/trust-arcgis/administration/october-2026-arcgis-security-bulletin">October 2026 ArcGIS <span lang="en" xml:lang="en" xml:lang="en">Security Bulletin</span> (en anglais seulement)</a></li>
+	<li><a href="https://support.esri.com/en-us/search?s=Newest&amp;cardtype=support_patches_updates">Esri <span lang="en" xml:lang="en" xml:lang="en">Security Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-hashicorp-av26-1087</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-hashicorp-av26-1087"/><title><![CDATA[Bulletin de sécurité HashiCorp (AV26-1087)]]></title><updated>2026-10-26T19:04:40Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8428" about="/fr/alertes-avis/bulletin-securite-hashicorp-av26-1087" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série :</strong> AV26-1087<br /><strong>Date :</strong> 26 octobre 2026</p>
+
+<p>En date du 26 octobre 2026, HashiCorp est touché par une vulnérabilité dans les produits suivants :</p>
+
+<ul><li>Consul
+	<ul><li>Versions antérieures à la version 2.1.0</li>
+	</ul></li>
+	<li>Consul Enterprise
+	<ul><li>Versions antérieures à la version 1.21.19</li>
+		<li>Versions antérieures à la version 2.1.0</li>
+	</ul></li>
+</ul><p>Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://discuss.hashicorp.com/t/hcsec-2026-46-consul-vulnerable-to-an-authorization-bypass-in-the-agents-service-mesh-leaf-certificate-api/77911">HCSEC-2026-46 - <span lang="en" xml:lang="en" xml:lang="en">Consul vulnerable to an authorization bypass in the agent's service mesh leaf certificate API</span> (en anglais seulement)</a></li>
+	<li><a href="https://discuss.hashicorp.com/c/security/52"><span lang="en" xml:lang="en" xml:lang="en">Security</span> - HashiCorp <span lang="en" xml:lang="en" xml:lang="en">Discuss</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-craftcms-av26-1086</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-craftcms-av26-1086"/><title><![CDATA[Bulletin de sécurité craftcms (AV26-1086)]]></title><updated>2026-10-26T15:48:30Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8427" about="/fr/alertes-avis/bulletin-securite-craftcms-av26-1086" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1086<br /><strong>Date : </strong>26 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 23 octobre 2026, Craft CMS est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>CMS
+	<ul><li>Versions antérieures à la version 4.18.9</li>
+		<li>Versions antérieures à la version 5.11.2</li>
+	</ul></li>
+	<li>Commerce-mollie
+	<ul><li>Versions antérieures à la version 4.4.3</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://github.com/craftcms/cms">craftcms/cms 5.11.2 (en anglais seulement)</a></li>
+	<li><a href="https://github.com/craftcms/commerce-mollie">craftcms/commerce-mollie 4.4.3 (en anglais seulement)</a></li>
+	<li><a href="https://github.com/craftcms/cms/security/advisories"><span lang="en" xml:lang="en" xml:lang="en">Craft CMS Seccurity Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-red-hat-av26-1084</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-red-hat-av26-1084"/><title><![CDATA[Bulletin de sécurité Red Hat (AV26-1084)]]></title><updated>2026-10-26T13:51:06Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8423" about="/fr/alertes-avis/bulletin-securite-red-hat-av26-1084" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1084<br /><strong>Date : </strong>22 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 20 octobre 2026, Red Hat est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Red Hat Enterprise Linux 10
+	<ul><li>Toutes les versions</li>
+	</ul></li>
+	<li>Red Hat Enterprise Linux 6
+	<ul><li>Toutes les versions</li>
+	</ul></li>
+	<li>Red Hat Enterprise Linux 7
+	<ul><li>Toutes les versions</li>
+	</ul></li>
+	<li>Red Hat Enterprise Linux 8
+	<ul><li>Toutes les versions</li>
+	</ul></li>
+	<li>Red Hat Enterprise Linux 9
+	<ul><li>Toutes les versions</li>
+	</ul></li>
+	<li>StreamsHub Console <span lang="en" xml:lang="en" xml:lang="en">for</span> Apache Kafka
+	<ul><li>Versions antérieures à la version 0.12.10</li>
+		<li>Versions antérieures à la version 0.14.2</li>
+	</ul></li>
+	<li>Streams <span lang="en" xml:lang="en" xml:lang="en">for</span> Apache Kafka 2
+	<ul><li>Toutes les versions</li>
+	</ul></li>
+	<li>Streams <span lang="en" xml:lang="en" xml:lang="en">for</span> Apache Kafka 3
+	<ul><li>Toutes les versions</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité recommande aux utilisateurs et aux administrateurs de consulter la page Web ci‑dessous, de suivre les mesures d’atténuation recommandées et d’appliquer les mises à jour nécessaires.</p>
+
+<ul class="list-unstyled"><li><a href="https://access.redhat.com/security/security-updates/security-advisories">Red Hat <span lang="en" xml:lang="en" xml:lang="en">Security Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/systemes-controle-bulletin-securite-siemens-av26-1083</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/systemes-controle-bulletin-securite-siemens-av26-1083"/><title><![CDATA[[Systèmes de contrôle] Bulletin de sécurité Siemens (AV26-1083)]]></title><updated>2026-10-26T13:38:34Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8422" about="/fr/alertes-avis/systemes-controle-bulletin-securite-siemens-av26-1083" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1083<br /><strong>Date : </strong>26 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 26 octobre 2026, Siemens est touché par une vulnérabilité dans les produits suivants :</p>
+
+<ul><li>Mendix SAML (Mendix 10 compatible)
+	<ul><li>Versions antérieures à la version V4.2.4</li>
+	</ul></li>
+	<li>Mendix SAML (Mendix 11 compatible)
+	<ul><li>Versions antérieures à la version V4.2.4</li>
+	</ul></li>
+	<li>Mendix SAML (Mendix 9 compatible)
+	<ul><li>Versions antérieures à la version V3.6.29</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://cert-portal.siemens.com/productcert/html/ssa-137528.html">SSA-137528: <span lang="en" xml:lang="en" xml:lang="en">Authentication Bypass Vulnerability in</span> Mendix SAML <span lang="en" xml:lang="en" xml:lang="en">module</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.siemens.com/en-us/content/cert-services/">Siemens ProductCERT <span lang="en" xml:lang="en" xml:lang="en">and</span> Siemens CERT (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-ibm-av26-1082</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-ibm-av26-1082"/><title><![CDATA[Bulletin de sécurité IBM (AV26-1082)]]></title><updated>2026-10-26T13:29:40Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8421" about="/fr/alertes-avis/bulletin-securite-ibm-av26-1082" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1082<br /><strong>Date : </strong>26 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 20 octobre 2026, IBM est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>IBM App Connect Enterprise
+	<ul><li>De la version 13.0.1.0 à 13.0.8.2</li>
+	</ul></li>
+	<li>IBM Guardium Data Protection
+	<ul><li>Version 12.1</li>
+		<li>Version 12.2</li>
+	</ul></li>
+	<li>Planning Analytics
+	<ul><li>Version 2.0</li>
+		<li>Version 2.1</li>
+	</ul></li>
+	<li>IBM QRadar
+	<ul><li>De la version 7.5.0 à 7.5.0 Update Package 16 Interim Fix 001</li>
+		<li>De la version 7.6.0.0 à 7.6.0.4</li>
+	</ul></li>
+	<li>IBM QRadar Security Information <span lang="en" xml:lang="en" xml:lang="en">and</span> Event Management
+	<ul><li>De la version 7.4-20210823144546 à 7.5-20260930064858</li>
+		<li>De la version 7.6-20260330053257 à 7.6-20260930064910</li>
+	</ul></li>
+	<li>IBM Sterling Connect Direct <span lang="en" xml:lang="en" xml:lang="en">for</span> Unix
+	<ul><li>De la version 6.4.0.0 à 6.4.0.6</li>
+		<li>De la version 6.3.0.0 à 6.3.0.7</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.ibm.com/support/pages/bulletin/">IBM <span lang="en" xml:lang="en" xml:lang="en">Product Security Incident Response</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-arista-networks-av26-1080</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-arista-networks-av26-1080"/><title><![CDATA[Bulletin de sécurité Arista Networks (AV26-1080) – Mise à jour 1]]></title><updated>2026-10-23T18:03:50Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8418" about="/fr/alertes-avis/bulletin-securite-arista-networks-av26-1080" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1080<br /><strong>Date : </strong>23 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 22 octobre 2026, Arista Networks est touché par une vulnérabilité dans le produit suivant :</p>
+
+<ul><li>VeloCloud Orchestrator (VCO)
+	<ul><li>Versions antérieures à 5.2.3.18</li>
+		<li>Versions antérieures à 6.1.3.10</li>
+		<li>Versions antérieures à 6.4.2.12</li>
+	</ul></li>
+</ul><p>Arista Networks indique que la vulnérabilité CVE-2026-114625 est exploitée dans la nature.</p>
+
+<h2 class="h3">Mise à jour 1</h2>
+
+<p>Le <span lang="en" xml:lang="en" xml:lang="en">Cybersecurity and Infrastructure Security Agency</span> (CISA) a ajouté la vulnérabilité CVE-2026-114625 à son catalogue de vulnérabilités exploitées connues (KEV) le 23 octobre 2026.</p>
+
+<p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.arista.com/en/support/advisories-notices/security-advisory/24838-security-advisory-0199"><span lang="en" xml:lang="en" xml:lang="en">Security Advisory</span> 0199 (en anglais seulement)</a></li>
+	<li><a href="https://www.arista.com/en/support/advisories-notices">Arista Networks <span lang="en" xml:lang="en" xml:lang="en">Advisories</span> &amp; <span lang="en" xml:lang="en" xml:lang="en">Notices</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-114625">CISA KEV: CVE-2026-114625 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-fortinet-av26-1081</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-fortinet-av26-1081"/><title><![CDATA[Bulletin de sécurité Fortinet (AV26-1081)]]></title><updated>2026-10-23T14:16:46Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8419" about="/fr/alertes-avis/bulletin-securite-fortinet-av26-1081" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1081<br /><strong>Date : </strong>22 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 21 octobre 2026, Fortinet est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>FortiAnalyzer 8.0
+	<ul><li>Versions antérieures à la version 8.0.2</li>
+	</ul></li>
+	<li>FortiAnalyzer 7.6
+	<ul><li>Versions antérieures à la version 7.6.8</li>
+	</ul></li>
+	<li>FortiAnalyzer 7.4
+	<ul><li>Versions antérieures à la version 7.4.12</li>
+	</ul></li>
+	<li>FortiAnalyzer 7.2
+	<ul><li>Versions antérieures à la version 7.2.13</li>
+	</ul></li>
+	<li>FortiAuthenticator 8.0
+	<ul><li>Versions antérieures à la version 8.0.4</li>
+	</ul></li>
+	<li>FortiAuthenticator 6.6
+	<ul><li>Versions antérieures à la version 6.6.11</li>
+	</ul></li>
+	<li>FortiMail 8.0
+	<ul><li>Versions antérieures à la version 8.0.2</li>
+	</ul></li>
+	<li>FortiMail 7.6
+	<ul><li>Versions antérieures à la version 7.6.7</li>
+	</ul></li>
+	<li>FortiMail 7.4
+	<ul><li>Versions antérieures à la version 7.4.9</li>
+	</ul></li>
+	<li>FortiMail 7.2
+	<ul><li>Passez à la branche 7.4 ou supérieure</li>
+	</ul></li>
+	<li>FortiManager 8.0
+	<ul><li>Versions antérieures à la version 8.0.2</li>
+	</ul></li>
+	<li>FortiManager 7.6
+	<ul><li>Versions antérieures à la version 7.6.8</li>
+	</ul></li>
+	<li>FortiManager 7.4
+	<ul><li>Versions antérieures à la version 7.4.12</li>
+	</ul></li>
+	<li>FortiManager 7.2
+	<ul><li>Versions antérieures à la version 7.2.13</li>
+	</ul></li>
+	<li>FortiOS 8.0
+	<ul><li>Versions antérieures à la version 8.0.2</li>
+	</ul></li>
+	<li>FortiOS 7.6
+	<ul><li>Versions antérieures à la version 7.6.8</li>
+	</ul></li>
+	<li>FortiOS 7.4
+	<ul><li>Versions antérieures à la version 7.4.13</li>
+	</ul></li>
+	<li>FortiOS 7.2
+	<ul><li>Versions antérieures à la version 7.2.14</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.fortinet.com/blog/ciso-collective/fortinet-releases-security-hardening-release-for-multiple-products">Fortinet <span lang="en" xml:lang="en" xml:lang="en">Releases Security Hardening Release for Multiple Products</span> (en anglais seulement)</a></li>
+	<li><a href="Fortinet PSIRT Advisories">Fortinet PSIRT <span lang="en" xml:lang="en" xml:lang="en">Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-fortinet-av26-1037</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-fortinet-av26-1037"/><title><![CDATA[Bulletin de sécurité Fortinet (AV26-1037) – Mise à jour 1]]></title><updated>2026-10-23T13:34:38Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8370" about="/fr/alertes-avis/bulletin-securite-fortinet-av26-1037" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1037<br /><strong>Date : </strong>13 octobre 2026<br /><strong>Mise à jour :</strong> 23 octobre 2026</p>
+
+<p>En date du 13 octobre 2026, Fortinet est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>FortiAnalyzer
+	<ul><li>Versions antérieures à 7.6.5</li>
+		<li>Versions antérieures à 7.4.8</li>
+		<li>Versions antérieures à 7.6.5</li>
+	</ul></li>
+	<li>FortiAnalyzer Cloud
+	<ul><li>Versions antérieures à 7.6.5</li>
+		<li>Versions antérieures à 7.4.8</li>
+		<li>Versions antérieures à 7.2.12</li>
+	</ul></li>
+	<li>FortiManager
+	<ul><li>Versions antérieures à 7.6.5</li>
+		<li>Versions antérieures à 7.4.7</li>
+	</ul></li>
+	<li>FortiManager Cloud
+	<ul><li>Versions antérieures à 7.6.5</li>
+	</ul></li>
+	<li>FortiMail
+	<ul><li>Versions antérieures à 7.6.4</li>
+		<li>Versions antérieures à 7.4.6</li>
+		<li>Versions antérieures à 7.2.9</li>
+	</ul></li>
+	<li>FortiSIEM
+	<ul><li>Versions antérieures à 7.5.1</li>
+	</ul></li>
+	<li>FortiSandbox
+	<ul><li>Versions antérieures à 4.4.10</li>
+		<li>Versions antérieures à 5.0.7</li>
+	</ul></li>
+	<li>FortiSandbox PaaS
+	<ul><li>4.4 toutes les versions</li>
+		<li>Versions antérieures à 5.0.7</li>
+	</ul></li>
+</ul><p class="h3">Mise à jour 1</p>
+
+<p>Des rapports de sources ouvertes indiquent que la vulnérabilité CVE-2026-106173 est exploitée dans la nature.</p>
+
+<p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.fortiguard.com/psirt/FG-IR-26-178"><span lang="en" xml:lang="en" xml:lang="en">Multiple Arbitrary File Read/Write via SQL Injection</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.fortiguard.com/psirt/FG-IR-26-180"><span lang="en" xml:lang="en" xml:lang="en">Arbitrary file write in</span> grpc phQueryMaster (en anglais seulement)</a></li>
+	<li><a href="https://www.fortiguard.com/psirt/FG-IR-26-184">SQL <span lang="en" xml:lang="en" xml:lang="en">command injection in</span> webmail (en anglais seulement)</a></li>
+	<li><a href="https://www.fortiguard.com/psirt/FG-IR-26-185"><span lang="en" xml:lang="en" xml:lang="en">Improper access control and session management in the web management interface</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.fortiguard.com/psirt?filter=1&amp;version=&amp;severity=5&amp;severity=4&amp;severity=3&amp;severity=2">Fortinet PSIRT<span lang="en" xml:lang="en" xml:lang="en"> Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-hpe-av26-1079</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-hpe-av26-1079"/><title><![CDATA[Bulletin de sécurité HPE (AV26-1079)]]></title><updated>2026-10-23T13:20:55Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8417" about="/fr/alertes-avis/bulletin-securite-hpe-av26-1079" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1079<br /><strong>Date : </strong>22 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 22 octobre 2026, Hewlett Packard Enterprise (HPE) est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>HPE Networking Wireless Operating Systems - AOS
+	<ul><li>Versions antérieures à 10.8.1.2</li>
+		<li>Versions antérieures à 10.7.2.7</li>
+		<li>Versions antérieures à 10.4.1.14</li>
+		<li>Versions antérieures à 8.13.3.1</li>
+		<li>Versions antérieures à 8.10.0.24</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbnw05162en_us&amp;docLocale=en_US">HPESBNW05162 rev.1 - <span lang="en" xml:lang="en" xml:lang="en">Multiple Vulnerabilities in</span> HPE Networking Wireless Operating Systems (AOS-10 &amp; AOS-8) (en anglais seulement)</a></li>
+	<li><a href="https://support.hpe.com/connect/s/securitybulletinlibrary?language=en_US">HPE <span lang="en" xml:lang="en" xml:lang="en">Security Bulletin Library</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-mongodb-av26-1078</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-mongodb-av26-1078"/><title><![CDATA[Bulletin de sécurité MongoDB (AV26-1078)]]></title><updated>2026-10-23T13:01:49Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8416" about="/fr/alertes-avis/bulletin-securite-mongodb-av26-1078" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1078<br /><strong>Date : </strong>22 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 22 octobre 2026, MongoDB est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>C# Driver
+	<ul><li>Versions antérieures à la version 3.13.0</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://jira.mongodb.org/browse/CSHARP-6162"><span lang="en" xml:lang="en" xml:lang="en">Memory-exhaustion denial of service via unbounded symbol interning during</span> BSON/JSON <span lang="en" xml:lang="en" xml:lang="en">deserialization</span> (en anglais seulement)</a></li>
+	<li><a href="https://jira.mongodb.org/browse/CSHARP-6184"><span lang="en" xml:lang="en" xml:lang="en">Authentication bypass via issuer-and-serial-only certificate equality in shared cluster cache</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.mongodb.com/resources/products/alerts">MongoDB <span lang="en" xml:lang="en" xml:lang="en">Alerts</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-splunk-av26-1077</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-splunk-av26-1077"/><title><![CDATA[Bulletin de sécurité Splunk (AV26-1077)]]></title><updated>2026-10-22T19:29:25Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8415" about="/fr/alertes-avis/bulletin-securite-splunk-av26-1077" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1077<br /><strong>Date : </strong>22 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 21 octobre 2026, Splunk est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Splunk <span lang="en" xml:lang="en" xml:lang="en">Enterprise</span>
+
+	<ul><li>Versions antérieures à la version 10.0.11</li>
+		<li>Versions antérieures à la version 10.2.8</li>
+		<li>Versions antérieures à la version 10.4.4</li>
+		<li>Versions antérieures à la version 9.4.16</li>
+	</ul></li>
+	<li>Splunk SOAR
+	<ul><li>Versions antérieures à la version 8.7.0</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://advisory.splunk.com/advisories/SVD-2026-1008"><span lang="en" xml:lang="en" xml:lang="en">Security Hardening in</span> Splunk <span lang="en" xml:lang="en" xml:lang="en">Enterprise - October</span> 2026 (en anglais seulement)</a></li>
+	<li><a href="https://advisory.splunk.com/advisories/SVD-2026-1010"><span lang="en" xml:lang="en" xml:lang="en">Security Vulnerabilities in</span> Splunk SOAR - <span lang="en" xml:lang="en" xml:lang="en">October</span> 2026 (en anglais seulement)</a></li>
+	<li><a href="https://advisory.splunk.com/advisories">Splunk <span lang="en" xml:lang="en" xml:lang="en">Security Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-atlassian-av26-1076</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-atlassian-av26-1076"/><title><![CDATA[Bulletin de sécurité Atlassian (AV26-1076)]]></title><updated>2026-10-22T15:52:52Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8414" about="/fr/alertes-avis/bulletin-securite-atlassian-av26-1076" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><!--CUT & PASTE the French version info -->
+<p><strong>Numéro de série : </strong>AV26-1076<br /><strong>Date : </strong>22 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 20 octobre 2026, Atlassian est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Bamboo <span lang="en" xml:lang="en" xml:lang="en">Data Center and Server</span>
+
+	<ul><li>Version 10.2.24 et versions antérieures</li>
+		<li>Version 12.1.12 et versions antérieures</li>
+	</ul></li>
+	<li>Bitbucket <span lang="en" xml:lang="en" xml:lang="en">Data Center and Server</span>
+	<ul><li>Version 10.2.8 et versions antérieures</li>
+		<li>Version 10.5.1 et versions antérieures</li>
+		<li>Version 9.4.26 et versions antérieures</li>
+	</ul></li>
+	<li>Confluence <span lang="en" xml:lang="en" xml:lang="en">Data Center and Server</span>
+	<ul><li>Version 10.2.19 et versions antérieures</li>
+		<li>Version 9.2.26 et versions antérieures</li>
+		<li>Version 11.0.0 et versions antérieures</li>
+	</ul></li>
+	<li>Crowd <span lang="en" xml:lang="en" xml:lang="en">Data Center and Server</span>
+	<ul><li>Version 7.2.4 et versions antérieures</li>
+	</ul></li>
+	<li>Fisheye/Crucible
+	<ul><li>Version 4.9.15 et versions antérieures</li>
+	</ul></li>
+	<li>Jira <span lang="en" xml:lang="en" xml:lang="en">Service Management Data Center and Server</span>
+	<ul><li>Version 10.3.26 et versions antérieures</li>
+		<li>Version 11.3.12 et versions antérieures</li>
+	</ul></li>
+	<li>Jira <span lang="en" xml:lang="en" xml:lang="en">Data Center and Server</span>
+	<ul><li>Version 10.3.26 et versions antérieures</li>
+		<li>Version 11.3.12 et versions antérieures</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://confluence.atlassian.com/security/security-bulletin-october-20-2026-1874690162.html "><span lang="en" xml:lang="en" xml:lang="en">Security Bulletin - October</span> 20 2026 (en anglais seulement)</a></li>
+	<li><a href="https://confluence.atlassian.com/security/security-advisories-bulletins-1236937381.html"><span lang="en" xml:lang="en" xml:lang="en">Security Advisories &amp; Bulletins</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-roundcube-av26-1075</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-roundcube-av26-1075"/><title><![CDATA[Bulletin de sécurité Roundcube (AV26-1075)]]></title><updated>2026-10-22T12:37:04Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8413" about="/fr/alertes-avis/bulletin-securite-roundcube-av26-1075" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série :</strong> AV26-1075<br /><strong>Date :</strong> 22 octobre 2026</p>
+
+<p>En date du 19 octobre 2026, Roundcube est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>Roundcube Webmail
+	<ul><li>Versions antérieures à la version 1.6.20</li>
+		<li>Versions antérieures à la version 1.7.5</li>
+	</ul></li>
+</ul><p>Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://roundcube.net/news/2026/10/19/security-updates-1.6.20-and-1.7.5"><span lang="en" xml:lang="en" xml:lang="en">Security updates 1.6.20 and 1.7.5 released</span> (en anglais seulement)</a></li>
+	<li><a href="https://roundcube.net/">Roundcube Open Source Webmail Software (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-gitlab-av26-1074</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-gitlab-av26-1074"/><title><![CDATA[Bulletin de sécurité GitLab (AV26-1074)]]></title><updated>2026-10-22T12:28:26Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8412" about="/fr/alertes-avis/bulletin-securite-gitlab-av26-1074" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série :</strong> AV26-1074<br /><strong>Date :</strong> 22 octobre 2026</p>
+
+<p>En date du 21 octobre 2026, GitLab est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li>GitLab Community Edition (CE) et Enterprise Edition (EE) 
+	<ul><li>Versions antérieures à la version18.11.13</li>
+		<li>Versions antérieures à la version 19.0.10</li>
+		<li>Versions antérieures à la version 19.1.9</li>
+		<li>Versions antérieures à la version 19.2.9</li>
+		<li>Versions antérieures à la version 19.3.6</li>
+		<li>Versions antérieures à la version 19.4.3</li>
+		<li>Versions antérieures à la version 19.5.1</li>
+	</ul></li>
+</ul><p>Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a class="external-link" href="https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/">GitLab <span lang="en" xml:lang="en" xml:lang="en">Critical Patch Release</span>: 19.5.1, 19.4.3, 19.3.6, 19.2.9, 19.1.9, 19.0.10, 18.11.13 (en anglais seulement)</a></li>
+	<li><a class="external-link" href="https://docs.gitlab.com/releases/">GitLab <span lang="en" xml:lang="en" xml:lang="en">release notes</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-siemens-av26-1063</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-siemens-av26-1063"/><title><![CDATA[Bulletin de sécurité Siemens (AV26-1063) - Mise à jour 1]]></title><updated>2026-10-21T19:36:45Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8398" about="/fr/alertes-avis/bulletin-securite-siemens-av26-1063" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1063<br /><strong>Date : </strong>19 octobre 2026<br /><strong>Mise à jour : </strong> 20 octobre 2026</p>
+
+<p>En date du 15 octobre 2026, Siemens est touché par une vulnérabilité dans le produit suivant :</p>
+
+<ul><li>Siemens <span lang="en" xml:lang="en" xml:lang="en">Software Center</span>
+
+	<ul><li>Versions antérieures à la version V4.0.9.8</li>
+	</ul></li>
+</ul><p>Siemens a indiqué que la vulnérabilité CVE-2026-110936 est exploitée dans la nature.</p>
+
+<p><strong>Mise à jour 1</strong><br />
+Le Cybersecurity and Infrastructure Security Agency (CISA) a ajouté la vulnérabilité CVE-2026-110936 à son catalogue de vulnérabilités exploitées connues (KEV) le 16 octobre 2026.</p>
+
+<p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://productcert.siemens.com/productcert/html/ssa-580366.html">SSA-580366: DLL <span lang="en" xml:lang="en" xml:lang="en">Sideloading Vulnerability in</span> Siemens <span lang="en" xml:lang="en" xml:lang="en">Software Center</span> (en anglais seulement)</a></li>
+	<li><a href="https://productcert.siemens.com/news/2026/10/19/active-exploitation-of-cve-2026-110936-in-siemens-software-center/"><span lang="en" xml:lang="en" xml:lang="en">Active Exploitation of</span> CVE-2026-110936 <span lang="en" xml:lang="en" xml:lang="en">in Siemens</span> <span lang="en" xml:lang="en" xml:lang="en">Software Center</span> (en anglais seulement)</a></li>
+	<li><a href="https://productcert.siemens.com/">Siemens <span lang="en" xml:lang="en" xml:lang="en">Product CERT</span> (en anglais seulement)</a></li>
+	<li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-110936">CISA KEV: CVE-2026-110936 (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-cisco-av26-1073</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-cisco-av26-1073"/><title><![CDATA[Bulletin de sécurité Cisco (AV26-1073)]]></title><updated>2026-10-21T19:07:00Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8410" about="/fr/alertes-avis/bulletin-securite-cisco-av26-1073" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1073<br /><strong>Date : </strong>21 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 21 octobre 2026, Cisco est touché par des vulnérabilités dans les produits suivants :</p>
+
+<ul><li>Cisco IOS XR <span lang="en" xml:lang="en" xml:lang="en">Software Release</span>
+
+	<ul><li>Multiples versions</li>
+	</ul></li>
+	<li>Cisco <span lang="en" xml:lang="en" xml:lang="en">Expressway Series Release</span>
+	<ul><li>Versions antérieures à la version X15.5.20</li>
+	</ul></li>
+	<li>Snort 3 <span lang="en" xml:lang="en" xml:lang="en">Release</span>
+	<ul><li>Versions antérieures à la version 3.12.4.0</li>
+	</ul></li>
+	<li>Cisco <span lang="en" xml:lang="en" xml:lang="en">Cyber Vision Release</span>
+	<ul><li>Versions antérieures à la version 5.6.0</li>
+	</ul></li>
+	<li>Cisco <span lang="en" xml:lang="en" xml:lang="en">Secure</span> FTD <span lang="en" xml:lang="en" xml:lang="en">Software Release</span>
+	<ul><li>Multiples versions</li>
+	</ul></li>
+	<li>Cisco <span lang="en" xml:lang="en" xml:lang="en">Secure Client Release</span>
+	<ul><li>Versions antérieures à la version 5.1.20.333</li>
+	</ul></li>
+	<li>Cisco <span lang="en" xml:lang="en" xml:lang="en">Emergency Responder, Prime Collaboration Deployment, Unified</span> CM, <span lang="en" xml:lang="en" xml:lang="en">Unified</span> CM IM&amp;P, <span lang="en" xml:lang="en" xml:lang="en">Unified</span> CM SME, <span lang="en" xml:lang="en" xml:lang="en">and Unity Connection Release</span>
+	<ul><li>Versions antérieures à la version 15SU5</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://sec.cloudapps.cisco.com/security/center/publicationListing.x">Cisco <span lang="en" xml:lang="en" xml:lang="en">Security Advisories</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-isc-bind-av26-1072</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-isc-bind-av26-1072"/><title><![CDATA[Bulletin de sécurité ISC BIND (AV26-1072)]]></title><updated>2026-10-21T18:47:44Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8409" about="/fr/alertes-avis/bulletin-securite-isc-bind-av26-1072" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série : </strong>AV26-1072<br /><strong>Date : </strong>21 octobre 2026</p>
+
+<p class="mrgn-bttm-md">En date du 21 octobre 2026, ISC est touché par une vulnérabilité dans les produits suivants :</p>
+
+<ul><li>BIND 9
+	<ul><li>De la version 9.11.0 à 9.18.50</li>
+		<li>De la version 9.20.0 à 9.20.29</li>
+		<li>De la version 9.21.0 à 9.21.26</li>
+	</ul></li>
+	<li>BIND <span lang="en" xml:lang="en" xml:lang="en">Supported Preview Edition</span>
+	<ul><li>De la version 9.11.3-S1 à 9.18.50-S1</li>
+		<li>De la version 9.20.9-S1 à 9.20.29-S1</li>
+	</ul></li>
+</ul><p class="mrgn-bttm-md">Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://kb.isc.org/docs/cve-2026-19630">CVE-2026-19630: <span lang="en" xml:lang="en" xml:lang="en">Amplified resource exhaustion in inbound message processing</span> (en anglais seulement)</a></li>
+	<li><a href="https://kb.isc.org/docs/cve-2026-94300">CVE-2026-94300: <span lang="en" xml:lang="en" xml:lang="en">Concurrent</span> GSS-TSIG <span lang="en" xml:lang="en" xml:lang="en">messages corrupt memory</span> (en anglais seulement)</a></li>
+	<li><a href="https://kb.isc.org/docs/cve-2026-96888">CVE-2026-96888: <span lang="en" xml:lang="en" xml:lang="en">named may terminate unexpectedly when a redirect zone is used with strict</span> QNAME <span lang="en" xml:lang="en" xml:lang="en">minimization</span> (en anglais seulement)</a></li>
+	<li><a href="https://kb.isc.org/docs/cve-2026-97313">CVE-2026-97313: <span lang="en" xml:lang="en" xml:lang="en">Specific</span> RPZ <span lang="en" xml:lang="en" xml:lang="en">configurations and query patterns may result in an unexpected exit</span> (en anglais seulement)</a></li>
+	<li><a href="https://kb.isc.org/docs/aa-00913">BIND 9 <span lang="en" xml:lang="en" xml:lang="en">Security Vulnerability Matrix</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-google-chrome-av26-1069</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-google-chrome-av26-1069"/><title><![CDATA[Bulletin de sécurité Google Chrome (AV26-1069)]]></title><updated>2026-10-21T13:20:52Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8404" about="/fr/alertes-avis/bulletin-securite-google-chrome-av26-1069" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><p><strong>Numéro de série :</strong> AV26-1069<br /><strong>Date :</strong> 21 octobre 2026</p>
+
+<p>En date du 20 octobre 2026, Google est touché par une vulnérabilité dans le produit suivant :</p>
+
+<ul><li><span lang="en" xml:lang="en" xml:lang="en">Stable Channel Chrome for Desktop</span>
+
+	<ul><li>Versions antérieures à 156.0.8078.47/.48 (Windows/Mac), et 156.0.8078.47 (Linux)</li>
+	</ul></li>
+</ul><p>Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter le lien fourni et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html"><span lang="en" xml:lang="en" xml:lang="en">Google Chrome Security Advisory</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry><entry><id>https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-solarwinds-av26-1068</id><link rel="alternate" href="https://cyber.gc.ca/fr/alertes-avis/bulletin-securite-solarwinds-av26-1068"/><title><![CDATA[Bulletin de sécurité SolarWinds (AV26-1068)]]></title><updated>2026-10-21T13:04:39Z</updated><summary><![CDATA[]]></summary><content><![CDATA[<article data-history-node-id="8403" about="/fr/alertes-avis/bulletin-securite-solarwinds-av26-1068" class="cccs-threats full clearfix">
+
+  
+    
+
+  
+  <div class="content">
+      <div class="layout layout--onecol">
+    <div  class="layout__region layout__region--content">
+      
+<div data-block-plugin-id="extra_field_block:node:cccs_threats:links" class="block block-layout-builder block-extra-field-blocknodecccs-threatslinks clearfix">
+  
+    
+
+      
+  </div>
+
+<div data-block-plugin-id="field_block:node:cccs_threats:body" class="block block-layout-builder block-field-blocknodecccs-threatsbody clearfix">
+  
+    
+
+      
+            <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><!--CUT & PASTE the French version info -->
+<p><strong>Numéro de série :</strong> AV26-1068<br /><strong>Date :</strong> 21 octobre 2026</p>
+
+<p>En date du 20 octobre 2026, SolarWinds est touché par des vulnérabilités dans le produit suivant :</p>
+
+<ul><li><span lang="en" xml:lang="en" xml:lang="en">SolarWinds Observability Self-Hosted</span>
+
+	<ul><li>Versions antérieures à la version 2026.4</li>
+	</ul></li>
+</ul><p>Le Centre pour la cybersécurité encourage les utilisateurs et les administrateurs à consulter les liens fournis et à installer les mises à jour nécessaires, dès qu'elles sont disponibles.</p>
+
+<ul class="list-unstyled"><li><a href="https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28328 "><span lang="en" xml:lang="en" xml:lang="en">SolarWinds Observability Self-Hosted broken authorization schema</span> (CVE-2026-28328) (en anglais seulement)</a></li>
+	<li><a href="https://www.solarwinds.com/trust-center/security-advisories"><span lang="en" xml:lang="en" xml:lang="en">SolarWinds Security Vulnerabilities</span> (en anglais seulement)</a></li>
+</ul></div>
+      
+  </div>
+
+    </div>
+  </div>
+
+  </div>
+
+</article>
+]]></content><author><name><![CDATA[Centre canadien pour la cybersécurité]]></name></author></entry></feed>

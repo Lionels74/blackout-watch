@@ -1,0 +1,571 @@
+{
+  "sources": [
+    {
+      "id": "cert_fr_alerte",
+      "name": "CERT-FR Alertes",
+      "owner": "ANSSI/CERT-FR",
+      "tier": "A",
+      "url": "https://cert.cyber.gouv.fr/alerte/feed/",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "daily",
+      "terms_note": "Conditions d'utilisation ANSSI - usage libre pour veille non commerciale",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cert_fr_avis",
+      "name": "CERT-FR Avis",
+      "owner": "ANSSI/CERT-FR",
+      "tier": "A",
+      "url": "https://cert.cyber.gouv.fr/avis/feed/",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "daily",
+      "terms_note": "Conditions d'utilisation ANSSI - usage libre pour veille non commerciale",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cert_fr_cti",
+      "name": "CERT-FR CTI",
+      "owner": "ANSSI/CERT-FR",
+      "tier": "A",
+      "url": "https://cert.cyber.gouv.fr/cti/feed/",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "Conditions d'utilisation ANSSI",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cert_fr_actualite",
+      "name": "CERT-FR Actualités",
+      "owner": "ANSSI/CERT-FR",
+      "tier": "A",
+      "url": "https://cert.cyber.gouv.fr/actualite/feed/",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "Conditions d'utilisation ANSSI",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cert_fr_scada",
+      "name": "CERT-FR SCADA",
+      "owner": "ANSSI/CERT-FR",
+      "tier": "A",
+      "url": "https://cert.cyber.gouv.fr/feed/scada/",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "Conditions d'utilisation ANSSI",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cisa_advisories",
+      "name": "CISA Cybersecurity Advisories",
+      "owner": "CISA",
+      "tier": "A",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "global"
+      ],
+      "max_bytes": 12582912,
+      "max_age_days": 14,
+      "expected_frequency": "daily",
+      "terms_note": "US Government public domain",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cisa_alerts",
+      "name": "CISA Alerts",
+      "owner": "CISA",
+      "tier": "A",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/alerts.xml",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "US Government public domain",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cisa_ics",
+      "name": "CISA ICS Advisories",
+      "owner": "CISA",
+      "tier": "A",
+      "url": "https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "global"
+      ],
+      "max_bytes": 12582912,
+      "max_age_days": 14,
+      "expected_frequency": "weekly",
+      "terms_note": "US Government public domain",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cisa_kev",
+      "name": "CISA Known Exploited Vulnerabilities",
+      "owner": "CISA",
+      "tier": "A",
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+      "format": "json",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "global"
+      ],
+      "expected_frequency": "daily",
+      "terms_note": "US Government public domain",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cccs_fr",
+      "name": "CCCS Canada (FR)",
+      "owner": "CCCS/CCC",
+      "tier": "A",
+      "url": "https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=fr",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "canada",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "Government of Canada open data",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cccs_en",
+      "name": "CCCS Canada (EN)",
+      "owner": "CCCS/CCC",
+      "tier": "A",
+      "url": "https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "canada",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "Government of Canada open data",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "cert_eu",
+      "name": "CERT-EU Security Advisories",
+      "owner": "CERT-EU",
+      "tier": "A",
+      "url": "https://cert.europa.eu/publications/security-advisories-rss",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "CERT-EU public RSS",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "ncsc_uk",
+      "name": "NCSC UK All RSS",
+      "owner": "NCSC UK",
+      "tier": "A",
+      "url": "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "OGL v3.0",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "rte_ecowatt",
+      "name": "RTE Ecowatt Signals",
+      "owner": "RTE",
+      "tier": "A",
+      "url": "https://digital.iservices.rte-france.com/open_api/ecowatt/v4/signals",
+      "format": "json",
+      "auth": "env:RTE_CLIENT_ID,RTE_CLIENT_SECRET",
+      "auth_type": "oauth2_client_credentials",
+      "oauth_url": "https://digital.iservices.rte-france.com/token/oauth/",
+      "default_category": "electricity",
+      "zones_hint": [
+        "france"
+      ],
+      "expected_frequency": "hourly",
+      "terms_note": "RTE Open Data - conditions d'utilisation RTE. Max 1 appel/15min par application.",
+      "enabled": true,
+      "verified": false,
+      "note": "Requires RTE_CLIENT_ID and RTE_CLIENT_SECRET secrets"
+    },
+    {
+      "id": "entsoe",
+      "name": "ENTSO-E Transparency Platform",
+      "owner": "ENTSO-E",
+      "tier": "A",
+      "url": "https://web-api.tp.entsoe.eu/api",
+      "format": "xml",
+      "auth": "env:ENTSOE_TOKEN",
+      "default_category": "electricity",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "hourly",
+      "terms_note": "ENTSO-E Transparency Platform. Limit 400 req/min.",
+      "enabled": true,
+      "verified": false,
+      "note": "Requires ENTSOE_TOKEN secret"
+    },
+    {
+      "id": "hydroquebec",
+      "name": "Hydro-Québec Pannes",
+      "owner": "Hydro-Québec",
+      "tier": "A",
+      "url": "https://pannes.hydroquebec.com/pannes/donnees/v3_0/",
+      "verify_url": "https://pannes.hydroquebec.com/pannes/donnees/v3_0/bisversion.json",
+      "format": "json",
+      "auth": "none",
+      "default_category": "electricity",
+      "zones_hint": [
+        "quebec",
+        "canada"
+      ],
+      "expected_frequency": "hourly",
+      "terms_note": "Données ouvertes Hydro-Québec",
+      "enabled": false,
+      "verified": false,
+      "note": "Testé le 2026-10-31 : pannes.hydroquebec.com/pannes/donnees/v3_0/bisversion.json → HTTP 302 → client-externe.hydroquebec.com (portail client) pour les deux UA (collecteur et navigateur). Le portail OpenDataSoft donnees.hydroquebec.com/api/explore/v2.1/.../pannes-interruptions renvoie total_count:0. Aucun endpoint open data accessible publiquement sans session."
+    },
+    {
+      "id": "ceb_dataset",
+      "name": "CEB Maurice Dataset",
+      "owner": "CEB / Community Dataset",
+      "tier": "A",
+      "url": "https://raw.githubusercontent.com/MrSunshyne/mauritius-dataset-electricity/main/data/power-outages.latest.json",
+      "format": "json",
+      "auth": "none",
+      "default_category": "electricity",
+      "zones_hint": [
+        "mauritius"
+      ],
+      "expected_frequency": "daily",
+      "terms_note": "Community dataset, MIT License. Planned outages only.",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "ioda",
+      "name": "IODA Internet Outage Detection",
+      "owner": "Georgia Tech / CAIDA",
+      "tier": "B",
+      "url": "https://api.ioda.inetintel.cc.gatech.edu/",
+      "verify_url": "https://api.ioda.inetintel.cc.gatech.edu/v2/events?entityType=country&entityCode=FR&from=1707984000&until=1707987600&format=json",
+      "format": "json",
+      "auth": "none",
+      "default_category": "cables",
+      "zones_hint": [
+        "global",
+        "france",
+        "canada",
+        "mauritius"
+      ],
+      "expected_frequency": "hourly",
+      "terms_note": "CC BY-SA 4.0 - attribution required",
+      "enabled": false,
+      "verified": false,
+      "note": "Endpoint /v2/events retourne 404. URL de l'API IODA à confirmer dans la doc officielle avant réactivation."
+    },
+    {
+      "id": "cloudflare_radar",
+      "name": "Cloudflare Radar Outage Annotations",
+      "owner": "Cloudflare",
+      "tier": "B",
+      "url": "https://api.cloudflare.com/client/v4/radar/annotations/outages",
+      "format": "json",
+      "auth": "env:CLOUDFLARE_API_TOKEN",
+      "default_category": "cables",
+      "zones_hint": [
+        "global"
+      ],
+      "expected_frequency": "hourly",
+      "terms_note": "Cloudflare API ToS - Radar read permission required",
+      "enabled": true,
+      "verified": false,
+      "note": "Requires CLOUDFLARE_API_TOKEN secret with Radar read permission"
+    },
+    {
+      "id": "gdacs",
+      "name": "GDACS Global Disaster Alert",
+      "owner": "JRC / OCHA",
+      "tier": "B",
+      "url": "https://www.gdacs.org/xml/rss.xml",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "logistics",
+      "zones_hint": [
+        "global",
+        "france",
+        "canada",
+        "mauritius"
+      ],
+      "expected_frequency": "hourly",
+      "terms_note": "Free for non-commercial use",
+      "enabled": true,
+      "verified": true
+    },
+    {
+      "id": "gdelt",
+      "name": "GDELT DOC 2.0",
+      "owner": "GDELT Project",
+      "tier": "D",
+      "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+      "verify_url": "https://api.gdeltproject.org/api/v2/doc/doc?query=power+outage+infrastructure&mode=ArtList&maxrecords=5&format=json",
+      "format": "json",
+      "auth": "none",
+      "default_category": "geopolitics",
+      "zones_hint": [
+        "global",
+        "france",
+        "canada",
+        "mauritius"
+      ],
+      "expected_frequency": "hourly",
+      "terms_note": "GDELT open data. Max 1 req/6s, max 8 req/run.",
+      "enabled": true,
+      "verified": false,
+      "verified_note": "verify_url retourne maxrecords=5, articles hors zones (Afrique du Sud/Inde/UK), latence 15s reelle. Run reel 2026-10-31 : query electricity_fr retourne corps vide (200 OK + parse error), queries suivantes 429. 0 items. Passer verified=true quand >=10 articles pertinents (FR/CA/MU) obtenus de facon stable."
+    },
+    {
+      "id": "bce",
+      "name": "BCE Communiqués de presse",
+      "owner": "Banque Centrale Européenne",
+      "tier": "A",
+      "url": "https://www.ecb.europa.eu/rss/press.html",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "finance",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "daily",
+      "terms_note": "ECB public RSS - verify exact URL via verify_sources",
+      "enabled": false,
+      "verified": false,
+      "note": "URL to confirm by verify_sources.py"
+    },
+    {
+      "id": "enisa",
+      "name": "ENISA Publications",
+      "owner": "ENISA",
+      "tier": "A",
+      "url": "https://www.enisa.europa.eu/news/rss",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "cyber",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "EU agency public data",
+      "enabled": false,
+      "verified": false,
+      "note": "To verify via verify_sources.py"
+    },
+    {
+      "id": "banque_france",
+      "name": "Banque de France",
+      "owner": "Banque de France",
+      "tier": "A",
+      "url": "https://www.banque-france.fr/fr/rss.xml",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "finance",
+      "zones_hint": [
+        "france",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "Banque de France open data",
+      "enabled": false,
+      "verified": false,
+      "note": "To verify via verify_sources.py"
+    },
+    {
+      "id": "banque_canada",
+      "name": "Banque du Canada",
+      "owner": "Banque du Canada",
+      "tier": "A",
+      "url": "https://www.bankofcanada.ca/rss/",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "finance",
+      "zones_hint": [
+        "canada",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "Bank of Canada open data",
+      "enabled": false,
+      "verified": false,
+      "note": "To verify via verify_sources.py"
+    },
+    {
+      "id": "bank_mauritius",
+      "name": "Bank of Mauritius",
+      "owner": "Bank of Mauritius",
+      "tier": "A",
+      "url": "https://www.bom.mu/rss",
+      "format": "rss",
+      "auth": "none",
+      "default_category": "finance",
+      "zones_hint": [
+        "mauritius",
+        "global"
+      ],
+      "expected_frequency": "weekly",
+      "terms_note": "BoM public data",
+      "enabled": false,
+      "verified": false,
+      "note": "To verify via verify_sources.py"
+    },
+    {
+      "id": "reliefweb",
+      "name": "ReliefWeb Disasters",
+      "owner": "OCHA/UN",
+      "tier": "A",
+      "url": "https://api.reliefweb.int/v1/disasters",
+      "format": "json",
+      "auth": "env:RELIEFWEB_APPNAME",
+      "default_category": "logistics",
+      "zones_hint": [
+        "global"
+      ],
+      "expected_frequency": "daily",
+      "terms_note": "OCHA ReliefWeb API - requires pre-approved appname, quota 1000/day",
+      "enabled": false,
+      "verified": false,
+      "note": "Requires RELIEFWEB_APPNAME secret (pre-approved by OCHA)"
+    },
+    {
+      "id": "excluded_cert_mu",
+      "name": "CERT-MU",
+      "owner": "CERT-MU",
+      "tier": "A",
+      "enabled": false,
+      "excluded": true,
+      "exclusion_reason": "No RSS or API feed. Publications are in PDF format only."
+    },
+    {
+      "id": "excluded_telegeography",
+      "name": "TeleGeography Submarine Cable Map",
+      "owner": "TeleGeography",
+      "tier": "A",
+      "enabled": false,
+      "excluded": true,
+      "exclusion_reason": "Data under commercial license. Static cable list manually entered in config/infrastructure.json with attribution."
+    },
+    {
+      "id": "excluded_reuters",
+      "name": "Reuters",
+      "owner": "Reuters",
+      "tier": "C",
+      "enabled": false,
+      "excluded": true,
+      "exclusion_reason": "No public RSS feed available. Coverage via GDELT only."
+    },
+    {
+      "id": "excluded_ap",
+      "name": "Associated Press",
+      "owner": "AP",
+      "tier": "C",
+      "enabled": false,
+      "excluded": true,
+      "exclusion_reason": "No public RSS feed. Coverage via GDELT only."
+    },
+    {
+      "id": "excluded_google_news",
+      "name": "Google News RSS",
+      "owner": "Google",
+      "tier": "D",
+      "enabled": false,
+      "excluded": true,
+      "exclusion_reason": "Ambiguous ToS for automated scraping/aggregation."
+    },
+    {
+      "id": "excluded_pannes_paiement",
+      "name": "Pannes cartes et paiements",
+      "owner": "N/A",
+      "tier": "D",
+      "enabled": false,
+      "excluded": true,
+      "exclusion_reason": "No official RSS or API feed for payment outages."
+    },
+    {
+      "id": "excluded_freespoke",
+      "name": "Freespoke News",
+      "owner": "Freespoke",
+      "tier": "D",
+      "enabled": false,
+      "excluded": true,
+      "exclusion_reason": "No public RSS or JSON API feed for programmatic ingestion. Coverage via GDELT for English-language articles."
+    }
+  ]
+}

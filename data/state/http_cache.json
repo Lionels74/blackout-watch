@@ -1,0 +1,37 @@
+{
+  "https://cert.cyber.gouv.fr/alerte/feed/": {
+    "etag": "\"3185ffba5c3771c8373294dbc08717eb\"",
+    "last_modified": "Fri, 30 Oct 2026 15:58:33 GMT"
+  },
+  "https://cert.cyber.gouv.fr/avis/feed/": {
+    "etag": "\"b899531e2c20cfc8a0a6c43cecb8b05c\"",
+    "last_modified": "Fri, 30 Oct 2026 16:02:20 GMT"
+  },
+  "https://cert.cyber.gouv.fr/cti/feed/": {
+    "etag": "\"61e31361730d274695041ef5ece454e6\"",
+    "last_modified": "Fri, 30 Oct 2026 16:02:33 GMT"
+  },
+  "https://cert.cyber.gouv.fr/actualite/feed/": {
+    "etag": "\"44ee7725075979a1080f893ec25b86b4\"",
+    "last_modified": "Fri, 30 Oct 2026 15:58:28 GMT"
+  },
+  "https://cert.cyber.gouv.fr/feed/scada/": {
+    "etag": "\"7ef117e2f43621359608dfc7d3a8383f\"",
+    "last_modified": "Fri, 30 Oct 2026 16:02:33 GMT"
+  },
+  "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": {
+    "etag": "\"1bdfc3-65f11c3dc2438\"",
+    "last_modified": "Fri, 30 Oct 2026 17:02:45 GMT"
+  },
+  "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml": {
+    "etag": "W/\"1793360009\"",
+    "last_modified": "Fri, 30 Oct 2026 11:33:29 GMT"
+  },
+  "https://raw.githubusercontent.com/MrSunshyne/mauritius-dataset-electricity/main/data/power-outages.latest.json": {
+    "etag": "W/\"8d08cc7f554459e87ebd3781b6442ab271ce5cc58b3fc22dbd009d9fa9c19d6d\""
+  },
+  "https://www.gdacs.org/xml/rss.xml": {
+    "etag": "\"b667e691169dd1:0\"",
+    "last_modified": "Sat, 31 Oct 2026 08:25:39 GMT"
+  }
+}

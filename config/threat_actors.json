@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "note": "Attribution is only set to 'official' when a tier-A source explicitly attributes. Press mentions result in 'press_allegation' only.",
+  "actors": {
+    "APT28": {"aliases": ["Fancy Bear", "Sofacy", "APT 28"], "origin_country": "RU", "categories": ["cyber"]},
+    "APT29": {"aliases": ["Cozy Bear", "The Dukes"], "origin_country": "RU", "categories": ["cyber"]},
+    "Sandworm": {"aliases": ["Sandworm Team", "BlackEnergy", "Voodoo Bear"], "origin_country": "RU", "categories": ["cyber", "electricity"]},
+    "APT41": {"aliases": ["Double Dragon", "Winnti"], "origin_country": "CN", "categories": ["cyber"]},
+    "Lazarus": {"aliases": ["Lazarus Group", "Hidden Cobra", "APT38"], "origin_country": "KP", "categories": ["cyber", "finance"]},
+    "APT33": {"aliases": ["Elfin", "Refined Kitten"], "origin_country": "IR", "categories": ["cyber"]},
+    "MuddyWater": {"aliases": ["TEMP.Zagros", "Static Kitten"], "origin_country": "IR", "categories": ["cyber"]},
+    "Volt Typhoon": {"aliases": ["Bronze Silhouette"], "origin_country": "CN", "categories": ["cyber", "electricity", "cables"]},
+    "Salt Typhoon": {"aliases": [], "origin_country": "CN", "categories": ["cyber", "cables"]},
+    "Houthis": {"aliases": ["Ansar Allah"], "origin_country": "YE", "categories": ["logistics", "cables"], "note": "Non-state actor, Yemen-based"}
+  }
+}

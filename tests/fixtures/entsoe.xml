@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GL_MarketDocument xmlns="urn:iec62325.351:tc57wg16:451-6:generationloaddocument:3:0">
+  <mRID>DOC-001</mRID>
+  <TimeSeries>
+    <mRID>TS-001</mRID>
+    <name>Ligne 400kV Paris-Lyon</name>
+    <Period>
+      <timeInterval>
+        <start>2024-02-15T08:00Z</start>
+        <end>2024-02-15T20:00Z</end>
+      </timeInterval>
+      <resolution>PT60M</resolution>
+    </Period>
+  </TimeSeries>
+</GL_MarketDocument>

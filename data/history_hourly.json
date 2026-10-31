@@ -1,0 +1,418 @@
+{
+  "entries": [
+    {
+      "timestamp": "2026-10-31T06:44:25.456302+00:00",
+      "index": 4.1,
+      "categories": {
+        "global": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 5.86,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        },
+        "france": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 0.49,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        },
+        "canada": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 0.49,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        },
+        "quebec": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 0.49,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        },
+        "mauritius": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 0.49,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-31T07:12:57.201421+00:00",
+      "index": 83.12,
+      "categories": {
+        "global": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 100.0,
+          "logistics": 87.8,
+          "geopolitics": 0.0
+        },
+        "france": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 52.59,
+          "logistics": 67.97,
+          "geopolitics": 0.0
+        },
+        "canada": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 99.97,
+          "logistics": 67.97,
+          "geopolitics": 0.0
+        },
+        "quebec": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 99.68,
+          "logistics": 55.12,
+          "geopolitics": 0.0
+        },
+        "mauritius": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 40.14,
+          "logistics": 67.97,
+          "geopolitics": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-31T07:17:22.038825+00:00",
+      "index": 83.12,
+      "categories": {
+        "global": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 100.0,
+          "logistics": 87.77,
+          "geopolitics": 0.0
+        },
+        "france": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 52.81,
+          "logistics": 67.9,
+          "geopolitics": 0.0
+        },
+        "canada": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 99.98,
+          "logistics": 67.9,
+          "geopolitics": 0.0
+        },
+        "quebec": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 99.68,
+          "logistics": 55.05,
+          "geopolitics": 0.0
+        },
+        "mauritius": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 40.42,
+          "logistics": 67.9,
+          "geopolitics": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-31T07:36:26.235313+00:00",
+      "index": 59.0,
+      "categories": {
+        "global": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 100.0,
+          "logistics": 87.77,
+          "geopolitics": 0.0
+        },
+        "france": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 52.81,
+          "logistics": 67.9,
+          "geopolitics": 0.0
+        },
+        "canada": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 99.98,
+          "logistics": 67.9,
+          "geopolitics": 0.0
+        },
+        "quebec": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 99.68,
+          "logistics": 55.05,
+          "geopolitics": 0.0
+        },
+        "mauritius": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 40.42,
+          "logistics": 67.9,
+          "geopolitics": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-31T07:38:44.269169+00:00",
+      "index": 59.0,
+      "categories": {
+        "global": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 39.0,
+          "logistics": 87.77,
+          "geopolitics": 0.0
+        },
+        "france": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 39.0,
+          "logistics": 67.9,
+          "geopolitics": 0.0
+        },
+        "canada": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 39.0,
+          "logistics": 67.9,
+          "geopolitics": 0.0
+        },
+        "quebec": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 39.0,
+          "logistics": 55.05,
+          "geopolitics": 0.0
+        },
+        "mauritius": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 39.0,
+          "logistics": 67.9,
+          "geopolitics": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-31T07:42:57.977915+00:00",
+      "index": 27.3,
+      "categories": {
+        "global": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 39.0,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        },
+        "france": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 21.96,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        },
+        "canada": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 39.0,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        },
+        "quebec": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 39.0,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        },
+        "mauritius": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 15.93,
+          "logistics": 0.0,
+          "geopolitics": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-31T08:14:21.018275+00:00",
+      "index": 59.0,
+      "categories": {
+        "global": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 88.88,
+          "geopolitics": 0.0
+        },
+        "france": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 15.1,
+          "geopolitics": 0.0
+        },
+        "canada": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 15.1,
+          "geopolitics": 0.0
+        },
+        "quebec": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 13.32,
+          "geopolitics": 0.0
+        },
+        "mauritius": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 15.92,
+          "logistics": 15.1,
+          "geopolitics": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-31T08:28:45.865356+00:00",
+      "index": 27.3,
+      "categories": {
+        "global": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 39.0,
+          "geopolitics": 0.0
+        },
+        "france": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 15.1,
+          "geopolitics": 0.0
+        },
+        "canada": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 15.1,
+          "geopolitics": 0.0
+        },
+        "quebec": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 13.32,
+          "geopolitics": 0.0
+        },
+        "mauritius": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 15.92,
+          "logistics": 15.1,
+          "geopolitics": 0.0
+        }
+      }
+    },
+    {
+      "timestamp": "2026-10-31T08:34:33.671363+00:00",
+      "index": 18.27,
+      "categories": {
+        "global": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 26.1,
+          "geopolitics": 0.0
+        },
+        "france": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 15.1,
+          "geopolitics": 0.0
+        },
+        "canada": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 15.1,
+          "geopolitics": 0.0
+        },
+        "quebec": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 19.0,
+          "logistics": 13.32,
+          "geopolitics": 0.0
+        },
+        "mauritius": {
+          "electricity": 0.0,
+          "cables": 0.0,
+          "finance": 0.0,
+          "cyber": 15.92,
+          "logistics": 15.1,
+          "geopolitics": 0.0
+        }
+      }
+    }
+  ]
+}

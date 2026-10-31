@@ -1,0 +1,61 @@
+{
+  "zones": {
+    "global": {
+      "label": "Global",
+      "proximity": {
+        "global": 1.0
+      },
+      "special_rule": "0.6_or_1.0_if_2_countries_or_systemic"
+    },
+    "france": {
+      "label": "France",
+      "iso_codes": ["FR"],
+      "neighbors_interconnected": ["DE", "GB", "ES", "IT", "CH", "BE", "LU"],
+      "macro_region": "EU",
+      "proximity": {
+        "france": 1.0,
+        "global": 0.6
+      }
+    },
+    "canada": {
+      "label": "Canada",
+      "iso_codes": ["CA"],
+      "neighbors_interconnected": ["US"],
+      "macro_region": "NA",
+      "proximity": {
+        "canada": 1.0,
+        "quebec": 0.7,
+        "global": 0.6
+      }
+    },
+    "quebec": {
+      "label": "Québec",
+      "iso_codes": ["CA"],
+      "sub_of": "canada",
+      "neighbors_interconnected": ["US"],
+      "macro_region": "NA",
+      "proximity": {
+        "quebec": 1.0,
+        "canada": 0.7,
+        "global": 0.6
+      }
+    },
+    "mauritius": {
+      "label": "Maurice",
+      "iso_codes": ["MU"],
+      "neighbors_interconnected": ["RE", "MG"],
+      "macro_region": "AF",
+      "proximity": {
+        "mauritius": 1.0,
+        "global": 0.6
+      }
+    }
+  },
+  "systemic_nodes": ["US", "CN", "DE", "GB", "JP", "SG"],
+  "proximity_rules": {
+    "same_zone": 1.0,
+    "neighbor_interconnected": 0.5,
+    "same_macro_region": 0.25,
+    "default": 0.05
+  }
+}

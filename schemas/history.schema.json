@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://blackout-watch/schemas/history",
+  "title": "History",
+  "type": "object",
+  "required": ["zone", "type", "entries"],
+  "properties": {
+    "zone": {"type": "string"},
+    "type": {"type": "string", "enum": ["hourly", "daily"]},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["timestamp", "index"],
+        "properties": {
+          "timestamp": {"type": "string", "format": "date-time"},
+          "index": {"type": "number", "minimum": 0, "maximum": 100},
+          "categories": {"type": "object"},
+          "confidence": {"type": "number"}
+        }
+      }
+    }
+  }
+}

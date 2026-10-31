@@ -1,0 +1,22 @@
+{
+  "result": {
+    "annotations": [
+      {
+        "id": "ann-001",
+        "startDate": "2024-02-15T10:00:00Z",
+        "endDate": "2024-02-15T18:00:00Z",
+        "outageCause": "CABLE_CUT",
+        "locations": [{"code": "FR"}, {"code": "GB"}],
+        "description": "Submarine cable cut affecting France and UK connectivity"
+      },
+      {
+        "id": "ann-002",
+        "startDate": "2024-02-14T06:00:00Z",
+        "endDate": null,
+        "outageCause": "POWER_OUTAGE",
+        "locations": [{"code": "CA"}],
+        "description": "Power outage affecting internet infrastructure in Canada"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "entries": [
+    {"timestamp": "2024-02-15T06:00:00Z", "index": 25, "categories": {"global": {"electricity": 15, "cables": 30, "finance": 10, "cyber": 35, "logistics": 8, "geopolitics": 3}}},
+    {"timestamp": "2024-02-15T07:00:00Z", "index": 28, "categories": {"global": {"electricity": 16, "cables": 32, "finance": 12, "cyber": 38, "logistics": 9, "geopolitics": 3}}},
+    {"timestamp": "2024-02-15T08:00:00Z", "index": 35, "categories": {"global": {"electricity": 18, "cables": 40, "finance": 14, "cyber": 48, "logistics": 10, "geopolitics": 4}}},
+    {"timestamp": "2024-02-15T09:00:00Z", "index": 38, "categories": {"global": {"electricity": 20, "cables": 45, "finance": 18, "cyber": 55, "logistics": 11, "geopolitics": 4}}},
+    {"timestamp": "2024-02-15T10:00:00Z", "index": 40, "categories": {"global": {"electricity": 22, "cables": 50, "finance": 20, "cyber": 58, "logistics": 11, "geopolitics": 5}}},
+    {"timestamp": "2024-02-15T11:00:00Z", "index": 42, "categories": {"global": {"electricity": 25, "cables": 52, "finance": 22, "cyber": 60, "logistics": 12, "geopolitics": 5}}},
+    {"timestamp": "2024-02-15T12:00:00Z", "index": 42, "categories": {"global": {"electricity": 28, "cables": 55, "finance": 22, "cyber": 62, "logistics": 12, "geopolitics": 5}}}
+  ]
+}

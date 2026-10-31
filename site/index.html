@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLACKOUT WATCH — Veille Infrastructures Critiques</title>
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Bandeau bêta -->
+  <div id="beta-banner" class="beta-banner" role="note">
+    <span id="beta-text">BÊTA — couverture partielle (<span id="beta-active-count">?</span>/6 catégories actives selon les sources en ligne). Indicateur de veille, pas une prédiction.</span>
+  </div>
+
+  <!-- Bandeau démo -->
+  <div id="demo-banner" class="demo-banner hidden" role="alert" aria-live="polite">
+    DONNÉES DE DÉMONSTRATION — Ces données sont fictives et ne reflètent aucun incident réel.
+  </div>
+
+  <!-- Bandeau stale -->
+  <div id="stale-banner" class="stale-banner hidden" role="alert">
+    ⚠ Données potentiellement périmées — Dernière collecte il y a plus de 3 heures
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon" aria-hidden="true">◈</span>
+        <span class="logo-text">BLACKOUT WATCH</span>
+      </div>
+      <div class="header-meta">
+        <span id="last-update-label">Dernière collecte :</span>
+        <span id="last-update-time" class="meta-value">—</span>
+        <span id="last-update-age" class="meta-age"></span>
+        <span class="meta-sep">|</span>
+        <span id="sources-status" class="meta-value">—</span>
+        <span class="meta-sep">|</span>
+        <span class="meta-label">Confiance :</span>
+        <span id="coi-value" class="meta-value">—</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <!-- Avertissement permanent -->
+    <div class="disclaimer" role="note">
+      Indicateur de veille — pas une probabilité. Un score faible n'est pas une garantie de sécurité.
+    </div>
+
+    <!-- A. Global Risk Index -->
+    <section class="global-section" aria-labelledby="global-title">
+      <h1 id="global-title" class="sr-only">Index de risque global</h1>
+      <div class="global-index-card">
+        <div class="global-score-container">
+          <div id="global-score" class="global-score" aria-live="polite">—</div>
+          <div id="global-level" class="global-level level-normal">—</div>
+        </div>
+        <div class="global-meta">
+          <div class="meta-row">
+            <span class="meta-label">Convergence :</span>
+            <span id="global-ci" class="meta-value">—</span>
+          </div>
+          <div class="meta-row">
+            <span class="meta-label">Confiance :</span>
+            <span id="global-coi" class="meta-value">—</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- B. Cartes de zone -->
+    <section class="zones-section" aria-labelledby="zones-title">
+      <h2 id="zones-title" class="section-title">Zones de surveillance</h2>
+      <div class="zones-grid" id="zones-grid" role="list">
+        <!-- Généré par JS -->
+      </div>
+    </section>
+
+    <!-- C. Jauges de catégories pour la zone sélectionnée -->
+    <section class="categories-section" aria-labelledby="categories-title">
+      <h2 id="categories-title" class="section-title">
+        Catégories — <span id="selected-zone-label">Global</span>
+      </h2>
+      <div class="categories-grid" id="categories-grid">
+        <!-- Généré par JS -->
+      </div>
+    </section>
+
+    <!-- F. Historique -->
+    <section class="history-section" aria-labelledby="history-title">
+      <h2 id="history-title" class="section-title">Historique</h2>
+      <div class="history-controls">
+        <div class="btn-group" role="group" aria-label="Période">
+          <button class="btn-period active" data-period="7" aria-pressed="true">7j</button>
+          <button class="btn-period" data-period="30" aria-pressed="false">30j</button>
+          <button class="btn-period" data-period="90" aria-pressed="false">90j</button>
+          <button class="btn-period" data-period="365" aria-pressed="false">365j</button>
+        </div>
+        <select id="history-zone-select" class="zone-select" aria-label="Zone à afficher">
+          <option value="global">Global</option>
+          <option value="france">France</option>
+          <option value="canada">Canada</option>
+          <option value="quebec">Québec</option>
+          <option value="mauritius">Maurice</option>
+        </select>
+      </div>
+      <div class="chart-container">
+        <canvas id="history-chart" aria-label="Graphique historique des scores"></canvas>
+      </div>
+    </section>
+
+    <!-- G. Filtres -->
+    <section class="filters-section" aria-labelledby="filters-title">
+      <h2 id="filters-title" class="section-title">Filtres</h2>
+      <div class="filters-bar">
+        <div class="filter-group">
+          <label for="filter-category" class="filter-label">Catégorie</label>
+          <select id="filter-category" class="filter-select">
+            <option value="">Toutes</option>
+            <option value="electricity">Électricité</option>
+            <option value="cables">Câbles</option>
+            <option value="finance">Finance</option>
+            <option value="cyber">Cyber</option>
+            <option value="logistics">Logistique</option>
+            <option value="geopolitics">Géopolitique</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-severity" class="filter-label">Gravité min.</label>
+          <select id="filter-severity" class="filter-select">
+            <option value="0">Toutes</option>
+            <option value="2">2+</option>
+            <option value="3">3+</option>
+            <option value="4">4+</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-status" class="filter-label">Statut</label>
+          <select id="filter-status" class="filter-select">
+            <option value="">Tous</option>
+            <option value="confirmed">Confirmé</option>
+            <option value="probable">Probable</option>
+            <option value="unverified">Non vérifié</option>
+            <option value="resolved">Résolu</option>
+            <option value="denied">Démenti</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-tier" class="filter-label">Fiabilité</label>
+          <select id="filter-tier" class="filter-select">
+            <option value="">Tous tiers</option>
+            <option value="A">Tier A (officiel)</option>
+            <option value="B">Tier B (mesure)</option>
+            <option value="C">Tier C (presse)</option>
+            <option value="D">Tier D (agrégateur)</option>
+          </select>
+        </div>
+        <button id="filter-reset" class="btn-reset" type="button">Réinitialiser</button>
+      </div>
+    </section>
+
+    <!-- D+E. Fil des incidents -->
+    <section class="incidents-section" aria-labelledby="incidents-title">
+      <h2 id="incidents-title" class="section-title">Événements</h2>
+      <!-- E. Incidents critiques en tête -->
+      <div id="critical-incidents" class="critical-incidents" aria-live="polite">
+        <!-- Généré par JS -->
+      </div>
+      <!-- D. Fil chronologique -->
+      <div id="incidents-list" class="incidents-list" aria-live="polite">
+        <div class="incidents-empty">Chargement...</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Fiche incident (panneau latéral) -->
+  <aside id="incident-panel" class="incident-panel" aria-labelledby="panel-title" role="complementary" hidden>
+    <div class="panel-inner">
+      <button id="panel-close" class="panel-close" type="button" aria-label="Fermer la fiche">✕</button>
+      <div id="panel-content" class="panel-content">
+        <!-- Généré par JS -->
+      </div>
+    </div>
+  </aside>
+  <div id="panel-overlay" class="panel-overlay hidden"></div>
+
+  <footer class="site-footer">
+    <p>BLACKOUT WATCH — Indicateur de veille pour les infrastructures critiques.</p>
+    <p>Les données de veille sont fournies à titre indicatif uniquement. Ce tableau de bord n'est pas une garantie de sécurité. Les scores ne sont pas des probabilités d'incident.</p>
+    <p>Sources : CERT-FR/ANSSI, CISA, CCCS, CERT-EU, NCSC UK, RTE, ENTSO-E, Hydro-Québec, CEB Dataset, IODA (CC BY-SA 4.0), Cloudflare Radar, GDACS, GDELT.</p>
+  </footer>
+
+  <script src="vendor/chart.umd.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

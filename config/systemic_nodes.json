@@ -1,0 +1,29 @@
+{
+  "interconnected_countries": ["US", "CN", "DE", "GB", "JP", "SG", "FR", "NL", "KR", "IN"],
+  "chokepoints": [
+    {
+      "name": "Bab-el-Mandeb",
+      "adjacent_countries": ["DJ", "ER", "YE", "SO"]
+    },
+    {
+      "name": "Canal de Suez",
+      "adjacent_countries": ["EG"]
+    },
+    {
+      "name": "Detroit d'Ormuz",
+      "adjacent_countries": ["IR", "OM", "AE", "QA", "BH", "KW"]
+    },
+    {
+      "name": "Detroit de Malacca",
+      "adjacent_countries": ["MY", "SG", "ID"]
+    },
+    {
+      "name": "Canal de Panama",
+      "adjacent_countries": ["PA"]
+    },
+    {
+      "name": "Detroit de Taiwan",
+      "adjacent_countries": ["TW", "CN"]
+    }
+  ]
+}

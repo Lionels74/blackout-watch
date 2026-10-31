@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://blackout-watch/schemas/runs",
+  "title": "Runs",
+  "type": "object",
+  "required": ["runs"],
+  "properties": {
+    "runs": {
+      "type": "array",
+      "maxItems": 200,
+      "items": {
+        "type": "object",
+        "required": ["run_id", "started_at", "duration_seconds", "sources_ok", "sources_ko", "items_total", "api_calls"],
+        "properties": {
+          "run_id": {"type": "string"},
+          "started_at": {"type": "string", "format": "date-time"},
+          "ended_at": {"type": "string", "format": "date-time"},
+          "duration_seconds": {"type": "number"},
+          "sources_ok": {"type": "integer"},
+          "sources_ko": {"type": "integer"},
+          "items_total": {"type": "integer"},
+          "items_new": {"type": "integer"},
+          "api_calls": {"type": "integer"},
+          "dry_run": {"type": "boolean"},
+          "errors_summary": {"type": "array", "items": {"type": "string"}},
+          "scoring_version": {"type": "string"}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "demo_cyber_france_001",
+    "title": "DEMO: Cyberattaque ransomware sur opérateur d'infrastructure critique en France",
+    "summary": "DONNÉES DE DÉMONSTRATION. Un groupe cybercriminel a lancé une attaque par ransomware contre un opérateur d'infrastructure critique en France. Les systèmes de supervision industrielle (SCADA) sont affectés. Les autorités compétentes ont été notifiées.",
+    "category": "cyber",
+    "secondary_categories": ["electricity"],
+    "subtype": "ransomware",
+    "severity": 4,
+    "status": "confirmed",
+    "is_ongoing": true,
+    "published_at": "2024-02-15T08:30:00Z",
+    "updated_at": "2024-02-15T10:00:00Z",
+    "resolved_at": null,
+    "duration_hours": null,
+    "demo": true,
+    "reports": [
+      {
+        "source_id": "cert_fr_alerte",
+        "tier": "A",
+        "owner": "ANSSI/CERT-FR",
+        "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-DEMO-001/",
+        "title": "DEMO: Alerte CERT-FR ransomware infrastructure",
+        "summary": "Alerte de démonstration uniquement.",
+        "published_at": "2024-02-15T08:30:00Z",
+        "raw_ids": []
+      }
+    ],
+    "affected": {
+      "countries": ["FR"],
+      "regions": ["île-de-france"],
+      "zones": ["france", "global"],
+      "infrastructure_type": "national",
+      "importance": 1.0
+    },
+    "origin": {
+      "countries": [],
+      "attribution": "none",
+      "threat_actor": null,
+      "coordinated_campaign": false
+    },
+    "score": {"by_zone": {"france": {"value": 62, "factors": {"G": 0.8, "K": 1.0, "P": 1.0, "I": 1.0, "D": 0.8, "S": 1.2, "T": 0.9, "raw": 69.1}}}},
+    "confidence": {"n_owners": 1, "max_tier": "A", "K": 1.0},
+    "history": [],
+    "classification": {"ai_suggestion": null}
+  },
+  {
+    "id": "demo_cable_mediterranean_001",
+    "title": "DEMO: Rupture de câble sous-marin en Méditerranée",
+    "summary": "DONNÉES DE DÉMONSTRATION. Un câble sous-marin reliant la France à l'Afrique du Nord a subi une rupture. La connectivité internet entre l'Europe et certaines régions est dégradée. L'enquête pour déterminer la cause est en cours.",
+    "category": "cables",
+    "secondary_categories": [],
+    "subtype": null,
+    "severity": 4,
+    "status": "confirmed",
+    "is_ongoing": true,
+    "published_at": "2024-02-14T14:00:00Z",
+    "updated_at": "2024-02-15T06:00:00Z",
+    "resolved_at": null,
+    "duration_hours": 18,
+    "demo": true,
+    "reports": [
+      {
+        "source_id": "cloudflare_radar",
+        "tier": "B",
+        "owner": "Cloudflare",
+        "url": "https://radar.cloudflare.com/",
+        "title": "DEMO: Cable cut Mediterranean",
+        "summary": "Données de démonstration uniquement.",
+        "published_at": "2024-02-14T14:00:00Z",
+        "raw_ids": ["cfr_demo_001"]
+      }
+    ],
+    "affected": {
+      "countries": ["FR", "DZ", "TN"],
+      "regions": [],
+      "zones": ["france", "global"],
+      "infrastructure_type": "national",
+      "importance": 1.0
+    },
+    "origin": {
+      "countries": [],
+      "attribution": "none",
+      "threat_actor": null,
+      "coordinated_campaign": false
+    },
+    "score": {"by_zone": {"france": {"value": 55, "factors": {"G": 0.8, "K": 0.85, "P": 1.0, "I": 1.0, "D": 0.85, "S": 1.0, "T": 0.95, "raw": 58.0}}}},
+    "confidence": {"n_owners": 1, "max_tier": "B", "K": 0.85},
+    "history": [],
+    "classification": {"ai_suggestion": null}
+  },
+  {
+    "id": "demo_electricity_quebec_001",
+    "title": "DEMO: Panne électrique majeure région de Montréal",
+    "summary": "DONNÉES DE DÉMONSTRATION. Hydro-Québec signale une panne électrique affectant plus de 50 000 clients dans la région de Montréal suite à une tempête de verglas.",
+    "category": "electricity",
+    "secondary_categories": ["logistics"],
+    "subtype": null,
+    "severity": 3,
+    "status": "confirmed",
+    "is_ongoing": false,
+    "published_at": "2024-02-13T18:00:00Z",
+    "updated_at": "2024-02-14T08:00:00Z",
+    "resolved_at": "2024-02-14T06:00:00Z",
+    "duration_hours": 12,
+    "demo": true,
+    "reports": [
+      {
+        "source_id": "hydroquebec",
+        "tier": "A",
+        "owner": "Hydro-Québec",
+        "url": "https://pannes.hydroquebec.com/",
+        "title": "DEMO: Panne Hydro-Québec Montréal",
+        "summary": "Données de démonstration.",
+        "published_at": "2024-02-13T18:00:00Z",
+        "raw_ids": ["hq_demo_mon"]
+      }
+    ],
+    "affected": {
+      "countries": ["CA"],
+      "regions": ["ontario"],
+      "zones": ["canada", "quebec", "global"],
+      "infrastructure_type": "regional",
+      "importance": 0.7
+    },
+    "origin": {
+      "countries": [],
+      "attribution": "none",
+      "threat_actor": null,
+      "coordinated_campaign": false
+    },
+    "score": {"by_zone": {"quebec": {"value": 38, "factors": {"G": 0.6, "K": 1.0, "P": 1.0, "I": 0.7, "D": 0.92, "S": 1.0, "T": 0.5, "raw": 38.0}}}},
+    "confidence": {"n_owners": 1, "max_tier": "A", "K": 1.0},
+    "history": [
+      {"timestamp": "2024-02-14T08:00:00Z", "field": "status", "from": "confirmed", "to": "resolved"}
+    ],
+    "classification": {"ai_suggestion": null}
+  },
+  {
+    "id": "demo_finance_global_001",
+    "title": "DEMO: Perturbation du système SWIFT dans plusieurs pays",
+    "summary": "DONNÉES DE DÉMONSTRATION. Des perturbations techniques affectent le système de messagerie interbancaire SWIFT dans plusieurs pays européens. Les transactions internationales sont ralenties. Aucune cyberattaque confirmée à ce stade.",
+    "category": "finance",
+    "secondary_categories": [],
+    "subtype": null,
+    "severity": 3,
+    "status": "unverified",
+    "is_ongoing": true,
+    "published_at": "2024-02-15T11:00:00Z",
+    "updated_at": "2024-02-15T11:00:00Z",
+    "resolved_at": null,
+    "duration_hours": null,
+    "demo": true,
+    "reports": [
+      {
+        "source_id": "gdelt",
+        "tier": "C",
+        "owner": "lemonde.fr",
+        "url": "https://www.lemonde.fr/demo",
+        "title": "DEMO: Perturbation SWIFT Europe",
+        "summary": "Données de démonstration.",
+        "published_at": "2024-02-15T11:00:00Z",
+        "raw_ids": []
+      }
+    ],
+    "affected": {
+      "countries": ["FR", "DE", "BE"],
+      "regions": [],
+      "zones": ["france", "global"],
+      "infrastructure_type": "national",
+      "importance": 0.9
+    },
+    "origin": {
+      "countries": [],
+      "attribution": "none",
+      "threat_actor": null,
+      "coordinated_campaign": false
+    },
+    "score": {"by_zone": {}},
+    "confidence": {"n_owners": 1, "max_tier": "C", "K": 0.6},
+    "history": [],
+    "classification": {"ai_suggestion": null}
+  },
+  {
+    "id": "demo_mauritius_ceb_001",
+    "title": "DEMO: Coupures planifiées CEB — Port Louis",
+    "summary": "DONNÉES DE DÉMONSTRATION. La Central Electricity Board (CEB) de Maurice a planifié des coupures d'électricité dans plusieurs quartiers de Port Louis pour maintenance du réseau MT.",
+    "category": "electricity",
+    "secondary_categories": [],
+    "subtype": null,
+    "severity": 1,
+    "status": "confirmed",
+    "is_ongoing": false,
+    "published_at": "2024-02-16T06:00:00Z",
+    "updated_at": "2024-02-16T06:00:00Z",
+    "resolved_at": "2024-02-16T14:00:00Z",
+    "duration_hours": 8,
+    "demo": true,
+    "reports": [
+      {
+        "source_id": "ceb_dataset",
+        "tier": "A",
+        "owner": "CEB / Community Dataset",
+        "url": "https://github.com/MrSunshyne/mauritius-dataset-electricity",
+        "title": "DEMO: CEB Port Louis maintenance",
+        "summary": "Données de démonstration.",
+        "published_at": "2024-02-16T06:00:00Z",
+        "raw_ids": ["CEB-DEMO-001"]
+      }
+    ],
+    "affected": {
+      "countries": ["MU"],
+      "regions": [],
+      "zones": ["mauritius", "global"],
+      "infrastructure_type": "local",
+      "importance": 0.4
+    },
+    "origin": {
+      "countries": [],
+      "attribution": "none",
+      "threat_actor": null,
+      "coordinated_campaign": false
+    },
+    "score": {"by_zone": {}},
+    "confidence": {"n_owners": 1, "max_tier": "A", "K": 1.0},
+    "history": [],
+    "classification": {"ai_suggestion": null}
+  }
+]

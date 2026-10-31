@@ -1,0 +1,257 @@
+{
+  "checked_at": "2026-10-31T08:36:37.671623+00:00",
+  "sources": [
+    {
+      "id": "cert_fr_alerte",
+      "name": "CERT-FR Alertes",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "parse_ok": true,
+      "items_count": 40,
+      "last_item_date": "2026-10-21T00:00:00+00:00",
+      "error_message": null,
+      "latency_ms": 788
+    },
+    {
+      "id": "cert_fr_avis",
+      "name": "CERT-FR Avis",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "parse_ok": true,
+      "items_count": 40,
+      "last_item_date": "2026-10-30T00:00:00+00:00",
+      "error_message": null,
+      "latency_ms": 738
+    },
+    {
+      "id": "cert_fr_cti",
+      "name": "CERT-FR CTI",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "parse_ok": true,
+      "items_count": 40,
+      "last_item_date": "2026-10-20T00:00:00+00:00",
+      "error_message": null,
+      "latency_ms": 469
+    },
+    {
+      "id": "cert_fr_actualite",
+      "name": "CERT-FR Actualités",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "parse_ok": true,
+      "items_count": 40,
+      "last_item_date": "2026-10-26T00:00:00+00:00",
+      "error_message": null,
+      "latency_ms": 466
+    },
+    {
+      "id": "cert_fr_scada",
+      "name": "CERT-FR SCADA",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "parse_ok": true,
+      "items_count": 10,
+      "last_item_date": "2026-10-28T00:00:00+00:00",
+      "error_message": null,
+      "latency_ms": 412
+    },
+    {
+      "id": "cisa_advisories",
+      "name": "CISA Cybersecurity Advisories",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "parse_ok": true,
+      "items_count": 30,
+      "last_item_date": "2026-10-30T12:00:00+00:00",
+      "error_message": null,
+      "latency_ms": 1157
+    },
+    {
+      "id": "cisa_alerts",
+      "name": "CISA Alerts",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "parse_ok": true,
+      "items_count": 30,
+      "last_item_date": "2026-10-30T12:00:00+00:00",
+      "error_message": null,
+      "latency_ms": 399
+    },
+    {
+      "id": "cisa_ics",
+      "name": "CISA ICS Advisories",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "parse_ok": true,
+      "items_count": 30,
+      "last_item_date": "2026-10-29T12:00:00+00:00",
+      "error_message": null,
+      "latency_ms": 854
+    },
+    {
+      "id": "cisa_kev",
+      "name": "CISA Known Exploited Vulnerabilities",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/json",
+      "parse_ok": true,
+      "items_count": 1766,
+      "last_item_date": null,
+      "error_message": null,
+      "latency_ms": 724
+    },
+    {
+      "id": "cccs_fr",
+      "name": "CCCS Canada (FR)",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "parse_ok": true,
+      "items_count": 50,
+      "last_item_date": "2026-10-30T21:37:01+00:00",
+      "error_message": null,
+      "latency_ms": 4306
+    },
+    {
+      "id": "cccs_en",
+      "name": "CCCS Canada (EN)",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "parse_ok": true,
+      "items_count": 50,
+      "last_item_date": "2026-10-30T21:34:05+00:00",
+      "error_message": null,
+      "latency_ms": 2955
+    },
+    {
+      "id": "cert_eu",
+      "name": "CERT-EU Security Advisories",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "text/xml; charset=utf-8",
+      "parse_ok": true,
+      "items_count": 10,
+      "last_item_date": "2026-10-23T16:36:26+00:00",
+      "error_message": null,
+      "latency_ms": 1889
+    },
+    {
+      "id": "ncsc_uk",
+      "name": "NCSC UK All RSS",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/rss+xml; charset=utf-8",
+      "parse_ok": true,
+      "items_count": 20,
+      "last_item_date": "2026-10-27T12:00:00+00:00",
+      "error_message": null,
+      "latency_ms": 303
+    },
+    {
+      "id": "ceb_dataset",
+      "name": "CEB Maurice Dataset",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "parse_ok": true,
+      "items_count": 1,
+      "last_item_date": null,
+      "error_message": null,
+      "latency_ms": 381
+    },
+    {
+      "id": "gdacs",
+      "name": "GDACS Global Disaster Alert",
+      "status": "ok",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "parse_ok": true,
+      "items_count": 252,
+      "last_item_date": "2026-10-31T08:32:55+00:00",
+      "error_message": null,
+      "latency_ms": 3012
+    },
+    {
+      "id": "gdelt",
+      "name": "GDELT DOC 2.0",
+      "status": "error",
+      "http_status": 429,
+      "content_type": "",
+      "parse_ok": null,
+      "items_count": null,
+      "last_item_date": null,
+      "error_message": "HTTP 429",
+      "latency_ms": 12188
+    },
+    {
+      "id": "rte_ecowatt",
+      "name": "RTE Ecowatt Signals",
+      "status": "not_tested",
+      "error_message": "Authentification requise (env:RTE_CLIENT_ID,RTE_CLIENT_SECRET)"
+    },
+    {
+      "id": "entsoe",
+      "name": "ENTSO-E Transparency Platform",
+      "status": "not_tested",
+      "error_message": "Authentification requise (env:ENTSOE_TOKEN)"
+    },
+    {
+      "id": "cloudflare_radar",
+      "name": "Cloudflare Radar Outage Annotations",
+      "status": "not_tested",
+      "error_message": "Authentification requise (env:CLOUDFLARE_API_TOKEN)"
+    },
+    {
+      "id": "excluded_cert_mu",
+      "name": "CERT-MU",
+      "status": "disabled",
+      "error_message": "No RSS or API feed. Publications are in PDF format only."
+    },
+    {
+      "id": "excluded_telegeography",
+      "name": "TeleGeography Submarine Cable Map",
+      "status": "disabled",
+      "error_message": "Data under commercial license. Static cable list manually entered in config/infrastructure.json with attribution."
+    },
+    {
+      "id": "excluded_reuters",
+      "name": "Reuters",
+      "status": "disabled",
+      "error_message": "No public RSS feed available. Coverage via GDELT only."
+    },
+    {
+      "id": "excluded_ap",
+      "name": "Associated Press",
+      "status": "disabled",
+      "error_message": "No public RSS feed. Coverage via GDELT only."
+    },
+    {
+      "id": "excluded_google_news",
+      "name": "Google News RSS",
+      "status": "disabled",
+      "error_message": "Ambiguous ToS for automated scraping/aggregation."
+    },
+    {
+      "id": "excluded_pannes_paiement",
+      "name": "Pannes cartes et paiements",
+      "status": "disabled",
+      "error_message": "No official RSS or API feed for payment outages."
+    },
+    {
+      "id": "excluded_freespoke",
+      "name": "Freespoke News",
+      "status": "disabled",
+      "error_message": "No public RSS or JSON API feed for programmatic ingestion. Coverage via GDELT for English-language articles."
+    }
+  ]
+}

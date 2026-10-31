@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "id": "cisa_kev_ics",
+      "description": "CVE in CISA KEV — activelement exploitée, secteur critique (max sev=2 pour vulnerability)",
+      "conditions": {"source_id": "cisa_kev"},
+      "severity": 2,
+      "category": "cyber"
+    },
+    {
+      "id": "cert_fr_alerte",
+      "description": "CERT-FR alerte — avis haute priorité (vulnerability, sev=1 capé en code)",
+      "conditions": {"source_id": "cert_fr_alerte"},
+      "severity": 1,
+      "category": "cyber"
+    },
+    {
+      "id": "cert_fr_avis",
+      "description": "CERT-FR avis — bulletin de vulnérabilité standard",
+      "conditions": {"source_id": "cert_fr_avis"},
+      "severity": 1,
+      "category": "cyber"
+    },
+    {
+      "id": "cert_fr_scada",
+      "description": "CERT-FR SCADA advisory — secteur ICS/OT (max sev=2)",
+      "conditions": {"source_id": "cert_fr_scada"},
+      "severity": 2,
+      "category": "cyber",
+      "infrastructure_type": "national"
+    },
+    {
+      "id": "ecowatt_3",
+      "description": "Ecowatt signal rouge (3)",
+      "conditions": {"source_id": "rte_ecowatt", "ecowatt_value": 3},
+      "severity": 4,
+      "category": "electricity",
+      "floor_france_electricity": 65
+    },
+    {
+      "id": "ecowatt_2",
+      "description": "Ecowatt signal orange (2)",
+      "conditions": {"source_id": "rte_ecowatt", "ecowatt_value": 2},
+      "severity": 3,
+      "category": "electricity",
+      "floor_france_electricity": 40
+    },
+    {
+      "id": "gdacs_red",
+      "description": "GDACS Red alert",
+      "conditions": {"source_id": "gdacs", "alert_level": "Red"},
+      "severity": 4
+    },
+    {
+      "id": "gdacs_orange",
+      "description": "GDACS Orange alert",
+      "conditions": {"source_id": "gdacs", "alert_level": "Orange"},
+      "severity": 3
+    },
+    {
+      "id": "entsoe_unplanned",
+      "description": "ENTSO-E unplanned outage (A54)",
+      "conditions": {"source_id": "entsoe", "event_nature": "A54"},
+      "severity": 3,
+      "category": "electricity"
+    },
+    {
+      "id": "cloudflare_cable_cut",
+      "description": "Cloudflare Radar cable cut annotation",
+      "conditions": {"source_id": "cloudflare_radar", "outage_cause": "CABLE_CUT"},
+      "severity": 4,
+      "category": "cables"
+    },
+    {
+      "id": "cloudflare_power",
+      "description": "Cloudflare Radar power outage annotation",
+      "conditions": {"source_id": "cloudflare_radar", "outage_cause": "POWER_OUTAGE"},
+      "severity": 3,
+      "category": "electricity",
+      "secondary_category": "cables"
+    },
+    {
+      "id": "cloudflare_government",
+      "description": "Cloudflare Radar government-directed shutdown",
+      "conditions": {"source_id": "cloudflare_radar", "outage_cause": "GOVERNMENT_DIRECTED"},
+      "severity": 4,
+      "category": "geopolitics",
+      "secondary_category": "cables"
+    },
+    {
+      "id": "ioda_outage",
+      "description": "IODA detected internet outage",
+      "conditions": {"source_id": "ioda"},
+      "severity": 3,
+      "category": "cables"
+    },
+    {
+      "id": "hydroquebec_major",
+      "description": "Hydro-Québec major outage (>10000 clients)",
+      "conditions": {"source_id": "hydroquebec", "clients_gte": 10000},
+      "severity": 3,
+      "category": "electricity"
+    },
+    {
+      "id": "hydroquebec_minor",
+      "description": "Hydro-Québec minor outage",
+      "conditions": {"source_id": "hydroquebec"},
+      "severity": 2,
+      "category": "electricity"
+    },
+    {
+      "id": "ceb_planned",
+      "description": "CEB Maurice planned outage",
+      "conditions": {"source_id": "ceb_dataset"},
+      "severity": 1,
+      "category": "electricity"
+    },
+    {
+      "id": "gdacs_tc_fl",
+      "description": "GDACS Tropical Cyclone or Flood",
+      "conditions": {"source_id": "gdacs", "event_type_in": ["TC", "FL"]},
+      "category": "logistics",
+      "secondary_category": "electricity"
+    },
+    {
+      "id": "gdacs_eq",
+      "description": "GDACS Earthquake",
+      "conditions": {"source_id": "gdacs", "event_type_in": ["EQ"]},
+      "category": "logistics",
+      "secondary_category": "electricity"
+    }
+  ],
+  "default_severity_by_tier": {
+    "A": 3,
+    "B": 2,
+    "C": 2,
+    "D": 1
+  },
+  "infrastructure_importance": {
+    "national": 1.0,
+    "regional": 0.7,
+    "local": 0.4,
+    "non_critical": 0.2
+  }
+}

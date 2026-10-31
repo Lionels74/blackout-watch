@@ -1,0 +1,1953 @@
+{
+  "countries": {
+    "FR": {
+      "names": [
+        "france",
+        "french",
+        "français",
+        "française",
+        "frankreich",
+        "france métropolitaine"
+      ],
+      "zones": [
+        "france",
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "CA": {
+      "names": [
+        "canada",
+        "canadian",
+        "canadien",
+        "canadienne"
+      ],
+      "zones": [
+        "canada",
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "QC": {
+      "names": [
+        "québec",
+        "quebec",
+        "québécois",
+        "québécoise",
+        "qc"
+      ],
+      "zones": [
+        "quebec",
+        "canada",
+        "global"
+      ],
+      "macro_region": "NA",
+      "sub_of": "CA"
+    },
+    "MU": {
+      "names": [
+        "mauritius",
+        "maurice",
+        "mauricien",
+        "mauricienne",
+        "île maurice",
+        "ile maurice",
+        "republic of mauritius"
+      ],
+      "zones": [
+        "mauritius",
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "US": {
+      "names": [
+        "united states",
+        "usa",
+        "us",
+        "américain",
+        "américaine",
+        "american"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA",
+      "systemic": true
+    },
+    "RU": {
+      "names": [
+        "russia",
+        "russie",
+        "russe",
+        "russian",
+        "rf"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "CN": {
+      "names": [
+        "china",
+        "chine",
+        "chinois",
+        "chinese",
+        "prc"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC",
+      "systemic": true
+    },
+    "KP": {
+      "names": [
+        "north korea",
+        "corée du nord",
+        "dprk",
+        "north korean"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "IR": {
+      "names": [
+        "iran",
+        "iranian",
+        "iranien",
+        "iranienne",
+        "islamic republic"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "DE": {
+      "names": [
+        "germany",
+        "allemagne",
+        "allemand",
+        "german",
+        "deutschland"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU",
+      "systemic": true
+    },
+    "GB": {
+      "names": [
+        "united kingdom",
+        "uk",
+        "britain",
+        "british",
+        "grande-bretagne",
+        "england",
+        "anglais"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU",
+      "systemic": true
+    },
+    "RE": {
+      "names": [
+        "reunion",
+        "réunion",
+        "la réunion"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "MG": {
+      "names": [
+        "madagascar",
+        "malagasy"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "SWIO": {
+      "names": [
+        "swindian",
+        "sw indian",
+        "sw indian ocean",
+        "south west indian",
+        "south-west indian",
+        "southwestern indian ocean",
+        "sud-ouest ocean indien",
+        "sud-ouest de l'ocean indien",
+        "indian ocean sw"
+      ],
+      "zones": [
+        "mauritius",
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "NWPA": {
+      "names": [
+        "nwpacific",
+        "nw pacific",
+        "northwest pacific",
+        "north-west pacific",
+        "north west pacific",
+        "pacifique nord-ouest",
+        "western pacific"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "NWIO": {
+      "names": [
+        "nwindian",
+        "nw indian",
+        "northwest indian",
+        "north-west indian",
+        "north west indian",
+        "arabian sea",
+        "bay of bengal",
+        "northern indian ocean"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "ATLC": {
+      "names": [
+        "atlanticnorth",
+        "north atlantic",
+        "atlantique nord",
+        "north-atlantic",
+        "northern atlantic"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "EPAC": {
+      "names": [
+        "epacific",
+        "eastern pacific",
+        "east pacific",
+        "pacifique est",
+        "pacifique oriental",
+        "eastern pacific ocean"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "SPAC": {
+      "names": [
+        "spacific",
+        "south pacific",
+        "southern pacific",
+        "pacifique sud",
+        "south pacific ocean",
+        "southwest pacific"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "SEIO": {
+      "names": [
+        "seindian",
+        "se indian",
+        "southeast indian",
+        "south-east indian",
+        "south east indian",
+        "australian region",
+        "eastern indian ocean"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "SATL": {
+      "names": [
+        "satlantic",
+        "south atlantic",
+        "atlantique sud",
+        "south atlantic ocean"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "MDST": {
+      "names": [
+        "mediterranean sea",
+        "mer mediterranee",
+        "mer méditerranée",
+        "méditerranée",
+        "medsea"
+      ],
+      "zones": [
+        "france",
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "VU": {
+      "names": [
+        "vanuatu",
+        "ni-vanuatu"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "FJ": {
+      "names": [
+        "fiji",
+        "fijian",
+        "fidji",
+        "republic of fiji"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "TO": {
+      "names": [
+        "tonga",
+        "tongan",
+        "kingdom of tonga"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "SB": {
+      "names": [
+        "solomon islands",
+        "solomons",
+        "iles salomon"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "PG": {
+      "names": [
+        "papua new guinea",
+        "png",
+        "papouasie-nouvelle-guinee",
+        "papouasie nouvelle guinee"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "WS": {
+      "names": [
+        "samoa",
+        "western samoa",
+        "independent state of samoa"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "KI": {
+      "names": [
+        "kiribati",
+        "republic of kiribati"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "TV": {
+      "names": [
+        "tuvalu",
+        "funafuti"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "NC": {
+      "names": [
+        "new caledonia",
+        "nouvelle-caledonie",
+        "nouvelle caledonie",
+        "kanaky"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "PF": {
+      "names": [
+        "french polynesia",
+        "polynesie francaise",
+        "tahiti"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "OCEANS"
+    },
+    "AU": {
+      "names": [
+        "australia",
+        "australian",
+        "australie",
+        "australien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "NZ": {
+      "names": [
+        "new zealand",
+        "nouvelle-zelande",
+        "nouvelle zelande",
+        "aotearoa"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "PH": {
+      "names": [
+        "philippines",
+        "philippine",
+        "filipino",
+        "pilipinas"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "ID": {
+      "names": [
+        "indonesia",
+        "indonesian",
+        "indonesie"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "JP": {
+      "names": [
+        "japan",
+        "japanese",
+        "japon",
+        "japonais",
+        "nihon"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "VN": {
+      "names": [
+        "vietnam",
+        "viet nam",
+        "vietnamese"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "MM": {
+      "names": [
+        "myanmar",
+        "burma",
+        "birmanie"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "TH": {
+      "names": [
+        "thailand",
+        "thai",
+        "thailande",
+        "siam"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "MY": {
+      "names": [
+        "malaysia",
+        "malaysian",
+        "malaisie"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "KH": {
+      "names": [
+        "cambodia",
+        "cambodge",
+        "khmer"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "LA": {
+      "names": [
+        "laos",
+        "lao",
+        "laotian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "TL": {
+      "names": [
+        "timor-leste",
+        "timor leste",
+        "east timor",
+        "timor oriental"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "TW": {
+      "names": [
+        "taiwan",
+        "taiwanese",
+        "republic of china"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "KR": {
+      "names": [
+        "south korea",
+        "korea",
+        "coree du sud",
+        "republic of korea",
+        "korean"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "IN": {
+      "names": [
+        "india",
+        "indian",
+        "inde",
+        "indien",
+        "bharat"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "PK": {
+      "names": [
+        "pakistan",
+        "pakistani",
+        "pakistanais"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "BD": {
+      "names": [
+        "bangladesh",
+        "bangladeshi",
+        "bangladais"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "LK": {
+      "names": [
+        "sri lanka",
+        "sri-lanka",
+        "ceylon",
+        "ceylan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "NP": {
+      "names": [
+        "nepal",
+        "nepalese",
+        "nepalais"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "AF": {
+      "names": [
+        "afghanistan",
+        "afghan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "TR": {
+      "names": [
+        "turkey",
+        "turkiye",
+        "turquie",
+        "turc",
+        "turkish",
+        "türkiye"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "SA": {
+      "names": [
+        "saudi arabia",
+        "arabie saoudite",
+        "saudi",
+        "ksa"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "YE": {
+      "names": [
+        "yemen",
+        "yemeni",
+        "yemenite"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "IQ": {
+      "names": [
+        "iraq",
+        "iraqi",
+        "irakien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "SY": {
+      "names": [
+        "syria",
+        "syrian",
+        "syrie",
+        "syrien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "LB": {
+      "names": [
+        "lebanon",
+        "liban",
+        "libanais",
+        "lebanese"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "OM": {
+      "names": [
+        "oman",
+        "omani",
+        "sultanate of oman"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "AE": {
+      "names": [
+        "united arab emirates",
+        "uae",
+        "emirats arabes unis",
+        "emirates"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "KW": {
+      "names": [
+        "kuwait",
+        "koweit",
+        "kuwaiti"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "ME"
+    },
+    "EG": {
+      "names": [
+        "egypt",
+        "egypte",
+        "egyptien",
+        "egyptian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "LY": {
+      "names": [
+        "libya",
+        "libye",
+        "libyen",
+        "libyan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "TN": {
+      "names": [
+        "tunisia",
+        "tunisie",
+        "tunisien",
+        "tunisian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "DZ": {
+      "names": [
+        "algeria",
+        "algerie",
+        "algerian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "MA": {
+      "names": [
+        "morocco",
+        "maroc",
+        "marocain",
+        "moroccan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "SD": {
+      "names": [
+        "sudan",
+        "soudan",
+        "soudanais",
+        "sudanese"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "SS": {
+      "names": [
+        "south sudan",
+        "soudan du sud",
+        "south sudanese"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "ET": {
+      "names": [
+        "ethiopia",
+        "ethiopie",
+        "ethiopian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "ER": {
+      "names": [
+        "eritrea",
+        "erythree",
+        "eritrean"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "DJ": {
+      "names": [
+        "djibouti",
+        "djiboutian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "SO": {
+      "names": [
+        "somalia",
+        "somalie",
+        "somalien",
+        "somali"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "KE": {
+      "names": [
+        "kenya",
+        "kenyan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "TZ": {
+      "names": [
+        "tanzania",
+        "tanzanie",
+        "tanzanian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "UG": {
+      "names": [
+        "uganda",
+        "ouganda",
+        "ugandan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "RW": {
+      "names": [
+        "rwanda",
+        "rwandan",
+        "rwandais"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "MZ": {
+      "names": [
+        "mozambique",
+        "mozambican",
+        "mozambicain"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "ZW": {
+      "names": [
+        "zimbabwe",
+        "zimbabwean"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "ZM": {
+      "names": [
+        "zambia",
+        "zambie",
+        "zambian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "MW": {
+      "names": [
+        "malawi",
+        "malawian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "AO": {
+      "names": [
+        "angola",
+        "angolan",
+        "angolais"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "CD": {
+      "names": [
+        "democratic republic of the congo",
+        "drc",
+        "dr congo",
+        "republique democratique du congo",
+        "rdc",
+        "congo kinshasa",
+        "zaire"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "CG": {
+      "names": [
+        "republic of the congo",
+        "congo brazzaville",
+        "republique du congo"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "CM": {
+      "names": [
+        "cameroon",
+        "cameroun",
+        "cameroonian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "NG": {
+      "names": [
+        "nigeria",
+        "nigerian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "GH": {
+      "names": [
+        "ghana",
+        "ghanaian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "CI": {
+      "names": [
+        "ivory coast",
+        "cote d'ivoire",
+        "cote divoire",
+        "ivorian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "SN": {
+      "names": [
+        "senegal",
+        "senegalais",
+        "senegalese"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "ML": {
+      "names": [
+        "mali",
+        "malian",
+        "malien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "NE": {
+      "names": [
+        "niger",
+        "nigerien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "TD": {
+      "names": [
+        "chad",
+        "tchad",
+        "chadien",
+        "chadian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "ZA": {
+      "names": [
+        "south africa",
+        "afrique du sud",
+        "south african",
+        "rsa"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "NA": {
+      "names": [
+        "namibia",
+        "namibie",
+        "namibian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "KM": {
+      "names": [
+        "comoros",
+        "comores",
+        "comorian",
+        "union des comores"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "SC": {
+      "names": [
+        "seychelles",
+        "seychellois"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    },
+    "MX": {
+      "names": [
+        "mexico",
+        "mexique",
+        "mexicain",
+        "mexican"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "GT": {
+      "names": [
+        "guatemala",
+        "guatemalan",
+        "guatemalteque"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "HN": {
+      "names": [
+        "honduras",
+        "honduran",
+        "hondurien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "SV": {
+      "names": [
+        "el salvador",
+        "salvadoran",
+        "salvadorien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "NI": {
+      "names": [
+        "nicaragua",
+        "nicaraguan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "CR": {
+      "names": [
+        "costa rica",
+        "costa rican",
+        "costaricain"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "PA": {
+      "names": [
+        "panama",
+        "panamanian",
+        "panameeen"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "CU": {
+      "names": [
+        "cuba",
+        "cuban",
+        "cubain"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "HT": {
+      "names": [
+        "haiti",
+        "haitian",
+        "haitien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "DO": {
+      "names": [
+        "dominican republic",
+        "republique dominicaine",
+        "dominican"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "JM": {
+      "names": [
+        "jamaica",
+        "jamaique",
+        "jamaican"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "CO": {
+      "names": [
+        "colombia",
+        "colombie",
+        "colombian",
+        "colombien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "VE": {
+      "names": [
+        "venezuela",
+        "venezuelan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "EC": {
+      "names": [
+        "ecuador",
+        "equateur",
+        "ecuadorian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "PE": {
+      "names": [
+        "peru",
+        "perou",
+        "peruvian",
+        "peruvien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "BO": {
+      "names": [
+        "bolivia",
+        "bolivie",
+        "bolivian"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "CL": {
+      "names": [
+        "chile",
+        "chili",
+        "chilean",
+        "chilien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "AR": {
+      "names": [
+        "argentina",
+        "argentine",
+        "argentinian",
+        "argentin"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "UY": {
+      "names": [
+        "uruguay",
+        "uruguayan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "PY": {
+      "names": [
+        "paraguay",
+        "paraguayan"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "BR": {
+      "names": [
+        "brazil",
+        "bresil",
+        "brazilian",
+        "bresilien",
+        "brasil"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "NA"
+    },
+    "IT": {
+      "names": [
+        "italy",
+        "italie",
+        "italian",
+        "italien",
+        "italia"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "ES": {
+      "names": [
+        "spain",
+        "espagne",
+        "spanish",
+        "espagnol",
+        "espana"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "PT": {
+      "names": [
+        "portugal",
+        "portuguese",
+        "portugais"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "NL": {
+      "names": [
+        "netherlands",
+        "pays-bas",
+        "dutch",
+        "neerlandais",
+        "holland"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "BE": {
+      "names": [
+        "belgium",
+        "belgique",
+        "belgian",
+        "belge"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "CH": {
+      "names": [
+        "switzerland",
+        "suisse",
+        "swiss"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "AT": {
+      "names": [
+        "austria",
+        "autriche",
+        "austrian",
+        "autrichien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "PL": {
+      "names": [
+        "poland",
+        "pologne",
+        "polish",
+        "polonais"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "SE": {
+      "names": [
+        "sweden",
+        "suede",
+        "swedish",
+        "suedois"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "NO": {
+      "names": [
+        "norway",
+        "norvege",
+        "norwegian",
+        "norvegien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "FI": {
+      "names": [
+        "finland",
+        "finlande",
+        "finnish",
+        "suomi"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "DK": {
+      "names": [
+        "denmark",
+        "danemark",
+        "danish",
+        "danois"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "GR": {
+      "names": [
+        "greece",
+        "grece",
+        "greek",
+        "grec",
+        "hellas"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "UA": {
+      "names": [
+        "ukraine",
+        "ukrainian",
+        "ukrainien"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "RO": {
+      "names": [
+        "romania",
+        "roumanie",
+        "romanian",
+        "roumain"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "HU": {
+      "names": [
+        "hungary",
+        "hongrie",
+        "hungarian",
+        "hongrois"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "BG": {
+      "names": [
+        "bulgaria",
+        "bulgarie",
+        "bulgarian",
+        "bulgare"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "RS": {
+      "names": [
+        "serbia",
+        "serbie",
+        "serbian",
+        "serbe"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "HR": {
+      "names": [
+        "croatia",
+        "croatie",
+        "croatian",
+        "croate"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "CZ": {
+      "names": [
+        "czech republic",
+        "czechia",
+        "republique tcheque",
+        "czech",
+        "tcheque"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "SK": {
+      "names": [
+        "slovakia",
+        "slovaquie",
+        "slovak",
+        "slovaque"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "SI": {
+      "names": [
+        "slovenia",
+        "slovenie",
+        "slovenian",
+        "slovene"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "AL": {
+      "names": [
+        "albania",
+        "albanie",
+        "albanian",
+        "albanais"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "MK": {
+      "names": [
+        "north macedonia",
+        "macedoine du nord",
+        "macedonia",
+        "macedoine"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "BA": {
+      "names": [
+        "bosnia",
+        "bosnie",
+        "bosnian",
+        "bosnia and herzegovina",
+        "bosnie-herzegovine"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "EU"
+    },
+    "KZ": {
+      "names": [
+        "kazakhstan",
+        "kazakhstanais",
+        "kazakh"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "UZ": {
+      "names": [
+        "uzbekistan",
+        "ouzbekistan",
+        "uzbek",
+        "ouzbek"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "APAC"
+    },
+    "BF": {
+      "names": [
+        "burkina faso",
+        "burkinabe",
+        "burkina"
+      ],
+      "zones": [
+        "global"
+      ],
+      "macro_region": "AF"
+    }
+  },
+  "regions_fr": {
+    "île-de-france": {
+      "names": [
+        "île-de-france",
+        "ile-de-france",
+        "paris",
+        "idf",
+        "parisien"
+      ]
+    },
+    "bretagne": {
+      "names": [
+        "bretagne",
+        "breton",
+        "brittany"
+      ]
+    },
+    "normandie": {
+      "names": [
+        "normandie",
+        "normandy",
+        "normand"
+      ]
+    },
+    "paca": {
+      "names": [
+        "paca",
+        "provence",
+        "alpes",
+        "côte d'azur"
+      ]
+    },
+    "auvergne-rhône-alpes": {
+      "names": [
+        "auvergne",
+        "rhône-alpes",
+        "lyon",
+        "grenoble"
+      ]
+    },
+    "nouvelle-aquitaine": {
+      "names": [
+        "nouvelle-aquitaine",
+        "bordeaux",
+        "aquitaine"
+      ]
+    },
+    "occitanie": {
+      "names": [
+        "occitanie",
+        "toulouse",
+        "montpellier"
+      ]
+    },
+    "hauts-de-france": {
+      "names": [
+        "hauts-de-france",
+        "lille",
+        "nord",
+        "pas-de-calais"
+      ]
+    },
+    "grand-est": {
+      "names": [
+        "grand-est",
+        "alsace",
+        "lorraine",
+        "champagne",
+        "strasbourg"
+      ]
+    },
+    "pays-de-la-loire": {
+      "names": [
+        "pays de la loire",
+        "nantes",
+        "loire"
+      ]
+    },
+    "centre-val-de-loire": {
+      "names": [
+        "centre-val-de-loire",
+        "orléans",
+        "tours"
+      ]
+    },
+    "bourgogne-franche-comté": {
+      "names": [
+        "bourgogne",
+        "franche-comté",
+        "dijon"
+      ]
+    },
+    "corse": {
+      "names": [
+        "corse",
+        "corsica",
+        "corse-du-sud",
+        "haute-corse"
+      ]
+    }
+  },
+  "regions_ca": {
+    "ontario": {
+      "names": [
+        "ontario",
+        "toronto",
+        "ottawa"
+      ]
+    },
+    "british_columbia": {
+      "names": [
+        "british columbia",
+        "colombie-britannique",
+        "bc",
+        "vancouver"
+      ]
+    },
+    "alberta": {
+      "names": [
+        "alberta",
+        "calgary",
+        "edmonton"
+      ]
+    },
+    "nova_scotia": {
+      "names": [
+        "nova scotia",
+        "nouvelle-écosse",
+        "halifax"
+      ]
+    },
+    "new_brunswick": {
+      "names": [
+        "new brunswick",
+        "nouveau-brunswick",
+        "moncton"
+      ]
+    },
+    "manitoba": {
+      "names": [
+        "manitoba",
+        "winnipeg"
+      ]
+    },
+    "saskatchewan": {
+      "names": [
+        "saskatchewan",
+        "regina",
+        "saskatoon"
+      ]
+    }
+  },
+  "localities_mu": {
+    "port_louis": {
+      "names": [
+        "port louis",
+        "port-louis"
+      ]
+    },
+    "curepipe": {
+      "names": [
+        "curepipe"
+      ]
+    },
+    "quatre_bornes": {
+      "names": [
+        "quatre bornes",
+        "quatre-bornes"
+      ]
+    },
+    "vacoas": {
+      "names": [
+        "vacoas",
+        "phoenix"
+      ]
+    },
+    "beau_bassin": {
+      "names": [
+        "beau bassin",
+        "rose hill"
+      ]
+    }
+  },
+  "straits": {
+    "bab_el_mandeb": {
+      "names": [
+        "bab-el-mandeb",
+        "bab el-mandeb",
+        "bab el mandeb",
+        "red sea",
+        "mer rouge",
+        "houthis"
+      ],
+      "affects": [
+        "cables",
+        "logistics"
+      ]
+    },
+    "hormuz": {
+      "names": [
+        "strait of hormuz",
+        "détroit d'hormuz",
+        "hormuz",
+        "hormoz"
+      ],
+      "affects": [
+        "logistics",
+        "finance"
+      ]
+    },
+    "suez": {
+      "names": [
+        "suez canal",
+        "canal de suez",
+        "suez"
+      ],
+      "affects": [
+        "cables",
+        "logistics"
+      ]
+    },
+    "panama": {
+      "names": [
+        "panama canal",
+        "canal de panama",
+        "panama"
+      ],
+      "affects": [
+        "logistics"
+      ]
+    },
+    "malacca": {
+      "names": [
+        "strait of malacca",
+        "malacca"
+      ],
+      "affects": [
+        "cables",
+        "logistics"
+      ]
+    }
+  }
+}

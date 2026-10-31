@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://blackout-watch/schemas/scores",
+  "title": "Scores",
+  "type": "object",
+  "required": ["generated_at", "scoring_version", "zones"],
+  "properties": {
+    "generated_at": {"type": "string", "format": "date-time"},
+    "scoring_version": {"type": "string"},
+    "stale": {"type": "boolean"},
+    "stale_warning": {"type": "boolean"},
+    "demo": {"type": "boolean"},
+    "zones": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["index", "level", "categories", "confidence"],
+        "properties": {
+          "index": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+          "index_raw": {"type": ["number", "null"]},
+          "level": {"anyOf": [{"type": "string", "enum": ["NORMAL", "VIGILANCE", "PRÉALERTE", "ALERTE ÉLEVÉE", "CRITIQUE"]}, {"type": "null"}]},
+          "convergence_index": {"type": "number", "minimum": 0, "maximum": 100},
+          "confidence": {
+            "type": "object",
+            "properties": {
+              "index": {"type": "number", "minimum": 0, "maximum": 100},
+              "Q": {"type": "number"},
+              "F": {"type": "number"},
+              "C": {"type": "number"}
+            }
+          },
+          "categories": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "score": {"type": "number", "minimum": 0, "maximum": 100},
+                "caps_applied": {"type": "array", "items": {"type": "string"}},
+                "floors_applied": {"type": "array", "items": {"type": "string"}},
+                "contributing_incidents": {"type": "array", "items": {"type": "string"}}
+              }
+            }
+          },
+          "convergence_links": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "incident_a": {"type": "string"},
+                "incident_b": {"type": "string"},
+                "category_a": {"type": "string"},
+                "category_b": {"type": "string"},
+                "country": {"type": "string"}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

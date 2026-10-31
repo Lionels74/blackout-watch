@@ -1,0 +1,378 @@
+{
+  "categories": {
+    "electricity": {
+      "positive": {
+        "fr": [
+          "panne électrique",
+          "coupure courant",
+          "blackout",
+          "panne géante",
+          "délestage",
+          "réseau électrique",
+          "EDF",
+          "RTE",
+          "Hydro-Québec",
+          "barrage",
+          "centrale nucléaire",
+          "centrale thermique",
+          "panne réseau",
+          "interruption alimentation",
+          "coupure d'électricité",
+          "panne de courant"
+        ],
+        "en": [
+          "power outage",
+          "blackout",
+          "power cut",
+          "electricity failure",
+          "grid failure",
+          "power grid",
+          "substation",
+          "rolling blackout",
+          "load shedding",
+          "power disruption",
+          "electrical grid",
+          "hydroelectric"
+        ]
+      },
+      "negative": {
+        "fr": [
+          "film",
+          "album",
+          "concert",
+          "jeu vidéo",
+          "Black Friday",
+          "soldes",
+          "série",
+          "roman"
+        ],
+        "en": [
+          "movie",
+          "album",
+          "concert",
+          "video game",
+          "Black Friday",
+          "sale",
+          "series",
+          "novel",
+          "song"
+        ]
+      },
+      "weight": 1.5
+    },
+    "cables": {
+      "positive": {
+        "fr": [
+          "câble sous-marin",
+          "câble internet",
+          "rupture câble",
+          "fibre optique sous-marine",
+          "interconnexion",
+          "câble transatlantique",
+          "coupure câble",
+          "panne internet"
+        ],
+        "en": [
+          "submarine cable",
+          "undersea cable",
+          "cable cut",
+          "fiber cut",
+          "internet outage",
+          "internet disruption",
+          "BGP",
+          "routing outage",
+          "cable damage",
+          "cable break",
+          "transatlantic cable",
+          "undersea fiber"
+        ]
+      },
+      "negative": {
+        "fr": [
+          "câble électrique",
+          "câble HDMI",
+          "câble USB"
+        ],
+        "en": [
+          "power cable",
+          "USB cable",
+          "HDMI cable"
+        ]
+      },
+      "weight": 1.4
+    },
+    "finance": {
+      "positive": {
+        "fr": [
+          "panne bancaire",
+          "panne paiement",
+          "panne système bancaire",
+          "défaillance bancaire",
+          "panne carte bancaire",
+          "panne virement",
+          "système de paiement",
+          "panne SWIFT",
+          "panne TARGET2",
+          "crise financière",
+          "faillite banque"
+        ],
+        "en": [
+          "banking outage",
+          "payment outage",
+          "financial system failure",
+          "bank failure",
+          "payment system",
+          "SWIFT outage",
+          "TARGET2",
+          "financial crisis",
+          "bank collapse",
+          "ATM outage",
+          "card payment failure"
+        ]
+      },
+      "negative": {
+        "fr": [
+          "film",
+          "album",
+          "roman"
+        ],
+        "en": [
+          "movie",
+          "album",
+          "novel"
+        ]
+      },
+      "weight": 1.3
+    },
+    "cyber": {
+      "positive": {
+        "fr": [
+          "cyberattaque",
+          "ransomware",
+          "rançongiciel",
+          "intrusion informatique",
+          "piratage",
+          "APT",
+          "vulnérabilité critique",
+          "0-day",
+          "attaque SCADA",
+          "attaque infrastructure",
+          "DDoS",
+          "espionnage informatique",
+          "vulnerabilite",
+          "vulnérabilité",
+          "faille de sécurité",
+          "avis de sécurité",
+          "bulletin de sécurité",
+          "correctif de sécurité",
+          "mise à jour de sécurité",
+          "code arbitraire",
+          "exécution de code",
+          "élévation de privilèges",
+          "déni de service",
+          "CVE-",
+          "exploitation active",
+          "compromission"
+        ],
+        "en": [
+          "cyberattack",
+          "cyber attack",
+          "ransomware",
+          "malware",
+          "APT",
+          "critical vulnerability",
+          "zero-day",
+          "0-day",
+          "SCADA attack",
+          "infrastructure attack",
+          "DDoS",
+          "cyber espionage",
+          "data breach",
+          "intrusion",
+          "vulnerability",
+          "advisory",
+          "security advisory",
+          "security bulletin",
+          "patch",
+          "CVE-",
+          "actively exploited",
+          "remote code execution",
+          "privilege escalation",
+          "arbitrary code",
+          "compromise",
+          "security update",
+          "hotfix"
+        ]
+      },
+      "negative": {
+        "fr": [
+          "film",
+          "album",
+          "roman",
+          "jeu",
+          "fictif"
+        ],
+        "en": [
+          "movie",
+          "album",
+          "novel",
+          "game",
+          "fictional",
+          "patch released",
+          "mitigated"
+        ]
+      },
+      "weight": 1.3
+    },
+    "logistics": {
+      "positive": {
+        "fr": [
+          "grève port",
+          "blocage port",
+          "perturbation transport",
+          "grève transport",
+          "détroit bloqué",
+          "Bab-el-Mandeb",
+          "Hormuz",
+          "Suez",
+          "Panama",
+          "grève dockers",
+          "perturbation maritime",
+          "blocage logistique",
+          "tremblement de terre",
+          "séisme",
+          "inondation",
+          "cyclone",
+          "ouragan",
+          "typhon",
+          "tsunami",
+          "volcanique",
+          "éruption volcanique",
+          "incendie de forêt",
+          "sécheresse"
+        ],
+        "en": [
+          "port strike",
+          "port blockage",
+          "transport disruption",
+          "shipping disruption",
+          "strait blocked",
+          "Bab-el-Mandeb",
+          "Hormuz",
+          "Suez",
+          "Panama",
+          "dock workers strike",
+          "maritime disruption",
+          "logistics disruption",
+          "cargo blocked",
+          "earthquake",
+          "flood",
+          "flooding",
+          "cyclone",
+          "hurricane",
+          "typhoon",
+          "tsunami",
+          "volcano",
+          "volcanic eruption",
+          "wildfire",
+          "drought",
+          "disaster",
+          "tropical storm",
+          "storm surge",
+          "landslide"
+        ]
+      },
+      "negative": {
+        "fr": [
+          "film",
+          "album"
+        ],
+        "en": [
+          "movie",
+          "album"
+        ]
+      },
+      "weight": 1.2
+    },
+    "geopolitics": {
+      "positive": {
+        "fr": [
+          "crise géopolitique",
+          "conflit armé",
+          "tension internationale",
+          "sanctions",
+          "escalade militaire",
+          "état d'urgence",
+          "guerre",
+          "attaque militaire",
+          "représailles",
+          "ultimatum"
+        ],
+        "en": [
+          "geopolitical crisis",
+          "armed conflict",
+          "international tension",
+          "sanctions",
+          "military escalation",
+          "state of emergency",
+          "war",
+          "military attack",
+          "retaliation",
+          "ultimatum"
+        ]
+      },
+      "negative": {
+        "fr": [
+          "film",
+          "album",
+          "roman",
+          "jeu",
+          "fictif"
+        ],
+        "en": [
+          "movie",
+          "album",
+          "novel",
+          "game",
+          "fictional"
+        ]
+      },
+      "weight": 1.1
+    }
+  },
+  "gdelt_queries": {
+    "electricity_fr": "(blackout OR \"power outage\" OR \"panne electrique\" OR \"coupure courant\" OR delestage) (sourcecountry:FR OR sourcecountry:CA OR sourcecountry:MU)",
+    "cables_en": "(\"cable cut\" OR \"submarine cable\" OR \"internet outage\" OR \"fiber cut\" OR \"undersea cable\")",
+    "cables_fr": "(\"cable sous-marin\" OR \"rupture cable\" OR \"panne internet\" OR \"coupure cable\")",
+    "logistics_en": "(\"port strike\" OR \"shipping disruption\" OR \"Bab-el-Mandeb\" OR \"Hormuz\" OR \"port blockage\")",
+    "cyber_fr": "(cyberattaque OR ransomware OR \"attaque informatique\") (sourcecountry:FR OR sourcecountry:CA)",
+    "finance_en": "(\"banking outage\" OR \"payment outage\" OR \"SWIFT outage\" OR \"financial system failure\")",
+    "geopolitics_en": "(\"military escalation\" OR \"armed conflict\" OR \"geopolitical crisis\") (sourcecountry:FR OR sourcecountry:CA OR sourcecountry:MU)"
+  },
+  "trusted_press": [
+    "lemonde.fr",
+    "lefigaro.fr",
+    "liberation.fr",
+    "franceinfo.fr",
+    "bfmtv.com",
+    "radio-canada.ca",
+    "lapresse.ca",
+    "ledevoir.com",
+    "lemauricien.com",
+    "defimedia.info",
+    "lexpress.mu",
+    "lematinal.com",
+    "bbc.co.uk",
+    "bbc.com",
+    "reuters.com",
+    "apnews.com",
+    "theguardian.com",
+    "nytimes.com",
+    "washingtonpost.com",
+    "ft.com",
+    "bloomberg.com",
+    "politico.eu",
+    "euractiv.com",
+    "dw.com"
+  ]
+}

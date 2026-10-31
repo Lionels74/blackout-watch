@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "submarine_cables": {
+    "note": "Static list of cables serving FR, CA, MU. Source: TeleGeography (public cable map, telegeography.com/telecom-resources/submarine-cable-map). Attribution required.",
+    "attribution": "Cable names and routes from TeleGeography Submarine Cable Map (telegeography.com), used for reference only.",
+    "cables_fr": [
+      {"name": "TAT-14", "connects": ["FR", "DE", "NL", "GB", "US"], "landing_fr": "Saint-Valéry-en-Caux"},
+      {"name": "FLAG Atlantic-1 (FA-1)", "connects": ["FR", "GB", "US", "IN", "JP"], "landing_fr": "Penmarch"},
+      {"name": "SeaMeWe-3", "connects": ["FR", "GB", "IT", "EG", "IN", "SG", "JP", "AU"], "landing_fr": "Penmarch"},
+      {"name": "SeaMeWe-4", "connects": ["FR", "IT", "EG", "PK", "IN", "MY", "SG"], "landing_fr": "Toulon"},
+      {"name": "Apollo", "connects": ["FR", "GB", "US"], "landing_fr": "Lannion"},
+      {"name": "LION2", "connects": ["FR", "RE", "MG", "MU"], "landing_fr": "Saint-Denis-de-la-Réunion"},
+      {"name": "Dunant", "connects": ["FR", "US"], "landing_fr": "Saint-Hilaire-de-Riez"},
+      {"name": "Amitié", "connects": ["FR", "GB", "US"], "landing_fr": "TBD"}
+    ],
+    "cables_ca": [
+      {"name": "Gemini Bermuda", "connects": ["CA", "US", "BM"]},
+      {"name": "North Atlantic Loop (NAL)", "connects": ["CA", "US", "GB", "FR"]},
+      {"name": "Havfrue/AEC-2", "connects": ["CA", "US", "IE", "DK"]},
+      {"name": "CANUS-1", "connects": ["CA", "US"]},
+      {"name": "Tata TGN-Atlantic", "connects": ["CA", "US", "GB"]}
+    ],
+    "cables_mu": [
+      {"name": "LION", "connects": ["MU", "RE", "MG", "KE"], "note": "Primary cable for Mauritius"},
+      {"name": "LION2", "connects": ["MU", "RE", "FR", "MG"]},
+      {"name": "SAFE", "connects": ["MU", "ZA", "IN", "FR", "PT"]},
+      {"name": "MARS", "connects": ["MU", "RE", "MG", "MZ"]},
+      {"name": "EASSy", "connects": ["MU", "ZA", "KE", "TZ", "MZ"]}
+    ]
+  }
+}

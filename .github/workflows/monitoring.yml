@@ -1,9 +1,8 @@
 name: Monitoring
 
 on:
-  schedule:
-    # Toutes les heures, à H:17 (le cron GitHub peut être retardé de 15-30 min)
-    - cron: '17 * * * *'
+  # schedule:
+  #   - cron: '17 * * * *'
   workflow_dispatch:
     inputs:
       dry_run:
